@@ -2,4 +2,3679 @@
 // Firefall DISASM Name Manager Database
 // FirefallClient.exe V1962
 [
+  {
+    "Category": "",
+    "Address": "0x1253940",
+    "Name": "WndProc",
+    "Status": 0,
+    "Comment": "WindowProc"
+  },
+  {
+    "Category": "animSystem",
+    "Address": "0xF96390",
+    "Name": "animSystem::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "asyncIO",
+    "Address": "0x171BBC0",
+    "Name": "asyncIO::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "D3DRenderer",
+    "Address": "0x123F2B0",
+    "Name": "d3drenderer_texture::LoadDDS",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "D3DRenderer",
+    "Address": "0x1303DC0",
+    "Name": "d3drenderer::CreateDeviceObjects",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "D3DRenderer",
+    "Address": "0x1304170",
+    "Name": "d3drenderer::InitializeDisplays",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "D3DRenderer",
+    "Address": "0x1308500",
+    "Name": "d3drenderer::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "D3DRenderer",
+    "Address": "0x1326080",
+    "Name": "d3drenderer::InitializeRenderPath",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "D3DRenderer",
+    "Address": "0x133B300",
+    "Name": "d3drenderer::CreateD3D9RenderPath",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "D3DRenderer",
+    "Address": "0x1351660",
+    "Name": "d3drenderer::LoadTexture",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "D3DRenderer",
+    "Address": "0x13CCF40",
+    "Name": "d3drenderer::BuildShader",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "DumpKeyComboThread",
+    "Address": "0x6EAF30",
+    "Name": "DumpKeyComboThread::ctor",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "DumpKeyComboThread",
+    "Address": "0x6EB100",
+    "Name": "DumpKeyComboThread::dtor",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "DumpKeyComboThread",
+    "Address": "0x6EB120",
+    "Name": "DumpKeyComboThread::slThread::dtor",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "entropy",
+    "Address": "0x11721B0",
+    "Name": "entropy::havok_link::sub_11721B0",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "entropy",
+    "Address": "0x1176480",
+    "Name": "entropy::enScene::sub_1176480",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "entropy",
+    "Address": "0x1190B30",
+    "Name": "entropy::enAABBQuery::sub_1190B30",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "entropy",
+    "Address": "0x119E670",
+    "Name": "entropy::enCollectors::sub_119E670",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "fsDataPaths_Comment",
+    "Address": "",
+    "Name": "",
+    "Status": 0,
+    "Comment": "May be part of slFileSystem instead of fsDataPaths"
+  },
+  {
+    "Category": "fsDataPaths",
+    "Address": "0x16B7A90",
+    "Name": "fsDataPaths::GetWorkingDirectory",
+    "Status": 0,
+    "Comment": "GetWorkingDirectory(\u0026DirPath); Returns true on success"
+  },
+  {
+    "Category": "fsDataPaths",
+    "Address": "0x16B8210",
+    "Name": "fsDataPaths::Rename",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "fsDataPaths",
+    "Address": "0x16B82A0",
+    "Name": "fsDataPaths::DeleteFile",
+    "Status": 0,
+    "Comment": "Calls wunlink, Returns 1 on Success"
+  },
+  {
+    "Category": "fsDataPaths",
+    "Address": "0x16B8330",
+    "Name": "fsDataPaths::FileLastModifiedTime",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "fsDataPaths",
+    "Address": "0x16B84F0",
+    "Name": "fsDataPaths::FileExists",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "fsDataPaths",
+    "Address": "0x16BAC30",
+    "Name": "fsDataPaths::OpenFile",
+    "Status": 0,
+    "Comment": "Calls and returns wfopen"
+  },
+  {
+    "Category": "fsDataPaths",
+    "Address": "0x16BC260",
+    "Name": "fsDataPaths::ReadFile",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "fx::fxMemory",
+    "Address": "0x718E20",
+    "Name": "fx::fxMemory::sub_718E20",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "fx::fxMemory",
+    "Address": "0x71A510",
+    "Name": "fx::fxMemory::sub_71A510",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "fx::fxSync",
+    "Address": "0x1461620",
+    "Name": "fx::fxSync::sub_1461620",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "fx::ParticleManager",
+    "Address": "0x1428290",
+    "Name": "fx::ParticleManager::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "fx::ParticleManager",
+    "Address": "0x1428660",
+    "Name": "fx::ParticleManager::PfxLoadScheduler::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "fx::ParticleManager",
+    "Address": "0x142A830",
+    "Name": "fx::ParticleManager::sub_142A830",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "fx::ParticleManager",
+    "Address": "0x142AD60",
+    "Name": "fx::ParticleManager::sub_142AD60",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "fx::ParticleManager",
+    "Address": "0x142D830",
+    "Name": "fx::ParticleManager::LoadRequiredSystemPFX",
+    "Status": 0,
+    "Comment": "Used only for required system pfx, regular pfx are loaded differently"
+  },
+  {
+    "Category": "fx::ParticleManager",
+    "Address": "0x142D9D0",
+    "Name": "fx::ParticleManager::sub_142D9D0",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log_Comment",
+    "Address": "",
+    "Name": "",
+    "Status": 0,
+    "Comment": "Global Log Instance Variables"
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E4B200",
+    "Name": "g_sl_game_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E4B2BC",
+    "Name": "g_sl_steam_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E4BB64",
+    "Name": "g_sl_proto_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E5F924",
+    "Name": "g_sl_audasst_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E60904",
+    "Name": "g_sl_proto2_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E682D4",
+    "Name": "g_sl_ai_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E6842C",
+    "Name": "g_sl_animate_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E6850C",
+    "Name": "g_sl_nethttp_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E68580",
+    "Name": "g_sl_network_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E685E8",
+    "Name": "g_sl_input_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E68608",
+    "Name": "g_sl_script_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E68668",
+    "Name": "g_sl_gui_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E68688",
+    "Name": "g_sl_jscript_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E686D8",
+    "Name": "g_sl_havok_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E68710",
+    "Name": "g_sl_entropy_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E68730",
+    "Name": "g_sl_enhavok_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E68760",
+    "Name": "g_sl_havok2_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E6B5D8",
+    "Name": "g_sl_render_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E70EA8",
+    "Name": "g_sl_vt_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E72BB0",
+    "Name": "g_sl_gt_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E7597C",
+    "Name": "g_sl_aptitude_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E7640C",
+    "Name": "g_sl_sound_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E7BC38",
+    "Name": "g_sl_sndact_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E7BC58",
+    "Name": "g_sl_sndloop_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E7CDEC",
+    "Name": "g_sl_fx_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E7CF44",
+    "Name": "g_sl_vcs_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E7EEAC",
+    "Name": "g_sl_toolshr_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E7EECC",
+    "Name": "g_sl_tsanim_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E80808",
+    "Name": "g_sl_console_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E811E8",
+    "Name": "g_sl_sdb_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E81208",
+    "Name": "g_sl_iosys_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_log",
+    "Address": "0x1E818D8",
+    "Name": "g_sl_items_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "g_sl_system",
+    "Address": "0x1E4AC90",
+    "Name": "g_sl_system_os_version",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables_Comment",
+    "Address": "",
+    "Name": "",
+    "Status": 0,
+    "Comment": "Global Variables"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1C5EA68",
+    "Name": "g_sl_new_empty_string",
+    "Status": 0,
+    "Comment": "new string()? # char[16]; reused across entire app for various string initializing things"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1DFFDEC",
+    "Name": "g_asyncIO_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1DFFEA4",
+    "Name": "g_tsComponentedAtlasCache_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1DFFF5C",
+    "Name": "g_ioFileSearch_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1DFFF70",
+    "Name": "g_nlNetwork_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E00060",
+    "Name": "g_fxParticleManager_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E00074",
+    "Name": "g_tfPhysicsActorDefManager_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E001B4",
+    "Name": "g_animSystem_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E48980",
+    "Name": "gHavokInitialized",
+    "Status": 0,
+    "Comment": "No parent listed? havok_link"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E489C8",
+    "Name": "sScopeCount",
+    "Status": 0,
+    "Comment": "(Singleton) No parent listed? renderer::scene"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E495F0",
+    "Name": "g_oConsole_CurrentConsoleBuffer",
+    "Status": 0,
+    "Comment": "char* (1025 characters including null terminator)"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E499F4",
+    "Name": "g_oConsole_ConsoleBuffer_CurrentStringLength",
+    "Status": 0,
+    "Comment": "int; Length of the currently entered buffer string"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E499FC",
+    "Name": "g_oConsole_ConsoleBuffer_SuggestedStringLength",
+    "Status": 0,
+    "Comment": "int; Length of the string currently being suggested/autocompleted in the buffer"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E4AC5C",
+    "Name": "g_sl_gameEngineState",
+    "Status": 0,
+    "Comment": "5 = Running, 6 = Shutting Down"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E4B0B8",
+    "Name": "g_sl_consoleEnabled",
+    "Status": 0,
+    "Comment": "int; 1 = Enabled, 0 = Disabled; This is from launching with --console not the in-game [Alt \u002B ~] Console"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E4B190",
+    "Name": "sInstance",
+    "Status": 0,
+    "Comment": "(Singleton) No parent listed? fsassetdb"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E4B210",
+    "Name": "g_sl_game_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int; global log level variable for the game system"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E4B2CC",
+    "Name": "g_sl_steam_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E4B2E0",
+    "Name": "gInterface.mIsEnabled",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E4B2F0",
+    "Name": "gInterface.mDll",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E4B3DC",
+    "Name": "g_sl_showfps",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E4B444",
+    "Name": "g_nl_showping",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E4B53C",
+    "Name": "g_nl_showtime",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E5F934",
+    "Name": "g_sl_audasst_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E60914",
+    "Name": "g_sl_proto2_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E6843C",
+    "Name": "g_sl_animate_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E6851C",
+    "Name": "g_sl_nethttp_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E68590",
+    "Name": "g_sl_network_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E68618",
+    "Name": "g_sl_script_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E68678",
+    "Name": "g_sl_gui_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E68698",
+    "Name": "g_sl_jscript_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E686E8",
+    "Name": "g_sl_havok_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E68720",
+    "Name": "g_sl_entropy_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E68770",
+    "Name": "g_sl_havok2_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E692CC",
+    "Name": "oCvar::HashTable",
+    "Status": 0,
+    "Comment": "Loaded in function \u0022HashInfo\u0022 0x1248370"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E69304",
+    "Name": "oCfunc::HashTable",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E69348",
+    "Name": "g_oConsoleSystem",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E6A964",
+    "Name": "particleManagerCreationThread",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E6B5E8",
+    "Name": "g_sl_render_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E70EB8",
+    "Name": "g_sl_vt_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E72BC0",
+    "Name": "g_sl_gt_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E7598C",
+    "Name": "g_sl_aptitude_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E7641C",
+    "Name": "g_sl_sound_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E7BC48",
+    "Name": "g_sl_sndact_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E7CDFC",
+    "Name": "g_sl_fx_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E7CF54",
+    "Name": "g_sl_vcs_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E7EEBC",
+    "Name": "g_sl_toolshr_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E7EEDC",
+    "Name": "g_sl_tsanim_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E80818",
+    "Name": "g_sl_console_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E811F8",
+    "Name": "g_sl_sdb_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1E81218",
+    "Name": "g_sl_iosys_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1EC3858",
+    "Name": "g_oConsole_LastExecutedConsoleCommand",
+    "Status": 0,
+    "Comment": "char*"
+  },
+  {
+    "Category": "ioFileSearch",
+    "Address": "0x1718570",
+    "Name": "ioFileSearch::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Libraries",
+    "Address": "0x6FB7F0",
+    "Name": "tfSteamworks::sub_6FB7F0",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Libraries",
+    "Address": "0x6FBF90",
+    "Name": "tfSteamworks::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Libraries",
+    "Address": "0x6FC180",
+    "Name": "tfSteamworks::Shutdown",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Libraries",
+    "Address": "0x6FD280",
+    "Name": "tfYouxi::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Libraries",
+    "Address": "0x6FD5F0",
+    "Name": "tfYouxi::Shutdown",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Libraries",
+    "Address": "0x6FDB70",
+    "Name": "tf369::CleanupInterface",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Libraries",
+    "Address": "0x6FDC20",
+    "Name": "tf369::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Libraries",
+    "Address": "0x6FE0D0",
+    "Name": "tf369::Initialize_JustInTime",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Libraries",
+    "Address": "0x6FE130",
+    "Name": "tf369::Shutdown",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Libraries",
+    "Address": "0x6FE1A0",
+    "Name": "tf369::GetToken",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Libraries",
+    "Address": "0x6FE210",
+    "Name": "tf369::GetSiteId",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Libraries",
+    "Address": "0x1E46774",
+    "Name": "g_steamCtx",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Libraries",
+    "Address": "0x1E46778",
+    "Name": "g_steamInitialized",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Libraries",
+    "Address": "0x1E4677C",
+    "Name": "gYouxiDll",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Libraries",
+    "Address": "0x1E46780",
+    "Name": "gYouxiMatrix",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Misc",
+    "Address": "0x6EAE00",
+    "Name": "tfMain::sub_6EAE00",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Misc",
+    "Address": "0x6EE840",
+    "Name": "slMalloc::sub_6EE840",
+    "Status": 3,
+    "Comment": ""
+  },
+  {
+    "Category": "Misc",
+    "Address": "0x6EEA10",
+    "Name": "slW32Thread::sub_6EEA10",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "Misc",
+    "Address": "0x6F3700",
+    "Name": "slMemory::sub_6F3700",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "Misc",
+    "Address": "0x6FB630",
+    "Name": "slMalloc::sub_6FB630",
+    "Status": 3,
+    "Comment": ""
+  },
+  {
+    "Category": "Misc",
+    "Address": "0x8AC780",
+    "Name": "SetInteractionTarget::sub_8AC780",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Misc",
+    "Address": "0x8B2440",
+    "Name": "UpdateEncounterAssetCache::sub_8B2440",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Misc",
+    "Address": "0xDB7FF0",
+    "Name": "CreateGlobalScene::sub_DB7FF0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Misc",
+    "Address": "0x1231560",
+    "Name": "renderer::render_terrain::sub_1231560",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Misc",
+    "Address": "0x1467710",
+    "Name": "StripDecalGroup::UpdateScene",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Misc",
+    "Address": "0x15BBFE0",
+    "Name": "TattooTexBuilder::sub_15BBFE0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x721500",
+    "Name": "nl::GameObjects::sub_721500",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73A550",
+    "Name": "matrix_fury::SigscanData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73A6B0",
+    "Name": "matrix_fury::WelcomeToTheMatrix",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73A880",
+    "Name": "matrix_fury::Announce",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73AAA0",
+    "Name": "matrix_fury::EnterZone",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73AF40",
+    "Name": "matrix_fury::UpdateZoneTimeSync",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73B020",
+    "Name": "matrix_fury::HotfixLevelChanged",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73B0E0",
+    "Name": "matrix_fury::ExitZone",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73B160",
+    "Name": "matrix_fury::MatrixStatus",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73B3E0",
+    "Name": "matrix_fury::MatchQueueResponse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73B530",
+    "Name": "matrix_fury::MatchQueueUpdate",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73B610",
+    "Name": "matrix_fury::FoundMatchUpdate",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73B730",
+    "Name": "matrix_fury::ChallengeJoinResponse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73B8D0",
+    "Name": "matrix_fury::ChallengeInvitation",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73BAB0",
+    "Name": "matrix_fury::ChallengeInvitationSquadInfoAck",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73BC90",
+    "Name": "matrix_fury::ChallengeInvitationCancel",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73BD70",
+    "Name": "matrix_fury::ChallengeInvitationResponse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73BF30",
+    "Name": "matrix_fury::ChallengeKicked",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73C190",
+    "Name": "matrix_fury::ChallengeLeave",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73C270",
+    "Name": "matrix_fury::ChallengeRosterUpdate",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73C420",
+    "Name": "matrix_fury::ChallengeReadyCheck",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73C500",
+    "Name": "matrix_fury::ChallengeMatchParametersUpdate",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73C5E0",
+    "Name": "matrix_fury::ChallengeMatchStarting",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73C6C0",
+    "Name": "matrix_fury::ForceUnqueue",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73C840",
+    "Name": "matrix_fury::SynchronizationRequest",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73C990",
+    "Name": "matrix_fury::GamePaused",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73CA80",
+    "Name": "matrix_fury::SuperPong",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73CBE0",
+    "Name": "matrix_fury::ServerProfiler_SendNames",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73CD80",
+    "Name": "matrix_fury::ServerProfiler_SendFrame",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73CF10",
+    "Name": "matrix_fury::ZoneQueueUpdate",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73CFF0",
+    "Name": "matrix_fury::DebugLagSampleSim",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73D0C0",
+    "Name": "matrix_fury::DebugLagSampleClient",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73D1C0",
+    "Name": "matrix_fury::LFGMatchFound",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73D410",
+    "Name": "matrix_fury::LFGLeaderChange",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73D5F0",
+    "Name": "matrix_fury::ReceiveEmergencyChat",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73D840",
+    "Name": "matrix_fury::UpdateDevZoneInfo",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73E0B0",
+    "Name": "nl::PacketHandler::ReceiveMessagePacket",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73FEC0",
+    "Name": "nl::MessageBase::CreateMessage_SigscanData",
+    "Status": 1,
+    "Comment": "msg-34"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73FF30",
+    "Name": "nl::MessageBase::CreateMessage_WelcomeToTheMatrix",
+    "Status": 1,
+    "Comment": "msg-35"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73FFC0",
+    "Name": "nl::MessageBase::CreateMessage_Announce",
+    "Status": 1,
+    "Comment": "msg-36"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740030",
+    "Name": "nl::MessageBase::CreateMessage_EnterZone",
+    "Status": 1,
+    "Comment": "msg-37"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x7400A0",
+    "Name": "nl::MessageBase::CreateMessage_UpdateZoneTimeSync",
+    "Status": 1,
+    "Comment": "msg-38"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740110",
+    "Name": "nl::MessageBase::CreateMessage_HotfixLevelChanged",
+    "Status": 1,
+    "Comment": "msg-39"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740180",
+    "Name": "nl::MessageBase::CreateMessage_ExitZone",
+    "Status": 1,
+    "Comment": "msg-40"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x7401F0",
+    "Name": "nl::MessageBase::CreateMessage_MatrixStatus",
+    "Status": 1,
+    "Comment": "msg-41"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740260",
+    "Name": "nl::MessageBase::CreateMessage_MatchQueueResponse",
+    "Status": 1,
+    "Comment": "msg-42"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x7403D0",
+    "Name": "nl::MessageBase::CreateMessage_MatchQueueUpdate",
+    "Status": 1,
+    "Comment": "msg-43"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740440",
+    "Name": "nl::MessageBase::CreateMessage_FoundMatchUpdate",
+    "Status": 1,
+    "Comment": "msg-44"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x7404B0",
+    "Name": "nl::MessageBase::CreateMessage_ChallengeJoinResponse",
+    "Status": 1,
+    "Comment": "msg-45"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740620",
+    "Name": "nl::MessageBase::CreateMessage_ChallengeInvitation",
+    "Status": 1,
+    "Comment": "msg-46"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740690",
+    "Name": "nl::MessageBase::CreateMessage_ChallengeInvitationSquadInfoAck",
+    "Status": 1,
+    "Comment": "msg-47"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740700",
+    "Name": "nl::MessageBase::CreateMessage_ChallengeInvitationCancel",
+    "Status": 1,
+    "Comment": "msg-48"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740770",
+    "Name": "nl::MessageBase::CreateMessage_ChallengeInvitationResponse",
+    "Status": 1,
+    "Comment": "msg-49"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x7407E0",
+    "Name": "nl::MessageBase::CreateMessage_ChallengeKicked",
+    "Status": 1,
+    "Comment": "msg-50"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740850",
+    "Name": "nl::MessageBase::CreateMessage_ChallengeLeave",
+    "Status": 1,
+    "Comment": "msg-51"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x7408C0",
+    "Name": "nl::MessageBase::CreateMessage_ChallengeRosterUpdate",
+    "Status": 1,
+    "Comment": "msg-52"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740A40",
+    "Name": "nl::MessageBase::CreateMessage_ChallengeReadyCheck",
+    "Status": 1,
+    "Comment": "msg-53"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740AB0",
+    "Name": "nl::MessageBase::CreateMessage_ChallengeMatchParametersUpdate",
+    "Status": 1,
+    "Comment": "msg-54"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740B20",
+    "Name": "nl::MessageBase::CreateMessage_ChallengeMatchStarting",
+    "Status": 1,
+    "Comment": "msg-55"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740B90",
+    "Name": "nl::MessageBase::CreateMessage_ForceUnqueue",
+    "Status": 1,
+    "Comment": "msg-56"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740C00",
+    "Name": "nl::MessageBase::CreateMessage_SynchronizationRequest",
+    "Status": 1,
+    "Comment": "msg-57"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740C70",
+    "Name": "nl::MessageBase::CreateMessage_GamePaused",
+    "Status": 1,
+    "Comment": "msg-58"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740CE0",
+    "Name": "nl::MessageBase::CreateMessage_SuperPong",
+    "Status": 1,
+    "Comment": "msg-59"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740D50",
+    "Name": "nl::MessageBase::CreateMessage_ServerProfiler_SendNames",
+    "Status": 1,
+    "Comment": "msg-60"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740DC0",
+    "Name": "nl::MessageBase::CreateMessage_ServerProfiler_SendFrame",
+    "Status": 1,
+    "Comment": "msg-61"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740E30",
+    "Name": "nl::MessageBase::CreateMessage_ZoneQueueUpdate",
+    "Status": 1,
+    "Comment": "msg-62"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740EA0",
+    "Name": "nl::MessageBase::CreateMessage_DebugLagSampleSim",
+    "Status": 1,
+    "Comment": "msg-63"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740F10",
+    "Name": "nl::MessageBase::CreateMessage_DebugLagSampleClient",
+    "Status": 1,
+    "Comment": "msg-64"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x740F80",
+    "Name": "nl::MessageBase::CreateMessage_LFGMatchFound",
+    "Status": 1,
+    "Comment": "msg-65"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x741000",
+    "Name": "nl::MessageBase::CreateMessage_LFGLeaderChange",
+    "Status": 1,
+    "Comment": "msg-66"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x741070",
+    "Name": "nl::MessageBase::CreateMessage_ReceiveEmergencyChat",
+    "Status": 1,
+    "Comment": "msg-67"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x7410E0",
+    "Name": "nl::MessageBase::CreateMessage_UpdateDevZoneInfo",
+    "Status": 1,
+    "Comment": "msg-68"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xFE53C0",
+    "Name": "nl::nlChannels::sub_FE53C0",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xFE6910",
+    "Name": "nl::nlChannels::sub_FE6910",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x13E9350",
+    "Name": "nl::CancelStatusEffect::sub_13E9350",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x13EA7A0",
+    "Name": "nl::ClearAllStatusEffects::sub_13EA7A0",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "nl::GameSocket_Comment",
+    "Address": "",
+    "Name": "",
+    "Status": 0,
+    "Comment": "0xFD2C90 GameSocket SetState"
+  },
+  {
+    "Category": "nl::GameSocket",
+    "Address": "0xC1D850",
+    "Name": "nl::GameSocket::HandlePacketReceivedMessage",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "nl::GameSocket",
+    "Address": "0xFD0A30",
+    "Name": "nl::GameSocket::sub_FD0A30",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "nl::GameSocket",
+    "Address": "0xFD4720",
+    "Name": "nl::GameSocket::sub_FD4720",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "nl::HTTP",
+    "Address": "0xFC1D90",
+    "Name": "nl::HTTP::Client::ResponseCodeToString",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "nl::HTTP",
+    "Address": "0xFC3490",
+    "Name": "nl::HTTP::Client::ClosePooledHandle",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "nl::HTTP",
+    "Address": "0xFC44F0",
+    "Name": "nl::HTTP::Client::HttpConnect",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "nl::HTTP",
+    "Address": "0xFC45B0",
+    "Name": "nl::HTTP::Client::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "nl::HTTP",
+    "Address": "0xFC4E80",
+    "Name": "nl::HTTP::Client::CloseHandle",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "nl::HTTP",
+    "Address": "0xFCC2C0",
+    "Name": "nl::HTTP::Client::StatusCodeToString",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "nl::HTTP",
+    "Address": "0xFCF400",
+    "Name": "nl::HTTP::Client::ConfigureSecureRequest",
+    "Status": 1,
+    "Comment": "attempts to make request secure if possible, returns 0 if request is unable to be secure"
+  },
+  {
+    "Category": "nl::HTTP:Instrumentation_Comment",
+    "Address": "",
+    "Name": "",
+    "Status": 0,
+    "Comment": "Unlikely this is the right category name, but just want this tracked"
+  },
+  {
+    "Category": "nl::Network",
+    "Address": "0x708980",
+    "Name": "nl::Network::sub_708980",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "nl::Network",
+    "Address": "0xFBDD10",
+    "Name": "nl::Network::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "nl::Network",
+    "Address": "0xFBE170",
+    "Name": "nl::Network::Shutdown",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "nl::Network",
+    "Address": "0xFCD2A0",
+    "Name": "nl::Network::sub_FCD2A0",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "nl::util",
+    "Address": "0xFCDE20",
+    "Name": "nl::util::sub_FCDE20",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "nl::util",
+    "Address": "0xFCE0C0",
+    "Name": "nl::util::sub_FCE0C0",
+    "Status": 2,
+    "Comment": "(this*, host)"
+  },
+  {
+    "Category": "nl::util",
+    "Address": "0xFCE750",
+    "Name": "nl::util::sub_FCE750",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "nl::util",
+    "Address": "0xFCE930",
+    "Name": "nl::util::sub_FCE930",
+    "Status": 2,
+    "Comment": "(bitcount)"
+  },
+  {
+    "Category": "oConsoleSystem_Comment",
+    "Address": "",
+    "Name": "",
+    "Status": 0,
+    "Comment": "0x1257A10 = PrepareConsoleBufferExecution?\r\n0x125A3D0 = Big switch on console stuff\r\n0x1E49A14 = FILE*; .console_history file"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1241480",
+    "Name": "oConsoleSystem::AddUserCreatedCvar",
+    "Status": 0,
+    "Comment": "(\u002B52)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1241520",
+    "Name": "oConsoleSystem::sub_1241520",
+    "Status": 0,
+    "Comment": "(\u002B76) GetCvar? int (__thiscall**)(int *, int/const char*, dword, dword)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1241600",
+    "Name": "oConsoleSystem::sub_1241600",
+    "Status": 0,
+    "Comment": "(\u002B84) Uses Flag \u0026 0x800, may be cvar renaming"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1241850",
+    "Name": "oConsoleSystem::sub_1241850",
+    "Status": 0,
+    "Comment": "(\u002B88)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1241A70",
+    "Name": "oConsoleSystem::sub_1241A70",
+    "Status": 0,
+    "Comment": "(\u002B92)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1241CC0",
+    "Name": "oConsoleSystem::sub_1241CC0",
+    "Status": 0,
+    "Comment": "(\u002B96)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1241F60",
+    "Name": "oConsoleSystem::ModifyCvar",
+    "Status": 0,
+    "Comment": "[31](\u002B128) called from SetCvar"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242260",
+    "Name": "oConsoleSystem::SetCvar_Direct",
+    "Status": 0,
+    "Comment": "[37](\u002B152) Does not find Cvar first"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242270",
+    "Name": "oConsoleSystem::SetCvar",
+    "Status": 0,
+    "Comment": "[36](\u002B148) Finds Cvar first and sets result"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x12422C0",
+    "Name": "oConsoleSystem::SetCvarFloat_Direct",
+    "Status": 0,
+    "Comment": "[35](\u002B144) Calls \u002B152"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242310",
+    "Name": "oConsoleSystem::SetCvarFloat",
+    "Status": 0,
+    "Comment": "[34](\u002B140)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242360",
+    "Name": "oConsoleSystem::SetCvarInteger_Direct",
+    "Status": 0,
+    "Comment": "[33](\u002B136) Calls \u002B152"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x12423A0",
+    "Name": "oConsoleSystem::SetCvarInteger",
+    "Status": 0,
+    "Comment": "[32](\u002B132)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x12423E0",
+    "Name": "oConsoleSystem::sub_12423E0",
+    "Status": 0,
+    "Comment": "[38](\u002B156)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242400",
+    "Name": "oConsoleSystem::GetCvarString",
+    "Status": 0,
+    "Comment": "(\u002B100)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242430",
+    "Name": "oConsoleSystem::GetCvarFloat",
+    "Status": 0,
+    "Comment": "(\u002B104)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242460",
+    "Name": "oConsoleSystem::GetCvarVec2",
+    "Status": 0,
+    "Comment": "(\u002B108)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x12424B0",
+    "Name": "oConsoleSystem::GetCvarVec3",
+    "Status": 0,
+    "Comment": "(\u002B112)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242510",
+    "Name": "oConsoleSystem::GetCvarVec4",
+    "Status": 0,
+    "Comment": "(\u002B116)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242560",
+    "Name": "oConsoleSystem::GetCvarInteger",
+    "Status": 0,
+    "Comment": "(\u002B120)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242590",
+    "Name": "oConsoleSystem::GetCvarBoolean",
+    "Status": 0,
+    "Comment": "(\u002B124)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x12425C0",
+    "Name": "oConsoleSystem::SetCvarString_Direct",
+    "Status": 0,
+    "Comment": "[40](\u002B164) Calls \u002B152"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242640",
+    "Name": "oConsoleSystem::sub_1242640",
+    "Status": 0,
+    "Comment": "[39](\u002B160)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x12426B0",
+    "Name": "oConsoleSystem::UpdateCvar?",
+    "Status": 0,
+    "Comment": "(\u002B24)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x12427F0",
+    "Name": "oConsoleSystem::sub_12427F0",
+    "Status": 0,
+    "Comment": "(\u002B44)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x12428A0",
+    "Name": "oConsoleSystem::sub_12428A0",
+    "Status": 0,
+    "Comment": "(\u002B32) RegisterCvar?"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242950",
+    "Name": "oConsoleSystem::sub_1242950",
+    "Status": 0,
+    "Comment": "(\u002B80)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242980",
+    "Name": "oConsoleSystem::RegisterConsoleFunction",
+    "Status": 0,
+    "Comment": "(\u002B28)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242A00",
+    "Name": "oConsoleSystem::sub_1242A00",
+    "Status": 0,
+    "Comment": "(\u002B36)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242A20",
+    "Name": "oConsoleSystem::sub_1242A20",
+    "Status": 0,
+    "Comment": "(\u002B40)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242A70",
+    "Name": "oConsoleSystem::sub_1242A70",
+    "Status": 0,
+    "Comment": "(\u002B48)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242B00",
+    "Name": "oConsoleSystem::RegisterConBaseList",
+    "Status": 0,
+    "Comment": "(\u002B16)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242B50",
+    "Name": "oConsoleSystem::UnregisterConBaseList",
+    "Status": 0,
+    "Comment": "(\u002B20)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242BB0",
+    "Name": "oConsoleSystem::LatchCvar",
+    "Status": 0,
+    "Comment": "(\u002B56)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242CA0",
+    "Name": "oConsoleSystem::sub_1242CA0",
+    "Status": 0,
+    "Comment": "(\u002B60)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1242FB0",
+    "Name": "oConsoleSystem::ListCvars",
+    "Status": 0,
+    "Comment": "(\u002B64)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x12431B0",
+    "Name": "oConsoleSystem::ListFunctions",
+    "Status": 0,
+    "Comment": "(\u002B68)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x12432B0",
+    "Name": "oConsoleSystem::sub_12432B0",
+    "Status": 0,
+    "Comment": "(\u002B72) SetSave function"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x12434B0",
+    "Name": "oConsoleSystem::sub_12434B0",
+    "Status": 0,
+    "Comment": "(\u002B12)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1243500",
+    "Name": "oConsoleSystem::sub_1243500",
+    "Status": 0,
+    "Comment": "[41](\u002B168) time diff between now and this[4]"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x12596E0",
+    "Name": "oConsoleSystem::sub_12596E0",
+    "Status": 3,
+    "Comment": "[72]"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x12596F0",
+    "Name": "oConsoleSystem::sub_12596F0",
+    "Status": 3,
+    "Comment": "[73]"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x1259810",
+    "Name": "oConsoleSystem::sub_1259810",
+    "Status": 3,
+    "Comment": "[70]"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x125B510",
+    "Name": "oConsoleSystem::SetConsoleBufferString",
+    "Status": 0,
+    "Comment": "[71](\u002B288) (BufferText, LengthLimit); Returns value passed in for LengthLimit, set to -1 to set cursor selection to start of string"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x125F5E0",
+    "Name": "oConsoleSystem::sub_125F5E0",
+    "Status": 0,
+    "Comment": "(\u002B4)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x125F600",
+    "Name": "oConsoleSystem::sub_125F600",
+    "Status": 3,
+    "Comment": "[50](\u002B204)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x125FB20",
+    "Name": "oConsoleSystem::sub_125FB20",
+    "Status": 0,
+    "Comment": "(\u002B8)"
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0x128AAB0",
+    "Name": "oConsoleSystem::sub_128AAB0",
+    "Status": 3,
+    "Comment": "[60]"
+  },
+  {
+    "Category": "oCvar",
+    "Address": "0x11D6070",
+    "Name": "oCvar::SetInteger",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "oCvar",
+    "Address": "0x11D60E0",
+    "Name": "oCvar::SetBoolean",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "oCvar",
+    "Address": "0x11D6120",
+    "Name": "oCvar::SetFloat",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "oCvar",
+    "Address": "0x11D6280",
+    "Name": "oCvar::SetVector",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "oCvar",
+    "Address": "0x11D6340",
+    "Name": "oCvar::SetString",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "oEngineSystem_Comment",
+    "Address": "",
+    "Name": "",
+    "Status": 0,
+    "Comment": "Investigate 0x123FAC0, Big ToString() function?"
+  },
+  {
+    "Category": "oEngineSystem",
+    "Address": "0x124EE10",
+    "Name": "oEngineSystem::LoadEngineConfigurationFile",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "oEngineSystem",
+    "Address": "0x124EF50",
+    "Name": "oEngineSystem::ExecuteCommandLineArguments",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "oEngineSystem",
+    "Address": "0x1253250",
+    "Name": "oEngineSystem::InitializeDebugMenus",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "oEngineSystem",
+    "Address": "0x12552F0",
+    "Name": "oEngineSystem::CreateWindowClass",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "oEngineSystem",
+    "Address": "0x12557F0",
+    "Name": "oEngineSystem::Initialize",
+    "Status": 0,
+    "Comment": "Returns 1 on successful initialization, 0 on failure"
+  },
+  {
+    "Category": "oVegetation",
+    "Address": "0xF72D90",
+    "Name": "tfVegetationManager::sub_F72D90",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "oVegetation",
+    "Address": "0x121C960",
+    "Name": "oVegetationObject::RemoveLayer",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "oVegetation",
+    "Address": "0x121CDF0",
+    "Name": "oVegetationObject::RemoveInstances",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "sl::Math::MathHelpers",
+    "Address": "0x7BD5B0",
+    "Name": "sl::Math::IsInfiniteFVec2",
+    "Status": 0,
+    "Comment": "Real name is v2.isOutrageous() but this seems easier to understand, Checks float vec2 for infinite"
+  },
+  {
+    "Category": "sl::Math::MathHelpers",
+    "Address": "0x806000",
+    "Name": "sl::Math::IsInfiniteFVec3",
+    "Status": 0,
+    "Comment": "Real name is v3.isOutrageous() but this seems easier to understand, Checks float vec3 for infinite"
+  },
+  {
+    "Category": "sl::Math::MathHelpers",
+    "Address": "0x806130",
+    "Name": "sl::Math::IsInfiniteFVec4",
+    "Status": 0,
+    "Comment": "Real name is v4.isOutrageous() but this seems easier to understand, Checks float vec4 for infinite"
+  },
+  {
+    "Category": "sl::Math::MathHelpers",
+    "Address": "0xE4F860",
+    "Name": "sl::Math::MathHelpers::SetFloatFromString",
+    "Status": 0,
+    "Comment": "(float, string, size)"
+  },
+  {
+    "Category": "sl::oBuffer",
+    "Address": "0x11F3C90",
+    "Name": "sl::oBuffer::Write",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slBase64",
+    "Address": "0x16CF2F0",
+    "Name": "slBase64::sub_16CF2F0",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slConsole_Comment",
+    "Address": "",
+    "Name": "",
+    "Status": 0,
+    "Comment": "Console related functions"
+  },
+  {
+    "Category": "slConsole",
+    "Address": "0x11D5CA0",
+    "Name": "slConsole::AddConsoleVariable",
+    "Status": 0,
+    "Comment": "Returns reference to added cvar"
+  },
+  {
+    "Category": "slConsole",
+    "Address": "0x11D64B0",
+    "Name": "slConsole::AddConsoleCommand",
+    "Status": 1,
+    "Comment": "Uncertain if this is the function or just part of the Add Command function"
+  },
+  {
+    "Category": "slConsole",
+    "Address": "0x128A850",
+    "Name": "slConsole::ExecuteCommand",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slConsole",
+    "Address": "0x128B180",
+    "Name": "slConsole::ExecuteBuffer",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slConsole",
+    "Address": "0x16BE1A0",
+    "Name": "slConsole::SetHandlers",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slConsole",
+    "Address": "0x16E6520",
+    "Name": "slConsole::Alloc",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slCrypt",
+    "Address": "0x16EFC00",
+    "Name": "slCrypt::sub_16EFC00",
+    "Status": 1,
+    "Comment": "Destroy Key and Release Context"
+  },
+  {
+    "Category": "slDLL",
+    "Address": "0x6FE330",
+    "Name": "slDLL::GetFunction",
+    "Status": 0,
+    "Comment": "(hmodule, function_name)"
+  },
+  {
+    "Category": "slDLL",
+    "Address": "0x6FE380",
+    "Name": "slDLL::GetFunction2",
+    "Status": 0,
+    "Comment": "(hmodule, function_name)"
+  },
+  {
+    "Category": "slDLL",
+    "Address": "0x16C3A70",
+    "Name": "slDLL::slLoadLibrary",
+    "Status": 0,
+    "Comment": "(hmodule, library_name)"
+  },
+  {
+    "Category": "slFileLock_FileTouchThread",
+    "Address": "0x1709ED0",
+    "Name": "slFileLock_FileTouchThread::ctor",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slFileLock_FileTouchThread",
+    "Address": "0x171C990",
+    "Name": "Main_IO_Thread::ctor",
+    "Status": 3,
+    "Comment": "This is the Main I/O Thread but needs a better function name"
+  },
+  {
+    "Category": "slFileSystem",
+    "Address": "0x14C48B0",
+    "Name": "UpdateVideoSettingsFile",
+    "Status": 0,
+    "Comment": "Fake name but accurate to what it does, doubt it even goes to this category"
+  },
+  {
+    "Category": "slFileSystem",
+    "Address": "0x16B8570",
+    "Name": "slFileSystem::GetSpecialFolderPath",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slFileSystem",
+    "Address": "0x16BBCB0",
+    "Name": "slFileSystem::WriteFile",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slFileSystem",
+    "Address": "0x16DE130",
+    "Name": "WriteVideoSettingsConfigFile",
+    "Status": 0,
+    "Comment": "Fake name but accurate to what it does, doubt it even goes to this category"
+  },
+  {
+    "Category": "slFileSystem::slW32File",
+    "Address": "0x16B7DA0",
+    "Name": "slFileSystem::slW32File::MakeDirectory",
+    "Status": 0,
+    "Comment": "bool; returns true on successful creation"
+  },
+  {
+    "Category": "slini_Comment",
+    "Address": "",
+    "Name": "",
+    "Status": 0,
+    "Comment": "Previously part of tfConfig, now is made more general\r\nUnclear if tsSettings, or slini, or slParser, assuming slini for now"
+  },
+  {
+    "Category": "slini",
+    "Address": "0x16DB210",
+    "Name": "slini::GetEnvironmentVariable",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slini",
+    "Address": "0x16DB230",
+    "Name": "slini::sub_16DB230",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slini",
+    "Address": "0x16DC1D0",
+    "Name": "slini::Add",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slini",
+    "Address": "0x16DC3C0",
+    "Name": "slini::Parse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slini",
+    "Address": "0x16DCAA0",
+    "Name": "slini::sub_16DCAA0",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slini",
+    "Address": "0x16DCC80",
+    "Name": "slini::GetString",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slini",
+    "Address": "0x16DCD90",
+    "Name": "slini::sub_16DCD90",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slini",
+    "Address": "0x16DD290",
+    "Name": "slini::GetStringWithResult",
+    "Status": 1,
+    "Comment": "(SectionName, VariableName, Found); Found is set to 1 if value is found 0 if using default"
+  },
+  {
+    "Category": "slini",
+    "Address": "0x16DD2D0",
+    "Name": "slini::GetStringWithDefault",
+    "Status": 1,
+    "Comment": "Calls 0x16DCC80"
+  },
+  {
+    "Category": "slini",
+    "Address": "0x16DD350",
+    "Name": "slini::GetInt",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slini",
+    "Address": "0x16DD3D0",
+    "Name": "slini::GetLong",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slini",
+    "Address": "0x16DD5B0",
+    "Name": "slini::ConvertToBool",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slini",
+    "Address": "0x16DD6D0",
+    "Name": "slini::GetBoolWithDefault",
+    "Status": 1,
+    "Comment": "Calls 0x16DCC80 then 0x16DD5B0"
+  },
+  {
+    "Category": "slini",
+    "Address": "0x16DEAE0",
+    "Name": "slini::sub_16DEAE0",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slLifetime",
+    "Address": "0x6EB010",
+    "Name": "slLifetime::freezeWatchDog::enableCrash",
+    "Status": 0,
+    "Comment": "Cause a crash if a long freeze was detected"
+  },
+  {
+    "Category": "slLifetime",
+    "Address": "0x6ED110",
+    "Name": "slLifeTime::sub_6ED110",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLifetime",
+    "Address": "0x6ED1E0",
+    "Name": "slLifetime::sub_6ED1E0",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLifetime",
+    "Address": "0x6EF540",
+    "Name": "slLifeTime::sub_6EF540",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLifetime",
+    "Address": "0x6EF5F0",
+    "Name": "slLifeTime::sub_6EF5F0",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLifetime",
+    "Address": "0x6EF6D0",
+    "Name": "slLifetime::sub_6EF6D0",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLockFree",
+    "Address": "0x6F2B70",
+    "Name": "slLockFree::sub_6F2B70",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slLockFree",
+    "Address": "0x6FF280",
+    "Name": "slLockFree::sub_6FF280",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x15A1130",
+    "Name": "slLog::SetLogLevel",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x16C1FF0",
+    "Name": "slLog::GetLogLevelFromString",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x16C21B0",
+    "Name": "slLog::Log",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x16C2620",
+    "Name": "slLog::ctor",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x16C2780",
+    "Name": "slLog::dtor",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x16C2970",
+    "Name": "slLog::ApplyLogLevel",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x16C2C30",
+    "Name": "slLog::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6B22F0",
+    "Name": "slLog::RegisterLog::Game",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6B2310",
+    "Name": "slLog::RegisterLog::Steam",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6B3510",
+    "Name": "slLog::RegisterLog::Proto",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6C4AB0",
+    "Name": "slLog::RegisterLog::Audasst",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6C4F30",
+    "Name": "slLog::RegisterLog::Proto2",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6CF870",
+    "Name": "slLog::RegisterLog::Ai",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6CF950",
+    "Name": "slLog::RegisterLog::Animate",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6D0100",
+    "Name": "slLog::RegisterLog::Nethttp",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6D0410",
+    "Name": "slLog::RegisterLog::Network",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6D0880",
+    "Name": "slLog::RegisterLog::Input",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6D08C0",
+    "Name": "slLog::RegisterLog::Script",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6D0CD0",
+    "Name": "slLog::RegisterLog::Gui",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6D0D10",
+    "Name": "slLog::RegisterLog::Jscript",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6D1120",
+    "Name": "slLog::RegisterLog::Havok",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6D1480",
+    "Name": "slLog::RegisterLog::Entropy",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6D14A0",
+    "Name": "slLog::RegisterLog::Enhavok",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6D14D0",
+    "Name": "slLog::RegisterLog::Havok2",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6D4730",
+    "Name": "slLog::RegisterLog::Render",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6DB240",
+    "Name": "slLog::RegisterLog::Vt",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6DB620",
+    "Name": "slLog::RegisterLog::Gt",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6DDFA0",
+    "Name": "slLog::RegisterLog::Aptitude",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6DE540",
+    "Name": "slLog::RegisterLog::Sound",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6DE950",
+    "Name": "slLog::RegisterLog::Sndact",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6DE9A0",
+    "Name": "slLog::RegisterLog::Sndloop",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6DFA50",
+    "Name": "slLog::RegisterLog::Fx",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6E02A0",
+    "Name": "slLog::RegisterLog::Vcs",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6E2330",
+    "Name": "slLog::RegisterLog::Toolshr",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6E2350",
+    "Name": "slLog::RegisterLog::Tsanim",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6E4FB0",
+    "Name": "slLog::RegisterLog::Console",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6E6170",
+    "Name": "slLog::RegisterLog::Sdb",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6E6DE0",
+    "Name": "slLog::RegisterLog::Iosys",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog::RegisterLog",
+    "Address": "0x6E9830",
+    "Name": "slLog::RegisterLog::Items",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "SlLogs_Comment",
+    "Address": "",
+    "Name": "",
+    "Status": 0,
+    "Comment": "Soul Log functions with predefined log levels"
+  },
+  {
+    "Category": "SlLogs",
+    "Address": "0x6FD0F0",
+    "Name": "slLog::Error",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "SlLogs",
+    "Address": "0x6FD860",
+    "Name": "slLog::Warn",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "SlLogs",
+    "Address": "0x723420",
+    "Name": "slLog::Info",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "SlLogs",
+    "Address": "0x723840",
+    "Name": "slLog::RenderLog_Info",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "SlLogs",
+    "Address": "0x726190",
+    "Name": "slLog::Notice",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "SlLogs",
+    "Address": "0x726690",
+    "Name": "slLog::Info2",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "SlLogs",
+    "Address": "0x7A65A0",
+    "Name": "slLog::Debug",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "SlLogs",
+    "Address": "0x7F7CC0",
+    "Name": "slLog::RenderLog_Error",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "SlLogs",
+    "Address": "0xCC47D0",
+    "Name": "slLog::RenderLog_Warn",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "SlLogs",
+    "Address": "0x11E7D80",
+    "Name": "slLog::RenderLog_Debug",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "SlLogs",
+    "Address": "0x1210A30",
+    "Name": "slLog::RenderLog_Debug2",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "SlLogs",
+    "Address": "0x1251DC0",
+    "Name": "slLog::RenderLog_Info2",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slMap",
+    "Address": "0x16DF090",
+    "Name": "slMap::sub_16DF090",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slParser",
+    "Address": "0x16BF2E0",
+    "Name": "slParser::HasLaunchArg",
+    "Status": 0,
+    "Comment": "Launch arguments are found by starting client with \u0060--\u003Carg\u003E\u0060"
+  },
+  {
+    "Category": "slParser",
+    "Address": "0x16DB830",
+    "Name": "slParser::LoadConfigFile",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_json",
+    "Address": "0x722ED0",
+    "Name": "slSerialize_json::sub_722EDO",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_json",
+    "Address": "0x723B50",
+    "Name": "slSerialize_json::sub_723B50",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_json",
+    "Address": "0x7852A0",
+    "Name": "slSerialize_json::KeySearch_sub_7852A0",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_json",
+    "Address": "0x785350",
+    "Name": "slSerialize_json::sub_785350",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_json",
+    "Address": "0x7BF3B0",
+    "Name": "slSerialize_json::LoadKeyBindings_sub_7BF3B0",
+    "Status": 0,
+    "Comment": "Most likely not part of slSerialize_json"
+  },
+  {
+    "Category": "slSerialize_json",
+    "Address": "0x7BFA60",
+    "Name": "slSerialize_json::SaveKeyBindings_sub_7BFA60",
+    "Status": 0,
+    "Comment": "Most likely not part of slSerialize_json"
+  },
+  {
+    "Category": "slSerialize_json",
+    "Address": "0x16E6980",
+    "Name": "slSerialize_json::sub_16E6980",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_json",
+    "Address": "0x16E6A30",
+    "Name": "slSerialize_json::sub_16E6A30",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_json",
+    "Address": "0x16E6F50",
+    "Name": "slSerialize_json::ControlCharacterSearch_sub_16E6F50",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_json",
+    "Address": "0x16E6FC0",
+    "Name": "slSerialize_json::CharacterSearch_sub_16E6FC0",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_json",
+    "Address": "0x16E7240",
+    "Name": "slSerialize_json::sub_16E7240",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
+    "Address": "0x6EDE50",
+    "Name": "slString::ctor",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
+    "Address": "0x6FD140",
+    "Name": "slString::Equals",
+    "Status": 1,
+    "Comment": "Might be Compare; May be part of slStringMatch"
+  },
+  {
+    "Category": "slString",
+    "Address": "0x6FD890",
+    "Name": "slString::ctor2",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
+    "Address": "0x123EFA0",
+    "Name": "slString::ToDoubleVec4",
+    "Status": 1,
+    "Comment": "Unlikely part of slString, probably part of the Engine or Math classes"
+  },
+  {
+    "Category": "slString",
+    "Address": "0x16B8E20",
+    "Name": "slString::Set",
+    "Status": 1,
+    "Comment": "Might be slString::Resize instead of Set"
+  },
+  {
+    "Category": "slString",
+    "Address": "0x16B9180",
+    "Name": "slString::Split",
+    "Status": 0,
+    "Comment": "Unclear entirely if a split or SubstringToDelim; (sourceString, \u0026outputString, splitChars)"
+  },
+  {
+    "Category": "slString",
+    "Address": "0x16B99D0",
+    "Name": "slString::IndexOf",
+    "Status": 0,
+    "Comment": "May be part of slStringMatch"
+  },
+  {
+    "Category": "slString",
+    "Address": "0x16B9C60",
+    "Name": "slString::Format2",
+    "Status": 0,
+    "Comment": "Another format function, calls 0x16B9C80 internally"
+  },
+  {
+    "Category": "slString",
+    "Address": "0x16B9E30",
+    "Name": "slString::Format",
+    "Status": 1,
+    "Comment": "Real Internal Name = slpf; returns std::string"
+  },
+  {
+    "Category": "slString",
+    "Address": "0x16B9FB0",
+    "Name": "slString::sub_16B9FB0",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
+    "Address": "0x16BA580",
+    "Name": "slString::ToUpper",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
+    "Address": "0x16BA620",
+    "Name": "slString::ToLower",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
+    "Address": "0x16BA700",
+    "Name": "slString::sub_16BA700",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
+    "Address": "0x16BA800",
+    "Name": "slString::ToULong",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
+    "Address": "0x16BA820",
+    "Name": "slString::ToUInt64",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
+    "Address": "0x16BA850",
+    "Name": "slString::ToDouble",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
+    "Address": "0x16BA960",
+    "Name": "slString::ToLower2",
+    "Status": 2,
+    "Comment": "Second ToLower variant? output = (??, value);"
+  },
+  {
+    "Category": "slString",
+    "Address": "0x16CEAC0",
+    "Name": "slString::dtor",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem_Comment",
+    "Address": "",
+    "Name": "",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x1256590",
+    "Name": "platform_poll_messages",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x126E480",
+    "Name": "platform_poll_queued_messages",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x16B8BB0",
+    "Name": "slSafeAlloc",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x16BE270",
+    "Name": "slSystem::GetOSVersionName",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x16BEE30",
+    "Name": "shell_process_command_line_arguments",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x16BF600",
+    "Name": "slSystem::SetClipboardData",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x16C37C0",
+    "Name": "slSystem::SafeAssert",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x16C4070",
+    "Name": "slSystem::RaiseException",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x16C43D0",
+    "Name": "shell_set_exception_handler",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x16C44E0",
+    "Name": "slSystem::Assert",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x16C52A0",
+    "Name": "slSystem::Create_slVarRef",
+    "Status": 3,
+    "Comment": "Unsure what exactly this is for or the proper name for it, but it creates slVarRef objects it seems"
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x16C9620",
+    "Name": "slMalloc",
+    "Status": 0,
+    "Comment": "memory allocate"
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x16C9960",
+    "Name": "slFreea",
+    "Status": 0,
+    "Comment": "memory free"
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x1E609FC",
+    "Name": "slCriticalSectionObject",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x1E60A2C",
+    "Name": "slCriticalSectionStatus",
+    "Status": 0,
+    "Comment": "increments when a critical section is entered, decrements before exiting, used for atexit delete checks"
+  },
+  {
+    "Category": "slText",
+    "Address": "0x11D8F00",
+    "Name": "slText::GetBoolFromString",
+    "Status": 0,
+    "Comment": "Converts \u0022true\u0022, \u0022on\u0022, and !0.0 to True; \u0022false\u0022 and other values are returned False"
+  },
+  {
+    "Category": "slText",
+    "Address": "0x11D95B0",
+    "Name": "slText::fmt",
+    "Status": 0,
+    "Comment": "This appears to be an advanced string formatting function which is most likely inside slText instead of slString"
+  },
+  {
+    "Category": "slText",
+    "Address": "0x16D0130",
+    "Name": "slText::sub_16D0130",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slText",
+    "Address": "0x16D01A0",
+    "Name": "slText::sub_16D01A0",
+    "Status": 0,
+    "Comment": "GetMemorySize?"
+  },
+  {
+    "Category": "slText",
+    "Address": "0x16D02A0",
+    "Name": "slText::sub_16D02A0",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slText",
+    "Address": "0x16D0310",
+    "Name": "slText::sub_16D0310",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slText",
+    "Address": "0x16D0360",
+    "Name": "slText::sub_16D0360",
+    "Status": 0,
+    "Comment": "Resize?"
+  },
+  {
+    "Category": "slText",
+    "Address": "0x16D0470",
+    "Name": "slText::sub_16D0470",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slText",
+    "Address": "0x16D0540",
+    "Name": "slText::sub_16D0540",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slText",
+    "Address": "0x16D0610",
+    "Name": "slText::sub_16D0610",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slText",
+    "Address": "0x16D0AA0",
+    "Name": "slText::sub_16D0AA0",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slText",
+    "Address": "0x16D0C20",
+    "Name": "slText::sub_16D0C20",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slText",
+    "Address": "0x16D32A0",
+    "Name": "slText::sub_16D32A0",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slThread_Comment",
+    "Address": "",
+    "Name": "",
+    "Status": 0,
+    "Comment": "Soul Thread Related Functions\r\nMany threading related functions require verifying if it\u0027s part of Thread or Threadpool or a Manager"
+  },
+  {
+    "Category": "slThread",
+    "Address": "0x16B8C30",
+    "Name": "slThread::SafeThreadCtor",
+    "Status": 3,
+    "Comment": "Appears identical to slSafeAlloc"
+  },
+  {
+    "Category": "slThread",
+    "Address": "0x16C09D0",
+    "Name": "slThread::EndThread",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slThread",
+    "Address": "0x16C0A00",
+    "Name": "slThread::SetThreadName",
+    "Status": 1,
+    "Comment": "ctor?"
+  },
+  {
+    "Category": "slThread",
+    "Address": "0x16C0A70",
+    "Name": "slThread::dtor",
+    "Status": 1,
+    "Comment": "? (thisptr, a2)"
+  },
+  {
+    "Category": "slThread",
+    "Address": "0x16C0B20",
+    "Name": "slThread::CreateThread",
+    "Status": 0,
+    "Comment": "Calls BeginThread"
+  },
+  {
+    "Category": "slThread",
+    "Address": "0x16C0B70",
+    "Name": "slThread::WaitStop",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slThread",
+    "Address": "0x16C0D50",
+    "Name": "slThread::SetThreadPriority",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slThread",
+    "Address": "0x16C0DF0",
+    "Name": "slThreadLocalMgr::TlsAlloc",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slThreadpool_Comment",
+    "Address": "",
+    "Name": "",
+    "Status": 0,
+    "Comment": "0x16F8D80 = sl::PoolThread::Destroy\r\n0x16F8D90 = Destructor\r\n0x16F8E70 = slThread/slThreadpool::slPoolThread ::CreateThread"
+  },
+  {
+    "Category": "slThreadpool",
+    "Address": "0x16F8CD0",
+    "Name": "slThreadpool::SetThreadDescription",
+    "Status": 2,
+    "Comment": "sl::PoolThread::ctor?"
+  },
+  {
+    "Category": "slXML",
+    "Address": "0x70BB50",
+    "Name": "slXML::LoadUI",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Sound Manager",
+    "Address": "0x767520",
+    "Name": "sm::Sound::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication_Comment",
+    "Address": "",
+    "Name": "",
+    "Status": 0,
+    "Comment": "Subroutines related to the tfApplication class"
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x6EAA90",
+    "Name": "tfGetUserDocumentsFolder",
+    "Status": 0,
+    "Comment": "No parent listed? tfApplication or tfMain"
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x6EB2B0",
+    "Name": "tfApplication::DetermineRedhandedBitness",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x6EB590",
+    "Name": "tfApplication::ExecuteRedhandedWrapper",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x6EBA70",
+    "Name": "tfApplication::Run",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x703AF0",
+    "Name": "tfApplication::NotifyShutdownEvent",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x703BB0",
+    "Name": "tfApplication::ShowErrorMessageBox",
+    "Status": 0,
+    "Comment": "(LPCSTR lpText)"
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x703C80",
+    "Name": "tfApplication::sub_703C80",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x704D70",
+    "Name": "tfApplication::LoadConfigs",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x7053E0",
+    "Name": "tfApplication::InitializeWriteDirectory",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x706EF0",
+    "Name": "tfApplication::NotifyShutdownEvent2",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x706FD0",
+    "Name": "tfApplication::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x709900",
+    "Name": "tfApplication::UpdateThreadOptimizations",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x70A1D0",
+    "Name": "tfApplication::Shutdown",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x70A4C0",
+    "Name": "tfApplication::Start",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x15E8B30",
+    "Name": "tfApplication::InitializeRedhanded",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x1E46784",
+    "Name": "sZoneLocker",
+    "Status": 0,
+    "Comment": "(Singleton) No parent listed? tfApplication"
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x1E46788",
+    "Name": "sRayCastLocker",
+    "Status": 0,
+    "Comment": "(Singleton) No parent listed? tfApplication"
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x1E4678C",
+    "Name": "sAppModeLocker",
+    "Status": 0,
+    "Comment": "(Singleton) No parent listed? tfApplication"
+  },
+  {
+    "Category": "tfChat",
+    "Address": "0xAE4060",
+    "Name": "tfChat::SendMessage",
+    "Status": 0,
+    "Comment": "(tfChat ChatInstance, const char* Message, const char* Channel, const char* AuthorName, int64 AuthorId, int8 Flags{Dev, Mentor, Ranger, Publisher, Encounter})"
+  },
+  {
+    "Category": "tfChat",
+    "Address": "0xC0D970",
+    "Name": "tfChat::GetGSSChatChannelFromString",
+    "Status": 0,
+    "Comment": "(const char* ChannelName, int* ChannelIndex); Returns true if valid channel found and sets ChannelIndex to found value"
+  },
+  {
+    "Category": "tfChunk",
+    "Address": "0xE60E80",
+    "Name": "tfChunk::sub_E60E80",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfChunk",
+    "Address": "0xE62C50",
+    "Name": "tfChunk::sub_E62C50",
+    "Status": 0,
+    "Comment": "Chunk loading?"
+  },
+  {
+    "Category": "tfChunk",
+    "Address": "0xE64A80",
+    "Name": "tfChunk::DataLoadScheduler::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfGenericCharacter",
+    "Address": "0x826FC0",
+    "Name": "tfGenericCharacter::AddView",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfGenericCharacter",
+    "Address": "0x8271B0",
+    "Name": "tfGenericCharacter::RemoveView",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfGenericCharacter",
+    "Address": "0xC0A920",
+    "Name": "tfGenericCharacter::ViewTypeToString",
+    "Status": 0,
+    "Comment": "Most likely is not actually inside of tfGenericCharacter"
+  },
+  {
+    "Category": "tfHotfix",
+    "Address": "0x786710",
+    "Name": "tfHotfix::HotfixManagerLoadingThread::ctor",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "tfHotfix",
+    "Address": "0x7884F0",
+    "Name": "tfHotfix::Hotfix::OnPostDownload",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfKeyBindings",
+    "Address": "0xFF4C80",
+    "Name": "tfKeybindings::sub_FF4C80",
+    "Status": 2,
+    "Comment": "Unsure which function this is exactly, may be a reset/init and requires calling UnbindFromAllBindSets"
+  },
+  {
+    "Category": "tfKeyBindings",
+    "Address": "0xFF5580",
+    "Name": "tfKeyBindings::RegisterAction_sub_FF5580",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfKeyBindings",
+    "Address": "0xFF5CE0",
+    "Name": "tfKeyBindings::FindAction_sub_FF5CE0",
+    "Status": 0,
+    "Comment": "Returns found actionid; Unclear if find action or a check action; params appaear (ilKeyActionMgr, actionStr)"
+  },
+  {
+    "Category": "tfPhysics",
+    "Address": "0x79B570",
+    "Name": "tfPhysicsActorDefManager::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfPhysics",
+    "Address": "0x1171FE0",
+    "Name": "tfPhysics::Initialize",
+    "Status": 0,
+    "Comment": "Includes initializing havok"
+  },
+  {
+    "Category": "tfReplayReader",
+    "Address": "0x781C30",
+    "Name": "tfReplayReader::ReadReplayHost",
+    "Status": 0,
+    "Comment": "function might do more than just read host"
+  },
+  {
+    "Category": "tfReplayReader",
+    "Address": "0x781FA0",
+    "Name": "tfReplayReader::GetRandomReplayPath",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfScreenshot",
+    "Address": "0x86F610",
+    "Name": "tfScreenshot::TakeScreenshot",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfTerrain",
+    "Address": "0xE78EA0",
+    "Name": "tfTerrain::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfTerrain",
+    "Address": "0xE7A8A0",
+    "Name": "tfTerrain::sub_E7A8A0",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfTerrain",
+    "Address": "0xE7B2B0",
+    "Name": "tfTerrain::sub_E7B2B0",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfWorld",
+    "Address": "0xA50DD0",
+    "Name": "tfWorld::ZoneUpdateEnumHandler",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfZone",
+    "Address": "0xA68160",
+    "Name": "tfZone::sub_A68160",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tsEngine",
+    "Address": "0x14D9640",
+    "Name": "tsEngine::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tsEngine",
+    "Address": "0x159DF20",
+    "Name": "tsComponentedAtlasCache::Initialize",
+    "Status": 0,
+    "Comment": ""
+  }
 ]
