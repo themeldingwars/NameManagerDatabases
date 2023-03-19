@@ -4593,5 +4593,75 @@
     "Address": "0x9c0e70",
     "Status": 1,
     "Comment": ""
-  }
+  },
+  {
+    "Category": "apt",
+    "Address": "0xBB4BC0",
+    "Name": "apt_??_CallAbility",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13E13B0",
+    "Name": "apt_??_LoadAndCreateAndAddAbility",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13E0E00",
+    "Name": "apt_??_LoadsAllKnownAbilities",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13FDB10",
+    "Name": "apt_CommandFactory_Create",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13FD910",
+    "Name": "apt_CommandFactory_LoadChain",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13E98D0",
+    "Name": "apt_StatusEffect_Apply",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13E1420",
+    "Name": "apt_System_CreateAndAddAbility",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13E1850",
+    "Name": "apt_System_CreateAndAddStatusEffect",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13E1330",
+    "Name": "apt_??_LoadAbility",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13E1770",
+    "Name": "apt_??_LoadStatusEffect",
+    "Status": 2,
+    "Comment": ""
+  },
 ]
