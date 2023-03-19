@@ -4664,4 +4664,11 @@
     "Status": 2,
     "Comment": ""
   },
+  {
+    "Category": "tfLocalCharacter",
+    "Address": "0x8c9400",
+    "Name": "tfLocalCharacter::BaseNetController::Handle_InventoryUpdate",
+    "Status": 1,
+    "Comment": ""
+  },
 ]
