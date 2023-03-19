@@ -3683,5 +3683,915 @@
     "Name": "tsComponentedAtlasCache::Initialize",
     "Status": 0,
     "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_Double64",
+    "Address": "0x7576f0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_EnterZone",
+    "Address": "0x757370",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_EnterZoneTimescaleData",
+    "Address": "0x757770",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_Fabrication_UIntPrefixedVariableType",
+    "Address": "0x016f55c0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_Float32",
+    "Address": "0x7574e0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_Int16",
+    "Address": "0xa0a3b0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_Int32",
+    "Address": "0x753f10",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_Int64",
+    "Address": "0x757450",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_Int8",
+    "Address": "0x7578f0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_Half16_?",
+    "Address": "0x74c340",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_PacketMatrixLogin",
+    "Address": "0x74a580",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_Quaternion",
+    "Address": "0x785740",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_QuaternionWrapper",
+    "Address": "0x785820",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_SlottedItem",
+    "Address": "0xa01f50",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_String",
+    "Address": "0x016eec10",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_UInt16_1",
+    "Address": "0x7376c0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_UInt32",
+    "Address": "0x737ca0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_UInt64",
+    "Address": "0x757b80",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_UInt8_a",
+    "Address": "0x9bdba0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_UInt8_b",
+    "Address": "0x737d80",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_UInt8_SubInventoryType",
+    "Address": "0x9eca10",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_Vector3",
+    "Address": "0x785880",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_2BytesAndStringPair",
+    "Address": "0x74f300",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_2x4",
+    "Address": "0x9e9d40",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_2x4",
+    "Address": "0xa00c60",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_2x4_ElitePrevUpgrades",
+    "Address": "0x9db230",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_2x4Bytes",
+    "Address": "0x9d6a60",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_2x4Bytes_Fabrication",
+    "Address": "0xd9aab0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_2x4Bytes_Fabrication",
+    "Address": "0xd9ad00",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_4_1Bytes_FetchQueInner1",
+    "Address": "0x9d5a40",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_4_String_FetchQueInner4",
+    "Address": "0x9d74a0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_4x4",
+    "Address": "0x9f6020",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_4x4",
+    "Address": "0xc45d30",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_6x4",
+    "Address": "0x9ff520",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_8+4",
+    "Address": "0x9b62f0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_Achievments",
+    "Address": "0xc49bc0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_AeraMapMarkerInnerData",
+    "Address": "0x9fa770",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_ArcCompletionHistoryUpdate",
+    "Address": "0xc48670",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_CachedAssetsDeepData",
+    "Address": "0x9f8430",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_ChatPartyMember",
+    "Address": "0x9cfdc0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_DeferredXP",
+    "Address": "0x9f4680",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_EliteAvailUpgrades",
+    "Address": "0x9c8e20",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_EncounterUIComplicatedData",
+    "Address": "0xc43b00",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_EncounterUIData",
+    "Address": "0xc45230",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_FabricationCommonData1",
+    "Address": "0x9cbdc0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_FactionDiscount",
+    "Address": "0xc3cac0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_FactionRepUpd",
+    "Address": "0x9e1a90",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_FetchQueInner2",
+    "Address": "0x9d6250",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_FetchQueueResp",
+    "Address": "0x9da140",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_Float32",
+    "Address": "0x9ffb50",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_GCMilestoneInfo1",
+    "Address": "0xc42030",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_GCMilestoneInfo1Inner1",
+    "Address": "0xc403d0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_Half16",
+    "Address": "0xa04580",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_Int32_Weird",
+    "Address": "0xb0af40",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_InventoryItem",
+    "Address": "0x9ec810",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_InventoryLoadoutConfig",
+    "Address": "0x9eaff0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_InventoryLoadoutConfigItem",
+    "Address": "0x9e8d70",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_InventoryLoadoutConfigVisual",
+    "Address": "0x9e96d0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_InventoryLoadouts",
+    "Address": "0x9eba50",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_InventoryResources",
+    "Address": "0x9ed350",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_ItemSalvageResponse",
+    "Address": "0x9d3e60",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_LoadoutConfigVisual",
+    "Address": "0x9d2ab0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_LootDistributionRelated",
+    "Address": "0x9d10a0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_MatchLoadingState",
+    "Address": "0xc50fe0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_MissionCompletionCounts",
+    "Address": "0xc49210",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_MissionsAvailableData",
+    "Address": "0xc4ada0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_NpcHostilityDebugInfo",
+    "Address": "0xc4eb20",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_NpcNavigationInfo2",
+    "Address": "0xc4f800",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_NpcPositionalDebugInfoData",
+    "Address": "0xc4dfd0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_NpcShapeDebugInfo",
+    "Address": "0xc4d200",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_ProfilerStruct",
+    "Address": "0x74ca80",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_ProgressionFrameInfo",
+    "Address": "0x9f4d70",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_ReadFabrication_UIntPrefixedVariableType",
+    "Address": "0x016f8450",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_ResourceLocationInfo",
+    "Address": "0x9dd350",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_ResourceNodeCompleted_4+2+4",
+    "Address": "0x9df150",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_ScoreBoardData1",
+    "Address": "0xc53610",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_ScoreBoardData2",
+    "Address": "0xc52d00",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_ScoreBoardData3",
+    "Address": "0xc52520",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_ScoreBoardInitData",
+    "Address": "0xc53ed0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_SlotModuleResponse",
+    "Address": "0x9dc5c0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_SlottedItem",
+    "Address": "0x9ea680",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_SlottedModules",
+    "Address": "0xa018f0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_String+4x4",
+    "Address": "0xc46e40",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_String+Int",
+    "Address": "0x756a50",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_Strings",
+    "Address": "0x74bdf0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_UiNotificationData",
+    "Address": "0xc43000",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_UInt32",
+    "Address": "0xa00ec0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_UInt32",
+    "Address": "0xa0a1c0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_UInt32_CziMapAssetIds",
+    "Address": "0xa04030",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_UInt64",
+    "Address": "0x74fa60",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_ULong",
+    "Address": "0x7503d0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_ULong_VehActAbi",
+    "Address": "0x9f9750",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_UnlocksUpdateGroup",
+    "Address": "0x9e7e70",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_UnlockUpdateGroupEntry",
+    "Address": "0x9e6030",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_UnlockUpdateGroupEntryType2",
+    "Address": "0x9e6800",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_Vec3",
+    "Address": "0xc4ee30",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_VendorProduct",
+    "Address": "0xc3e8c0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_VendorProductPrice",
+    "Address": "0xc3d4e0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_VendorProductRestriction",
+    "Address": "0xc3de90",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_VendorTokenThing",
+    "Address": "0x9d4960a",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_VisualOverrides",
+    "Address": "0xa0b130",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_VisualsDecals",
+    "Address": "0xa02c20",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_VisualsOverlays",
+    "Address": "0xa04c30",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_VisualsPalettes",
+    "Address": "0xa03220",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_VisualsPatterns",
+    "Address": "0xa03940",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_WorkbenchUpdate",
+    "Address": "0x9e4b30",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_WorkbenchUpdateInner1",
+    "Address": "0x9e3960",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_WorkbenchUpdateInner1_1",
+    "Address": "0x9e31e0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadArray_WorkbenchUpdateInner2",
+    "Address": "0x9e4140",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_IntArray_GenericKeyVariablePair",
+    "Address": "0x016f6360",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_UIntArray_Fabrication",
+    "Address": "0xd973d0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "Read_UShortArray_StatsData",
+    "Address": "0xbcf9e0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_2UIntAnd1String",
+    "Address": "0xc3c280",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_2x4",
+    "Address": "0xc3b5c0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_4Bytes",
+    "Address": "0x9faa50",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_CinematicData1",
+    "Address": "0x9feb00",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_DamageHitStruct",
+    "Address": "0x9f18f0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_DebugWeaponHitRelatedData",
+    "Address": "0x9f5bd0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_DebugWeaponHitRelatedData2",
+    "Address": "0x9f6bb0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_EnterZoneDevData",
+    "Address": "0x7571c0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_MaybeHalfVec3",
+    "Address": "0x9f33e0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_StatusEffect_MoreData",
+    "Address": "0x9f9d10",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_String",
+    "Address": "0x9e5820",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_StringAndUIntArray",
+    "Address": "0xc3bfc0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_UInt64",
+    "Address": "0x9fe600",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_UIntAndOptional4Bytes",
+    "Address": "0xc3bb10",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_UIntAndOptional4Bytes",
+    "Address": "0xc3bd50",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_UnkMovInputData",
+    "Address": "0xa00700",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_UShortBlob",
+    "Address": "0x9f25a0",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Name": "ReadOptional_Vector3",
+    "Address": "0x9c0e70",
+    "Status": 1,
+    "Comment": ""
   }
 ]
