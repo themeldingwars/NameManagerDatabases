@@ -4671,4 +4671,60 @@
     "Status": 1,
     "Comment": ""
   },
+  {
+    "Category": "lua",
+    "Address": "0x010d59b0",
+    "Name": "lua_createstrobj",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "lua",
+    "Address": "0x010d5a50",
+    "Name": "lua_internshrstr",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "lua",
+    "Address": "0x01028b50",
+    "Name": "luaS_newlstr",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "lua",
+    "Address": "0x01029430",
+    "Name": "luaD_call",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "lua",
+    "Address": "0x010d7d10",
+    "Name": "luaD_precall",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "lua",
+    "Address": "0x010d7770",
+    "Name": "luaD_throw",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "lua",
+    "Address": "0x010d0fc0",
+    "Name": "luaG_runerror",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "lua",
+    "Address": "0x010d22e0",
+    "Name": "luaV_execute",
+    "Status": 1,
+    "Comment": ""
+  },
 ]
