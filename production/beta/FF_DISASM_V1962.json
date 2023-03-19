@@ -4727,4 +4727,32 @@
     "Status": 1,
     "Comment": ""
   },
+  {
+    "Category": "tfLogin",
+    "Address": "0x00a3c3c0",
+    "Name": "tfLogin_OnLoginResponse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "tfLogin",
+    "Address": "0x00a3de70",
+    "Name": "tfLogin_OnZoneListResponse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "tfLogin",
+    "Address": "0x00a3d1f0",
+    "Name": "tfLogin_OnRefreshCharactersResponse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "tfLogin",
+    "Address": "0x00a371b0",
+    "Name": "tfLogin_Init",
+    "Status": 1,
+    "Comment": ""
+  }
 ]
