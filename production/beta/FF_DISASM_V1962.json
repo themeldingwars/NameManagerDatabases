@@ -969,6 +969,13 @@
     "Comment": ""
   },
   {
+    "Category": "Lz77",
+    "Address": "0x1709CD0",
+    "Name": "Lz77::Decompress",
+    "Status": 0,
+    "Comment": "Lz77::Decompress(inputBuffer, inputLength, outputBuffer, outputLength)"
+  },
+  {
     "Category": "Misc",
     "Address": "0x6EAE00",
     "Name": "tfMain::sub_6EAE00",
