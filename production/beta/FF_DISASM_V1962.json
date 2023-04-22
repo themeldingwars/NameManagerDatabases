@@ -19,21 +19,21 @@
   {
     "Category": "apt",
     "Address": "0xBB4BC0",
-    "Name": "apt_??_CallAbility",
+    "Name": "apt_Unk_CallAbility",
     "Status": 2,
     "Comment": ""
   },
   {
     "Category": "apt",
     "Address": "0x13E13B0",
-    "Name": "apt_??_LoadAndCreateAndAddAbility",
+    "Name": "apt_Unk_LoadAndCreateAndAddAbility",
     "Status": 2,
     "Comment": ""
   },
   {
     "Category": "apt",
     "Address": "0x13E0E00",
-    "Name": "apt_??_LoadsAllKnownAbilities",
+    "Name": "apt_Unk_LoadsAllKnownAbilities",
     "Status": 2,
     "Comment": ""
   },
@@ -75,14 +75,14 @@
   {
     "Category": "apt",
     "Address": "0x13E1330",
-    "Name": "apt_??_LoadAbility",
+    "Name": "apt_Unk_LoadAbility",
     "Status": 2,
     "Comment": ""
   },
   {
     "Category": "apt",
     "Address": "0x13E1770",
-    "Name": "apt_??_LoadStatusEffect",
+    "Name": "apt_Unk_LoadStatusEffect",
     "Status": 2,
     "Comment": ""
   },
@@ -2315,7 +2315,7 @@
   {
     "Category": "oConsoleSystem",
     "Address": "0x12426B0",
-    "Name": "oConsoleSystem::UpdateCvar?",
+    "Name": "oConsoleSystem::UpdateCvar",
     "Status": 0,
     "Comment": "(\u002B24)"
   },
@@ -3414,9 +3414,9 @@
   {
     "Category": "slSerialize_unpacker",
     "Address": "0x74c340",
-    "Name": "Read_Half16_?",
+    "Name": "Read_Half16",
     "Status": 1,
-    "Comment": ""
+    "Comment": "A little uncertain"
   },
   {
     "Category": "slSerialize_unpacker",
@@ -3547,7 +3547,7 @@
   {
     "Category": "slSerialize_unpacker_arr",
     "Address": "0x9b62f0",
-    "Name": "ReadArray_8\u002B4",
+    "Name": "ReadArray_8x4",
     "Status": 1,
     "Comment": ""
   },
@@ -4275,7 +4275,7 @@
   {
     "Category": "slSerialize_unpacker_data",
     "Address": "0x7377D0",
-    "Name": "Read_UShortShiftedBlob?",
+    "Name": "Read_UShortShiftedBlob",
     "Status": 1,
     "Comment": ""
   },
