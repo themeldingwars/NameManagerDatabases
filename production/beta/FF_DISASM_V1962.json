@@ -94,6 +94,13 @@
     "Comment": ""
   },
   {
+    "Category": "ConsoleCommand",
+    "Address": "0x88CFD0",
+    "Name": "cmd_matrix_printInstanceInfo",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
     "Category": "D3DRenderer",
     "Address": "0x123F2B0",
     "Name": "d3drenderer_texture::LoadDDS",
@@ -927,6 +934,13 @@
     "Comment": "char*"
   },
   {
+    "Category": "GlobalVariables",
+    "Address": "0x1DFFD98",
+    "Name": "g_tfApplication_instance",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
     "Category": "ioFileSearch",
     "Address": "0x1718570",
     "Name": "ioFileSearch::Initialize",
@@ -1715,6 +1729,279 @@
     "Address": "0x13EA7A0",
     "Name": "nl::ClearAllStatusEffects::sub_13EA7A0",
     "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x8942B0",
+    "Name": "On_Matrix_GamePaused",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xC1BDB0",
+    "Name": "CreateViewFromTypecode",
+    "Status": 1,
+    "Comment": "Param 1 is the typecode"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x940580",
+    "Name": "Create_CharacterBaseController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xFCB970",
+    "Name": "Create_BaseView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x94F3B0",
+    "Name": "Create_CharacterNPCController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x95F430",
+    "Name": "Create_CharacterMissionAndMarkerController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x96C570",
+    "Name": "Create_CharacterCombatController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x977F20",
+    "Name": "Create_CharacterLocalEffectsController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x980B80",
+    "Name": "Create_CharacterSpectatorController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x981C70",
+    "Name": "Create_CharacterObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x989430",
+    "Name": "Create_CharacterEquipmentView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x98B130",
+    "Name": "Create_CharacterAIObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x98C1F0",
+    "Name": "Create_CharacterCombatView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x996280",
+    "Name": "Create_CharacterMovementView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x996EA0",
+    "Name": "Create_CharacterTinyObjectView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x99BAB0",
+    "Name": "Create_CharacterDynamicProjectileView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEDA180",
+    "Name": "Create_MeldingObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEDB000",
+    "Name": "Create_MeldingBubbleObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEDC8E0",
+    "Name": "Create_AreaVisualDataObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEE1CD0",
+    "Name": "Create_AreaVisualDataParticleEffectsView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEE4EE0",
+    "Name": "Create_AreaVisualDataMapMarkerView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEEA240",
+    "Name": "Create_AreaVisualDataTinyObjectView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEEEE40",
+    "Name": "Create_AreaVisualDataLootObjectView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEF2800",
+    "Name": "Create_AreaVisualDataForceShieldView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF0B590",
+    "Name": "Create_VehicleBaseController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF13090",
+    "Name": "Create_VehicleCombatController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF19F80",
+    "Name": "Create_VehicleObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF210A0",
+    "Name": "Create_VehicleCombatView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF27940",
+    "Name": "Create_VehicleMovementView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEF76E0",
+    "Name": "Create_AnchorAIObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF28DA0",
+    "Name": "Create_DeployableObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF35BC0",
+    "Name": "Create_DeployableNPCObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF368C0",
+    "Name": "Create_DeployableHardpointView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF37C30",
+    "Name": "Create_TurretBaseController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF3A500",
+    "Name": "Create_TurretObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEF7F00",
+    "Name": "Create_OutpostObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF3CCF0",
+    "Name": "Create_ResourceNodeObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEFCD00",
+    "Name": "Create_CarryableObjectObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF44710",
+    "Name": "Create_LootStoreExtensionLootObjectView",
+    "Status": 1,
     "Comment": ""
   },
   {
@@ -5181,6 +5468,13 @@
     "Name": "sAppModeLocker",
     "Status": 0,
     "Comment": "(Singleton) No parent listed? tfApplication"
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x70CBE0",
+    "Name": "tfApplication::TriggerShutdown",
+    "Status": 1,
+    "Comment": ""
   },
   {
     "Category": "tfChat",
