@@ -2005,6 +2005,251 @@
     "Comment": ""
   },
   {
+    "Category": "Networking Matrix Handlers_Comment",
+    "Address": "",
+    "Name": "",
+    "Status": 0,
+    "Comment": "matrix_fury::MessageHandler but implemented on tfMatrixConnection ?"
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8916A0",
+    "Name": "Handle_SigscanData",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8916D0",
+    "Name": "Handle_WelcomeToTheMatrix",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892000",
+    "Name": "Handle_Announce",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x891810",
+    "Name": "Handle_EnterZone",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x891F80",
+    "Name": "Handle_UpdateZoneTimeSync",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x891FA0",
+    "Name": "Handle_HotfixLevelChanged",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x891E30",
+    "Name": "Handle_ExitZone",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8920A0",
+    "Name": "Handle_MatrixStatus",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8924F0",
+    "Name": "Handle_MatchQueueResponse",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892560",
+    "Name": "Handle_MatchQueueUpdate",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8925B0",
+    "Name": "Handle_FoundMatchUpdate",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892690",
+    "Name": "Handle_ChallengeInvitation",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892860",
+    "Name": "Handle_ChallengeInvitationCancel",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892880",
+    "Name": "Handle_ChallengeInvitationResponse",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8927A0",
+    "Name": "Handle_ChallengeInvitationSquadInfoAck",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892640",
+    "Name": "Handle_ChallengeJoinResponse",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8928F0",
+    "Name": "Handle_ChallengeKicked",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892930",
+    "Name": "Handle_ChallengeLeave",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892A60",
+    "Name": "Handle_ChallengeMatchParametersUpdate",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892AC0",
+    "Name": "Handle_ChallengeMatchStarting",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892A10",
+    "Name": "Handle_ChallengeReadyCheck",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892990",
+    "Name": "Handle_ChallengeRosterUpdate",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x897060",
+    "Name": "Handle_ForceUnqueue",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892B10",
+    "Name": "Handle_SynchronizationRequest",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x897290",
+    "Name": "Handle_SuperPong",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8973B0",
+    "Name": "Handle_ServerProfiler_SendNames",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8973F0",
+    "Name": "Handle_ServerProfiler_SendFrame",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x891D40",
+    "Name": "Handle_ZoneQueueUpdate",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892B90",
+    "Name": "Handle_DebugLagSampleSim",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892CB0",
+    "Name": "Handle_DebugLagSampleClient",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x893000",
+    "Name": "Handle_LFGMatchFound",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x893D00",
+    "Name": "Handle_LFGLeaderChange",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x893150",
+    "Name": "Handle_ReceiveEmergencyChat",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8931F0",
+    "Name": "Handle_UpdateDevZoneInfo",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
     "Category": "nl::GameSocket_Comment",
     "Address": "",
     "Name": "",
