@@ -1,0 +1,1160 @@
+// Version #1
+// Firefall DISASM Name Manager Database
+// FirefallClient.exe V1189
+[
+  {
+    "Category": "",
+    "Address": "0x4020c0",
+    "Name": "slGameLog::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x403250",
+    "Name": "tfApplication::ctor",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x403a10",
+    "Name": "slLog::SetLogLevel",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x403b60",
+    "Name": "slLog::ApplyLogLevel",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x403f80",
+    "Name": "tfApplication::LoadConfigTFDebug",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x4041d0",
+    "Name": "tfApplication::LoadConfigs",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x404790",
+    "Name": "tfApplication::LoadVersionInfo",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x404860",
+    "Name": "tfApplication::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x405fa0",
+    "Name": "sdbSystem::Load",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x406400",
+    "Name": "tfApplication::Shutdown",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x4065d0",
+    "Name": "tfApplication::Start",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x407d80",
+    "Name": "tfApplication::Log",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x40e0d0",
+    "Name": "tsAssetDB::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x40e180",
+    "Name": "tfAssetDB::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x40e230",
+    "Name": "smSoundThread::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x40e650",
+    "Name": "tfAudioManager::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x40e8f0",
+    "Name": "fx::ParticleManager::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x40ed50",
+    "Name": "tfPhysicsActorDefManager::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x40f0a0",
+    "Name": "fScreenshotManager::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x40f150",
+    "Name": "tfScreenshotManager::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x40f200",
+    "Name": "fsDataPaths::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x40f2b0",
+    "Name": "tfServerProfiler::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x40f360",
+    "Name": "fx::DecalManager::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x40f410",
+    "Name": "tsEngine::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x40f4c0",
+    "Name": "it::ItemSys::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x40f570",
+    "Name": "tfPhysics::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x40fa70",
+    "Name": "animSystem::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x40ff30",
+    "Name": "fsAmmoParamsCache::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x4101c0",
+    "Name": "tfAbilitySystem::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x410330",
+    "Name": "tfGUIInterface::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x421c90",
+    "Name": "slString::IsEmpty",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x421cf0",
+    "Name": "slThreadLocalMgr::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x422170",
+    "Name": "slLog::Info2",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x422210",
+    "Name": "asyncIO::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x422b40",
+    "Name": "ilDirectInput::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x422c20",
+    "Name": "ilPostProcess::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x422f00",
+    "Name": "slLog::Error",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x422f30",
+    "Name": "slLog::Info",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x422fb0",
+    "Name": "ioFileSearch::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x423130",
+    "Name": "nl::Network::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x423fb0",
+    "Name": "ilActionMgr::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x424090",
+    "Name": "ilRawInput::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x424180",
+    "Name": "slString::Set2",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x4245a0",
+    "Name": "sdbSystem::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x424fc0",
+    "Name": "tfApplication::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x425100",
+    "Name": "slString::ctor",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x425170",
+    "Name": "slString::dtor",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x4251d0",
+    "Name": "slString::Move",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x442c80",
+    "Name": "slLog::Warn",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x4565a0",
+    "Name": "smSoundActionManager::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x46c5b0",
+    "Name": "tfBugReport::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x475b70",
+    "Name": "tsComponentedAtlasCache::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x475c20",
+    "Name": "tsLodManager::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x47e690",
+    "Name": "fsPoseLoader::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x48ae00",
+    "Name": "tsSettings::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x490840",
+    "Name": "slAttributeContextManager::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x4a78f0",
+    "Name": "slString::AppendChar",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x4ab6c0",
+    "Name": "tfCombatLog::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x4da530",
+    "Name": "matrix_fury::ClientPreferences",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x4dbc00",
+    "Name": "matrix_fury::RequestGhosts",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x4dbcd0",
+    "Name": "matrix_fury::RequestGhosts2",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x4dbda0",
+    "Name": "matrix_fury::EnterZoneAck",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x4dbfc0",
+    "Name": "matrix_fury::ExitZoneAck",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x4dc750",
+    "Name": "matrix_fury::Login",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x4dc790",
+    "Name": "matrix_fury::ClientStatus",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x4efd10",
+    "Name": "slLog::Debug",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x50b2a0",
+    "Name": "tsDecalTableManager::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x50b850",
+    "Name": "fsMaterialEffectCache::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x5219b0",
+    "Name": "tfworld::ZoneUpdateEnumHandler",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x524a20",
+    "Name": "matrix_fury::DEV_ExecuteCommand_gscmd",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x524ea0",
+    "Name": "matrix_fury::DEV_ExecuteCommand_socmd",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x525080",
+    "Name": "matrix_fury::DEV_ExecuteCommand_statscmd",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x525260",
+    "Name": "matrix_fury::DEV_ExecuteCommand_mxcmd",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x5258e0",
+    "Name": "matrix_fury::DEV_ExecuteCommand",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x533fb0",
+    "Name": "tsPropEncounterIdManager::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x580650",
+    "Name": "tsPropDataReader::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x581470",
+    "Name": "fsPropEncounterNameRegistry::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x5965d0",
+    "Name": "fx::RaycastInterface::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x62ce10",
+    "Name": "tfGenericCharacter::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x65d320",
+    "Name": "tfVehicleComponentSystem::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x68b9f0",
+    "Name": "fsDamageResponseTable::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x698380",
+    "Name": "fsPhysicsMaterialPropertiesLookup::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x6bd960",
+    "Name": "matrix_fury::EnterZone",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x6bdc20",
+    "Name": "matrix_fury::UpdateZoneTimeSync",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x6bdce0",
+    "Name": "matrix_fury::ExitZone",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x76c0d0",
+    "Name": "slSafeAlloc::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x7d09e0",
+    "Name": "slToolSharedLog::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x7d0a20",
+    "Name": "slTSAnimLog::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x7d1180",
+    "Name": "tsEngine::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x7d3670",
+    "Name": "tsAssetDB::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x801e40",
+    "Name": "tsComponentedAtlasCache::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x8714a0",
+    "Name": "slString::Equals",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x88dda0",
+    "Name": "slLog::GetLogLevelFromString",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x88e2c0",
+    "Name": "slLog::ctor",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x88e470",
+    "Name": "slLog__Log",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x8953b0",
+    "Name": "slSafeQueue::NodePool::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x896d70",
+    "Name": "slConsoleLog::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x89a880",
+    "Name": "slConsole::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x89aea0",
+    "Name": "slString::Between",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x89aef0",
+    "Name": "slString::Replace",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x89b0c0",
+    "Name": "slString::Format",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x89b130",
+    "Name": "slString::GetLastErrorToString",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x89b1b0",
+    "Name": "slString::Append",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x89b200",
+    "Name": "slString::Set",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x89b290",
+    "Name": "slString::Insert",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x89b5b0",
+    "Name": "slString::ToUpper",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x89b630",
+    "Name": "slString::ToLower",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x89b700",
+    "Name": "slString::Resize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x89b840",
+    "Name": "slString::Free",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x8a22f0",
+    "Name": "tfConfig::Add",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x8a25d0",
+    "Name": "tfConfig::Parse",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x8a2e40",
+    "Name": "tfConfig::GetString",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x8a3300",
+    "Name": "tfConfig::GetBool",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x8ab170",
+    "Name": "shell_process_command_line_arguments",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x8ae0c0",
+    "Name": "fsDataPaths::FileExists",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x8bb970",
+    "Name": "shell_set_exception_handler",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x8c3030",
+    "Name": "memory_allocate",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x8cefd0",
+    "Name": "ioFileSearch::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x8d2410",
+    "Name": "asyncIO::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x8d6e70",
+    "Name": "slIOSYSLog::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x8f48a8",
+    "Name": "slAnimateLog::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x8f4bc0",
+    "Name": "animSystem::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x916e00",
+    "Name": "nl::Network::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x934cf0",
+    "Name": "slInputLibLog::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x946740",
+    "Name": "uiManager::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0xa000f0",
+    "Name": "fsPhysicsMaterialSystem_hk::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0xa0c360",
+    "Name": "fsShapePropertyRegistry::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0xa171a0",
+    "Name": "slHavokLog::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0xa3a680",
+    "Name": "slConsole::AddConsoleVariable",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0xa3ad60",
+    "Name": "slConsole::AddConsoleCommand",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0xa4db10",
+    "Name": "BufferContainer::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0xa93810",
+    "Name": "slOffsetLog::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0xa9b390",
+    "Name": "platform_poll_messages",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0xb9ef60",
+    "Name": "slSDBLog::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0xb9f1d0",
+    "Name": "sdbSystem::Reset",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0xb9f240",
+    "Name": "sdbSystem::DefineTableSchema",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0xb9f7c0",
+    "Name": "sdbSystem::Unload",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0xbbb6e0",
+    "Name": "slAptitudeLog::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0xbe5bb0",
+    "Name": "slSoundLog::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0xbfa680",
+    "Name": "slFXLIBLog::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0xbfb160",
+    "Name": "fx::ParticleManage::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0xc0d220",
+    "Name": "fx::SyncManager::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x11bb000",
+    "Name": "slItemsLog::Create",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x11bb050",
+    "Name": "slNetworkLog::Create",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x11bb130",
+    "Name": "slScriptLog::Create",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x11bb160",
+    "Name": "slGUILIBLog::Create",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x11bb190",
+    "Name": "slJScriptLog::Create",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x15abb7c",
+    "Name": "g_sl_items_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x15abbc0",
+    "Name": "g_sl_network_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x15abc4c",
+    "Name": "g_sl_script_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x15abc70",
+    "Name": "g_sl_guilib_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x15abc94",
+    "Name": "g_sl_jscript_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x1971d80",
+    "Name": "g_sl_tsanim_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x1971da8",
+    "Name": "g_sl_toolshared_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x1971df8",
+    "Name": "g_sl_game_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x1971e70",
+    "Name": "g_sl_fxlib_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x1971ee8",
+    "Name": "g_sl_sound_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x1971f10",
+    "Name": "g_sl_aptitude_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x1971f38",
+    "Name": "g_sl_sdb_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x1971fa4",
+    "Name": "g_sl_offset_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x1971fcc",
+    "Name": "g_sl_havok_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x197229c",
+    "Name": "g_sl_inputlib_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x19722c4",
+    "Name": "g_sl_animate_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x19722ec",
+    "Name": "g_sl_iosys_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "",
+    "Address": "0x1972314",
+    "Name": "g_sl_console_log_instance",
+    "Status": 0,
+    "Comment": ""
+  }
+]
