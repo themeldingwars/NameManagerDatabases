@@ -3736,21 +3736,21 @@
   {
     "Category": "slSerialize_unpacker_arr",
     "Address": "0x9d6a60",
-    "Name": "ReadArray_2x4Bytes",
+    "Name": "ReadArray_2x4Bytes_MatchQueue",
     "Status": 1,
     "Comment": ""
   },
   {
     "Category": "slSerialize_unpacker_arr",
     "Address": "0xd9aab0",
-    "Name": "ReadArray_2x4Bytes_Fabrication",
+    "Name": "ReadArray_2x4Bytes_Fabrication_1",
     "Status": 1,
     "Comment": ""
   },
   {
     "Category": "slSerialize_unpacker_arr",
     "Address": "0xd9ad00",
-    "Name": "ReadArray_2x4Bytes_Fabrication",
+    "Name": "ReadArray_2x4Bytes_Fabrication_2",
     "Status": 1,
     "Comment": ""
   },
@@ -4072,9 +4072,9 @@
   {
     "Category": "slSerialize_unpacker_arr",
     "Address": "0x9df150",
-    "Name": "ReadArray_ResourceNodeCompleted_4\u002B2\u002B4",
+    "Name": "ReadArray_ResourceGeoGraphicalData",
     "Status": 1,
-    "Comment": ""
+    "Comment": "Four plus two plus four, used in both GeographicalReportResponse and ResourceNodeCompletedEvent"
   },
   {
     "Category": "slSerialize_unpacker_arr",
@@ -4128,14 +4128,14 @@
   {
     "Category": "slSerialize_unpacker_arr",
     "Address": "0xc46e40",
-    "Name": "ReadArray_String\u002B4x4",
+    "Name": "ReadArray_String_And_4x4",
     "Status": 1,
     "Comment": ""
   },
   {
     "Category": "slSerialize_unpacker_arr",
     "Address": "0x756a50",
-    "Name": "ReadArray_String\u002BInt",
+    "Name": "ReadArray_String_And_Int",
     "Status": 1,
     "Comment": ""
   },
@@ -4156,14 +4156,14 @@
   {
     "Category": "slSerialize_unpacker_arr",
     "Address": "0xa00ec0",
-    "Name": "ReadArray_UInt32",
+    "Name": "ReadArray_UInt32_1",
     "Status": 1,
     "Comment": ""
   },
   {
     "Category": "slSerialize_unpacker_arr",
     "Address": "0xa0a1c0",
-    "Name": "ReadArray_UInt32",
+    "Name": "ReadArray_UInt32_2",
     "Status": 1,
     "Comment": ""
   },
