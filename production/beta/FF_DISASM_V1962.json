@@ -17,10 +17,87 @@
     "Comment": ""
   },
   {
+    "Category": "apt",
+    "Address": "0xBB4BC0",
+    "Name": "apt_Unk_CallAbility",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13E13B0",
+    "Name": "apt_Unk_LoadAndCreateAndAddAbility",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13E0E00",
+    "Name": "apt_Unk_LoadsAllKnownAbilities",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13FDB10",
+    "Name": "apt_CommandFactory_Create",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13FD910",
+    "Name": "apt_CommandFactory_LoadChain",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13E98D0",
+    "Name": "apt_StatusEffect_Apply",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13E1420",
+    "Name": "apt_System_CreateAndAddAbility",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13E1850",
+    "Name": "apt_System_CreateAndAddStatusEffect",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13E1330",
+    "Name": "apt_Unk_LoadAbility",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13E1770",
+    "Name": "apt_Unk_LoadStatusEffect",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
     "Category": "asyncIO",
     "Address": "0x171BBC0",
     "Name": "asyncIO::Initialize",
     "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "ConsoleCommand",
+    "Address": "0x88CFD0",
+    "Name": "cmd_matrix_printInstanceInfo",
+    "Status": 1,
     "Comment": ""
   },
   {
@@ -857,6 +934,13 @@
     "Comment": "char*"
   },
   {
+    "Category": "GlobalVariables",
+    "Address": "0x1DFFD98",
+    "Name": "g_tfApplication_instance",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
     "Category": "ioFileSearch",
     "Address": "0x1718570",
     "Name": "ioFileSearch::Initialize",
@@ -969,6 +1053,69 @@
     "Comment": ""
   },
   {
+    "Category": "lua",
+    "Address": "0x010d59b0",
+    "Name": "lua_createstrobj",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "lua",
+    "Address": "0x010d5a50",
+    "Name": "lua_internshrstr",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "lua",
+    "Address": "0x01028b50",
+    "Name": "luaS_newlstr",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "lua",
+    "Address": "0x01029430",
+    "Name": "luaD_call",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "lua",
+    "Address": "0x010d7d10",
+    "Name": "luaD_precall",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "lua",
+    "Address": "0x010d7770",
+    "Name": "luaD_throw",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "lua",
+    "Address": "0x010d0fc0",
+    "Name": "luaG_runerror",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "lua",
+    "Address": "0x010d22e0",
+    "Name": "luaV_execute",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Lz77",
+    "Address": "0x1709CD0",
+    "Name": "Lz77::Decompress",
+    "Status": 0,
+    "Comment": "Lz77::Decompress(inputBuffer, inputLength, outputBuffer, outputLength)"
+  },
+  {
     "Category": "Misc",
     "Address": "0x6EAE00",
     "Name": "tfMain::sub_6EAE00",
@@ -1044,6 +1191,13 @@
     "Name": "TattooTexBuilder::sub_15BBFE0",
     "Status": 1,
     "Comment": ""
+  },
+  {
+    "Category": "Misc",
+    "Address": "0x9E2A70",
+    "Name": "Init_WorkbenchUpdateData_Struct",
+    "Status": 2,
+    "Comment": "Before Read_WorkbenchUpdateData"
   },
   {
     "Category": "Networking",
@@ -1578,6 +1732,524 @@
     "Comment": ""
   },
   {
+    "Category": "Networking",
+    "Address": "0x8942B0",
+    "Name": "On_Matrix_GamePaused",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xC1BDB0",
+    "Name": "CreateViewFromTypecode",
+    "Status": 1,
+    "Comment": "Param 1 is the typecode"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x940580",
+    "Name": "Create_CharacterBaseController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xFCB970",
+    "Name": "Create_BaseView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x94F3B0",
+    "Name": "Create_CharacterNPCController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x95F430",
+    "Name": "Create_CharacterMissionAndMarkerController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x96C570",
+    "Name": "Create_CharacterCombatController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x977F20",
+    "Name": "Create_CharacterLocalEffectsController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x980B80",
+    "Name": "Create_CharacterSpectatorController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x981C70",
+    "Name": "Create_CharacterObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x989430",
+    "Name": "Create_CharacterEquipmentView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x98B130",
+    "Name": "Create_CharacterAIObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x98C1F0",
+    "Name": "Create_CharacterCombatView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x996280",
+    "Name": "Create_CharacterMovementView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x996EA0",
+    "Name": "Create_CharacterTinyObjectView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x99BAB0",
+    "Name": "Create_CharacterDynamicProjectileView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEDA180",
+    "Name": "Create_MeldingObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEDB000",
+    "Name": "Create_MeldingBubbleObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEDC8E0",
+    "Name": "Create_AreaVisualDataObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEE1CD0",
+    "Name": "Create_AreaVisualDataParticleEffectsView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEE4EE0",
+    "Name": "Create_AreaVisualDataMapMarkerView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEEA240",
+    "Name": "Create_AreaVisualDataTinyObjectView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEEEE40",
+    "Name": "Create_AreaVisualDataLootObjectView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEF2800",
+    "Name": "Create_AreaVisualDataForceShieldView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF0B590",
+    "Name": "Create_VehicleBaseController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF13090",
+    "Name": "Create_VehicleCombatController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF19F80",
+    "Name": "Create_VehicleObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF210A0",
+    "Name": "Create_VehicleCombatView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF27940",
+    "Name": "Create_VehicleMovementView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEF76E0",
+    "Name": "Create_AnchorAIObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF28DA0",
+    "Name": "Create_DeployableObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF35BC0",
+    "Name": "Create_DeployableNPCObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF368C0",
+    "Name": "Create_DeployableHardpointView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF37C30",
+    "Name": "Create_TurretBaseController",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF3A500",
+    "Name": "Create_TurretObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEF7F00",
+    "Name": "Create_OutpostObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF3CCF0",
+    "Name": "Create_ResourceNodeObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xEFCD00",
+    "Name": "Create_CarryableObjectObserverView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xF44710",
+    "Name": "Create_LootStoreExtensionLootObjectView",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers_Comment",
+    "Address": "",
+    "Name": "",
+    "Status": 0,
+    "Comment": "matrix_fury::MessageHandler but implemented on tfMatrixConnection ?"
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8916A0",
+    "Name": "Handle_SigscanData",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8916D0",
+    "Name": "Handle_WelcomeToTheMatrix",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892000",
+    "Name": "Handle_Announce",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x891810",
+    "Name": "Handle_EnterZone",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x891F80",
+    "Name": "Handle_UpdateZoneTimeSync",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x891FA0",
+    "Name": "Handle_HotfixLevelChanged",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x891E30",
+    "Name": "Handle_ExitZone",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8920A0",
+    "Name": "Handle_MatrixStatus",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8924F0",
+    "Name": "Handle_MatchQueueResponse",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892560",
+    "Name": "Handle_MatchQueueUpdate",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8925B0",
+    "Name": "Handle_FoundMatchUpdate",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892690",
+    "Name": "Handle_ChallengeInvitation",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892860",
+    "Name": "Handle_ChallengeInvitationCancel",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892880",
+    "Name": "Handle_ChallengeInvitationResponse",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8927A0",
+    "Name": "Handle_ChallengeInvitationSquadInfoAck",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892640",
+    "Name": "Handle_ChallengeJoinResponse",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8928F0",
+    "Name": "Handle_ChallengeKicked",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892930",
+    "Name": "Handle_ChallengeLeave",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892A60",
+    "Name": "Handle_ChallengeMatchParametersUpdate",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892AC0",
+    "Name": "Handle_ChallengeMatchStarting",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892A10",
+    "Name": "Handle_ChallengeReadyCheck",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892990",
+    "Name": "Handle_ChallengeRosterUpdate",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x897060",
+    "Name": "Handle_ForceUnqueue",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892B10",
+    "Name": "Handle_SynchronizationRequest",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x897290",
+    "Name": "Handle_SuperPong",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8973B0",
+    "Name": "Handle_ServerProfiler_SendNames",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8973F0",
+    "Name": "Handle_ServerProfiler_SendFrame",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x891D40",
+    "Name": "Handle_ZoneQueueUpdate",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892B90",
+    "Name": "Handle_DebugLagSampleSim",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x892CB0",
+    "Name": "Handle_DebugLagSampleClient",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x893000",
+    "Name": "Handle_LFGMatchFound",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8930d0",
+    "Name": "Handle_LFGLeaderChange",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x893150",
+    "Name": "Handle_ReceiveEmergencyChat",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0x8931F0",
+    "Name": "Handle_UpdateDevZoneInfo",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
     "Category": "nl::GameSocket_Comment",
     "Address": "",
     "Name": "",
@@ -1888,7 +2560,7 @@
   {
     "Category": "oConsoleSystem",
     "Address": "0x12426B0",
-    "Name": "oConsoleSystem::UpdateCvar?",
+    "Name": "oConsoleSystem::UpdateCvar",
     "Status": 0,
     "Comment": "(\u002B24)"
   },
@@ -2950,6 +3622,1546 @@
     "Comment": ""
   },
   {
+    "Category": "slSerialize_unpacker",
+    "Address": "0x7576f0",
+    "Name": "Read_Double64",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Address": "0x7574e0",
+    "Name": "Read_Float32",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Address": "0xa0a3b0",
+    "Name": "Read_Int16",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Address": "0x753f10",
+    "Name": "Read_Int32",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Address": "0x757450",
+    "Name": "Read_Int64",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Address": "0x74c340",
+    "Name": "Read_Half16",
+    "Status": 1,
+    "Comment": "A little uncertain"
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Address": "0x785740",
+    "Name": "Read_Quaternion",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Address": "0x785820",
+    "Name": "Read_QuaternionWrapper",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Address": "0xa01f50",
+    "Name": "Read_SlottedItem",
+    "Status": 1,
+    "Comment": "Bit surprising it seems to be on the unpacker?"
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Address": "0x7376c0",
+    "Name": "Read_UInt16_1",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Address": "0x737ca0",
+    "Name": "Read_UInt32",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Address": "0x757b80",
+    "Name": "Read_UInt64",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Address": "0x785880",
+    "Name": "Read_Vector3",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker",
+    "Address": "0x737750",
+    "Name": "Read_Blob_Memcpy",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x74f300",
+    "Name": "ReadArray_2BytesAndStringPair",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9db230",
+    "Name": "ReadArray_2x4_ElitePrevUpgrades",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9d6a60",
+    "Name": "ReadArray_2x4Bytes_MatchQueue",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xd9aab0",
+    "Name": "ReadArray_2x4Bytes_Fabrication_1",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xd9ad00",
+    "Name": "ReadArray_2x4Bytes_Fabrication_2",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9d5a40",
+    "Name": "ReadArray_4_1Bytes_FetchQueInner1",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9d74a0",
+    "Name": "ReadArray_4_String_FetchQueInner4",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9f6020",
+    "Name": "ReadArray_4x4_2",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc45d30",
+    "Name": "ReadArray_4x4_1",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9ff520",
+    "Name": "ReadArray_6x4",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9b62f0",
+    "Name": "ReadArray_8x4",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc49bc0",
+    "Name": "ReadArray_Achievments",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9fa770",
+    "Name": "ReadArray_AeraMapMarkerInnerData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc48670",
+    "Name": "ReadArray_ArcCompletionHistoryUpdate",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9f8430",
+    "Name": "ReadArray_CachedAssetsDeepData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9cfdc0",
+    "Name": "ReadArray_ChatPartyMember",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9f4680",
+    "Name": "ReadArray_DeferredXP",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9c8e20",
+    "Name": "ReadArray_EliteAvailUpgrades",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc43b00",
+    "Name": "ReadArray_EncounterUIComplicatedData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc45230",
+    "Name": "ReadArray_EncounterUIData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9cbdc0",
+    "Name": "ReadArray_FabricationCommonData1",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc3cac0",
+    "Name": "ReadArray_FactionDiscount",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9e1a90",
+    "Name": "ReadArray_FactionRepUpd",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9d6250",
+    "Name": "ReadArray_FetchQueInner2",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9da140",
+    "Name": "ReadArray_FetchQueueResp",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9ffb50",
+    "Name": "ReadArray_Float32",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc42030",
+    "Name": "ReadArray_GCMilestoneInfo1",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc403d0",
+    "Name": "ReadArray_GCMilestoneInfo1Inner1",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xa04580",
+    "Name": "ReadArray_Half16",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xb0af40",
+    "Name": "ReadArray_Int32_Weird",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9ec810",
+    "Name": "ReadArray_InventoryItem",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9eaff0",
+    "Name": "ReadArray_InventoryLoadoutConfig",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9e8d70",
+    "Name": "ReadArray_InventoryLoadoutConfigItem",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9e96d0",
+    "Name": "ReadArray_InventoryLoadoutConfigVisual",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9eba50",
+    "Name": "ReadArray_InventoryLoadouts",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9ed350",
+    "Name": "ReadArray_InventoryResources",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9d3e60",
+    "Name": "ReadArray_ItemSalvageResponse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9d2ab0",
+    "Name": "ReadArray_LoadoutConfigVisual",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9d10a0",
+    "Name": "ReadArray_LootDistributionRelated",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc50fe0",
+    "Name": "ReadArray_MatchLoadingState",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc49210",
+    "Name": "ReadArray_MissionCompletionCounts",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc4ada0",
+    "Name": "ReadArray_MissionsAvailableData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc4eb20",
+    "Name": "ReadArray_NpcHostilityDebugInfo",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc4f800",
+    "Name": "ReadArray_NpcNavigationInfo2",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc4dfd0",
+    "Name": "ReadArray_NpcPositionalDebugInfoData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc4d200",
+    "Name": "ReadArray_NpcShapeDebugInfo",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x74ca80",
+    "Name": "ReadArray_ProfilerStruct",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9f4d70",
+    "Name": "ReadArray_ProgressionFrameInfo",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x016f8450",
+    "Name": "ReadArray_ReadFabrication_UIntPrefixedVariableType",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9dd350",
+    "Name": "ReadArray_ResourceLocationInfo",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9df150",
+    "Name": "ReadArray_ResourceGeoGraphicalData",
+    "Status": 1,
+    "Comment": "Four plus two plus four, used in both GeographicalReportResponse and ResourceNodeCompletedEvent"
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc53610",
+    "Name": "ReadArray_ScoreBoardData1",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc52d00",
+    "Name": "ReadArray_ScoreBoardData2",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc52520",
+    "Name": "ReadArray_ScoreBoardData3",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc53ed0",
+    "Name": "ReadArray_ScoreBoardInitData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9dc5c0",
+    "Name": "ReadArray_SlotModuleResponse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9ea680",
+    "Name": "ReadArray_SlottedItem",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xa018f0",
+    "Name": "ReadArray_SlottedModules",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc46e40",
+    "Name": "ReadArray_String_And_4x4",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x756a50",
+    "Name": "ReadArray_String_And_Int",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x74bdf0",
+    "Name": "ReadArray_Strings",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc43000",
+    "Name": "ReadArray_UiNotificationData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xa00ec0",
+    "Name": "ReadArray_UInt32_1",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xa0a1c0",
+    "Name": "ReadArray_UInt32_2",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xa04030",
+    "Name": "ReadArray_UInt32_CziMapAssetIds",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x74fa60",
+    "Name": "ReadArray_UInt64",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x7503d0",
+    "Name": "ReadArray_ULong",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9F9750",
+    "Name": "ReadArray_Guid64",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9e7e70",
+    "Name": "ReadArray_UnlocksUpdateGroup",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9e6030",
+    "Name": "ReadArray_UnlockUpdateGroupEntry",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9e6800",
+    "Name": "ReadArray_UnlockUpdateGroupEntryType2",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc4ee30",
+    "Name": "ReadArray_Vec3",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc3e8c0",
+    "Name": "ReadArray_VendorProduct",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc3d4e0",
+    "Name": "ReadArray_VendorProductPrice",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xc3de90",
+    "Name": "ReadArray_VendorProductRestriction",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x009d4960",
+    "Name": "ReadArray_VendorTokenThing",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xa0b130",
+    "Name": "ReadArray_VisualOverrides",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xa02c20",
+    "Name": "ReadArray_VisualsDecals",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xa04c30",
+    "Name": "ReadArray_VisualsOverlays",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xa03220",
+    "Name": "ReadArray_VisualsPalettes",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xa03940",
+    "Name": "ReadArray_VisualsPatterns",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9e4b30",
+    "Name": "ReadArray_WorkbenchUpdate",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9e3960",
+    "Name": "ReadArray_WorkbenchUpdateInner1",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9e31e0",
+    "Name": "ReadArray_WorkbenchUpdateInner1_1",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9e4140",
+    "Name": "ReadArray_WorkbenchUpdateInner2",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9C5C00",
+    "Name": "ReadArray_MailData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9C7030",
+    "Name": "ReadArray_FriendsListData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9C91E0",
+    "Name": "ReadArray_EliteFrameInfo",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9CA3B0",
+    "Name": "ReadArray_BountyRerollProductInfoData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9B8A80",
+    "Name": "ReadArray_SlotVisualMultiRequest_Extra",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9B4380",
+    "Name": "ReadArray_2x4_UiQueryResponse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9E0BB0",
+    "Name": "ReadArray_DisplayRewardsData_StatsInfo",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9E17A0",
+    "Name": "ReadArray_DisplayRewardsData_RewardsInfo",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x9DE5A0",
+    "Name": "ReadArray_ResourceArea",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xC3F8F0",
+    "Name": "ReadArray_ChatMessageList",
+    "Status": 1,
+    "Comment": "Has some interesting use of the unpacker?"
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0xC4C070",
+    "Name": "ReadArray_DevRequestSpawnTables",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x7490E0",
+    "Name": "ReadArray_UInt16",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x74E2D0",
+    "Name": "ReadArray_ServerProfileFrame",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x752810",
+    "Name": "ReadArray_ChallengeJoinResponseData5",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x751420",
+    "Name": "ReadArray_ChallengeRosterUpdate",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x7484E0",
+    "Name": "ReadArray_KeyframeByEntityRequests",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_arr",
+    "Address": "0x753AC0",
+    "Name": "ReadArray_MatchQueueResponse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x757370",
+    "Name": "Read_EnterZone",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x757770",
+    "Name": "Read_EnterZoneTimescaleData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x016f55c0",
+    "Name": "Read_Fabrication_UIntPrefixedVariableType",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x74a580",
+    "Name": "Read_PacketMatrixLogin",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x016f6360",
+    "Name": "Read_IntArray_GenericKeyVariablePair",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xd973d0",
+    "Name": "Read_UIntArray_Fabrication",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xbcf9e0",
+    "Name": "Read_UShortArray_StatsData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x754FF0",
+    "Name": "Read_MatrixStatus",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9DB930",
+    "Name": "Read_DuelData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9BBFF0",
+    "Name": "Read_DeployableCalldownRequest",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9BC200",
+    "Name": "Read_VehicleCalldownRequest",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9BE7F0",
+    "Name": "Read_PerformDialog",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x7377D0",
+    "Name": "Read_UShortShiftedBlob",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9BFA00",
+    "Name": "Read_ActivateAbility",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9C0C70",
+    "Name": "Read_ReportProjectileHit",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9C1A60",
+    "Name": "Read_MovementInputFake",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9F04D0",
+    "Name": "Read_MovementPoseData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9C20F0",
+    "Name": "Read_MovementInput",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9C21C0",
+    "Name": "Read_BroadcastWeaponTweaks",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9C23F0",
+    "Name": "Read_TempSlotAbilities",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9C4570",
+    "Name": "Read_MatchQueue",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9C6380",
+    "Name": "Read_ListItemForSale",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xC3B6A0",
+    "Name": "Read_ParticleEffectSpawned",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xC4A390",
+    "Name": "Read_BountyActivationAck",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9EFDF0",
+    "Name": "Read_AbilityActivated",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9EFC90",
+    "Name": "Read_AbilityFailed",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9B8F80",
+    "Name": "Read_SlotViusalRequest",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9B5A70",
+    "Name": "Read_VendorPurchaseRequest",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9F0A30",
+    "Name": "Read_CurrentPoseUpdate",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9F5610",
+    "Name": "Read_DebugWeaponStats",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9E1920",
+    "Name": "Read_DisplayRewards_Data",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xD30400",
+    "Name": "Read_ForcedMovementData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9F3F50",
+    "Name": "Read_CombatLog",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xA00120",
+    "Name": "Read_MovementPoseDebugData_3",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9F74D0",
+    "Name": "Read_ReceiveWeaponTweaks",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9DF300",
+    "Name": "Read_ResourceNodeCompletedEvent",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9E25A0",
+    "Name": "Read_SimulateLootPickupItem",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9F6CF0",
+    "Name": "Read_TookDebugWeaponHit",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9DF9B0",
+    "Name": "Read_TrackerPulse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9E4370",
+    "Name": "Read_WorkbenchUpdateData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xC3C3A0",
+    "Name": "Read_ConductorGlobalAnnouncement",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xC3EC00",
+    "Name": "Read_CurrentLoadoutResponse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xC471C0",
+    "Name": "Read_DebugLagSimulationSample",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xC3AB50",
+    "Name": "Read_Deployable_AbilityProjectileFired",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xC454B0",
+    "Name": "Read_EncounterUIScopeIn",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xC43540",
+    "Name": "Read_EncounterUIUpdate",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xC52090",
+    "Name": "Read_ScoreBoardAddPlayer",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xC53770",
+    "Name": "Read_ScoreBoardInitData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xC52E90",
+    "Name": "Read_ScoreBoardData1",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xC512B0",
+    "Name": "Read_ScoreBoardUpdatePlayerStatus",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xC38390",
+    "Name": "Read_TrailRequest",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xF49900",
+    "Name": "Read_Turret_ReportProjectileHit",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xC3B130",
+    "Name": "Read_Vehicle_CurrentPoseUpdate",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xC3EB60",
+    "Name": "Read_VendorProductsResponse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x747740",
+    "Name": "Read_ClientStatus",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x74C070",
+    "Name": "Read_DebugLagSampleClient",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x747E40",
+    "Name": "Read_DEV_ExecuteCommand",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x752D90",
+    "Name": "Read_FoundMatchUpdate",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xFCA4B0",
+    "Name": "Read_RoutedMessage",
+    "Status": 2,
+    "Comment": "Bit strange"
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xFCA5A0",
+    "Name": "Read_RoutedMultipleMessage",
+    "Status": 2,
+    "Comment": "Bit strange"
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0xc3c280",
+    "Name": "ReadOptional_2UIntAnd1String",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0xc3b5c0",
+    "Name": "ReadOptional_2x4",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x9faa50",
+    "Name": "ReadOptional_4Bytes",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x9feb00",
+    "Name": "ReadOptional_CinematicData1",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x9f18f0",
+    "Name": "ReadOptional_DamageHitStruct",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x9f5bd0",
+    "Name": "ReadOptional_DebugWeaponHitRelatedData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x9f6bb0",
+    "Name": "ReadOptional_DebugWeaponHitRelatedData2",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x7571c0",
+    "Name": "ReadOptional_EnterZoneDevData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x9f33e0",
+    "Name": "ReadOptional_MaybeHalfVec3",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x9f9d10",
+    "Name": "ReadOptional_StatusEffect_MoreData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x9e5820",
+    "Name": "ReadOptional_String",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0xc3bfc0",
+    "Name": "ReadOptional_StringAndUIntArray",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x9fe600",
+    "Name": "ReadOptional_UInt64",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0xc3bb10",
+    "Name": "ReadOptional_UIntAndOptional4Bytes_1",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0xc3bd50",
+    "Name": "ReadOptional_UIntAndOptional4Bytes_2",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0xa00700",
+    "Name": "ReadOptional_UnkMovInputData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x9f25a0",
+    "Name": "ReadOptional_UShortBlob",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x9c0e70",
+    "Name": "ReadOptional_Vector3",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x754D40",
+    "Name": "ReadOptional_MatrixStatusExtraData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x9BFB40",
+    "Name": "ReadOptional_LookAtTarget",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x9C1930",
+    "Name": "ReadOptional_MovementPoseData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x9C4DD0",
+    "Name": "ReadOptional_Array_ULong",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x9FFED0",
+    "Name": "ReadOptional_MovementPoseDebugData_Collision",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x748C30",
+    "Name": "ReadOptional_KeyframeByEntityRequestsArray",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_opt",
+    "Address": "0x7496B0",
+    "Name": "ReadOptional_UInt16Array",
+    "Status": 1,
+    "Comment": "Keyframe requests"
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0x7578f0",
+    "Name": "Read_Int8",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0x016eec10",
+    "Name": "Read_String",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0x9BDBA0",
+    "Name": "Read_UInt8_a",
+    "Status": 1,
+    "Comment": "Casts to uint?\r\n"
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0x737d80",
+    "Name": "Read_UInt8_b",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0x9eca10",
+    "Name": "Read_UInt8_SubInventoryType",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0x16EED70",
+    "Name": "Read_UShortBlob",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0x7543D0",
+    "Name": "Read_MatrixStatusExtraData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0xA093E0",
+    "Name": "Read_Location_4x4",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0xC4A500",
+    "Name": "Read_Byte_As_UInt",
+    "Status": 1,
+    "Comment": "Probably Byte to Enum?"
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0x9BA270",
+    "Name": "Read_ShoppingList_UnknownData1",
+    "Status": 1,
+    "Comment": "Bit strange"
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0x9BA9A0",
+    "Name": "Read_ShoppingList_UnknownData2",
+    "Status": 1,
+    "Comment": "Bit strange"
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0xA00570",
+    "Name": "Read_MovementPoseDebugData_1",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0xA00360",
+    "Name": "Read_MovementPoseDebugData_2",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0xC4B270",
+    "Name": "Read_Byte_As_UInt2",
+    "Status": 1,
+    "Comment": "Probably Byte to Enum?"
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0xC4B150",
+    "Name": "Read_Byte_As_UInt3",
+    "Status": 1,
+    "Comment": "Probably Byte to Enum?"
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0xC52380",
+    "Name": "Read_Byte_As_UInt4",
+    "Status": 1,
+    "Comment": "Probably Byte to Enum?"
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0xC51C40",
+    "Name": "Read_ScoreBoardUpdatePlayerStatsFromStatsData",
+    "Status": 2,
+    "Comment": "A bit unsure how this one works"
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0x74A460",
+    "Name": "Read_LoginUnk9Data",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_shr",
+    "Address": "0x755D40",
+    "Name": "Read_EnterZoneDevData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
     "Category": "slString",
     "Address": "0x6EDE50",
     "Name": "slString::ctor",
@@ -3503,6 +5715,13 @@
     "Comment": "(Singleton) No parent listed? tfApplication"
   },
   {
+    "Category": "tfApplication",
+    "Address": "0x70CBE0",
+    "Name": "tfApplication::TriggerShutdown",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
     "Category": "tfChat",
     "Address": "0xAE4060",
     "Name": "tfChat::SendMessage",
@@ -3592,6 +5811,41 @@
     "Name": "tfKeyBindings::FindAction_sub_FF5CE0",
     "Status": 0,
     "Comment": "Returns found actionid; Unclear if find action or a check action; params appaear (ilKeyActionMgr, actionStr)"
+  },
+  {
+    "Category": "tfLocalCharacter",
+    "Address": "0x8c9400",
+    "Name": "tfLocalCharacter::BaseNetController::Handle_InventoryUpdate",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "tfLogin",
+    "Address": "0x00a3c3c0",
+    "Name": "tfLogin_OnLoginResponse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "tfLogin",
+    "Address": "0x00a3de70",
+    "Name": "tfLogin_OnZoneListResponse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "tfLogin",
+    "Address": "0x00a3d1f0",
+    "Name": "tfLogin_OnRefreshCharactersResponse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "tfLogin",
+    "Address": "0x00a371b0",
+    "Name": "tfLogin_Init",
+    "Status": 1,
+    "Comment": ""
   },
   {
     "Category": "tfPhysics",
