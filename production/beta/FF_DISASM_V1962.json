@@ -2230,7 +2230,7 @@
   },
   {
     "Category": "Networking Matrix Handlers",
-    "Address": "0x893D00",
+    "Address": "0x8930d0",
     "Name": "Handle_LFGLeaderChange",
     "Status": 0,
     "Comment": ""
