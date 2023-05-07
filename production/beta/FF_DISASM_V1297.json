@@ -66,9 +66,79 @@
     "Comment": ""
   },
   {
+    "Category": "GlobalVariables",
+    "Address": "0x1510A70",
+    "Name": "g_oConsole_LastExecutedConsoleCommand",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0xB03A30",
+    "Name": "oConsoleSystem::RegisterConBaseList",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0xB03A90",
+    "Name": "oConsoleSystem::UnregisterConBaseList",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0xB03AF0",
+    "Name": "oConsoleSystem::LatchCvar",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0xB03E90",
+    "Name": "oConsoleSystem::ListCvars",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "oConsoleSystem",
+    "Address": "0xB04130",
+    "Name": "oConsoleSystem::ListFunctions",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "sl::oBuffer",
+    "Address": "0xAF5270",
+    "Name": "sl::oBuffer::Write",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "sl::oBuffer",
+    "Address": "0xAF51C0",
+    "Name": "sl::oBuffer::sub_AF51C0",
+    "Status": 3,
+    "Comment": ""
+  },
+  {
+    "Category": "sl::oBuffer",
+    "Address": "0xAF5130",
+    "Name": "sl::oBuffer::sub_AF5130",
+    "Status": 3,
+    "Comment": ""
+  },
+  {
     "Category": "slConsole",
     "Address": "0x8F7C60",
     "Name": "slConsole::Alloc",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slConsole",
+    "Address": "0xB16C60",
+    "Name": "slConsole::ExecuteCommand",
     "Status": 0,
     "Comment": ""
   },
@@ -168,6 +238,13 @@
     "Address": "0x404AB0",
     "Name": "slLog::ApplyLogLevel",
     "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0xAFCA80",
+    "Name": "slLog::GetInstance_RenderLog",
+    "Status": 1,
     "Comment": ""
   },
   {
