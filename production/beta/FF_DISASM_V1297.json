@@ -1,0 +1,341 @@
+// Version #1
+// Firefall DISASM Name Manager Database
+// FirefallClient.exe V1297
+[
+  {
+    "Category": "fsDataPaths",
+    "Address": "0x8F7600",
+    "Name": "fsDataPaths::GetWorkingDirectory",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "fsDataPaths",
+    "Address": "0x8F2F10",
+    "Name": "fsDataPaths::ReadFile",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "fsDataPaths",
+    "Address": "0x8F1350",
+    "Name": "fsDataPaths::OpenFile",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x15F6BA0",
+    "Name": "g_oConsoleSystem",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x135895C",
+    "Name": "g_sl_new_empty_string",
+    "Status": 0,
+    "Comment": "new string()? reused across entire app for various string initializing things"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x19DFC10",
+    "Name": "g_sl_console_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x15BE2E0",
+    "Name": "g_sl_game_log_instance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x15BE2F0",
+    "Name": "g_sl_game_log_instance_loglevel",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x15B9520",
+    "Name": "g_sl_consoleEnabled",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slConsole",
+    "Address": "0x8F7C60",
+    "Name": "slConsole::Alloc",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slFileSystem",
+    "Address": "0x8F3460",
+    "Name": "slFileSystem::GetSpecialFolderPath",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slini",
+    "Address": "0x8EB7E0",
+    "Name": "slini::Add",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slini",
+    "Address": "0x8EBAE0",
+    "Name": "slini::Parse",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slini",
+    "Address": "0x8EC910",
+    "Name": "slini::ConvertToBool",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slini",
+    "Address": "0x8EC410",
+    "Name": "slini::GetString",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x8D6D30",
+    "Name": "slLog::GetLogLevelFromString",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x404930",
+    "Name": "slLog::SetLogLevel",
+    "Status": 3,
+    "Comment": "More likely part of the console command register system"
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x8D7270",
+    "Name": "slLog::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x8DFD90",
+    "Name": "slLog::GetInstance_ConsoleLog",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x8D7400",
+    "Name": "slLog::Log",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x8D6F90",
+    "Name": "slLog::LogEarly",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x421D90",
+    "Name": "slLog::Info2",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x421D60",
+    "Name": "slLog::Error",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x404AB0",
+    "Name": "slLog::ApplyLogLevel",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slParser",
+    "Address": "0x8F5050",
+    "Name": "slParser::HasLaunchArg",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
+    "Address": "0x8E41A0",
+    "Name": "slString::Format",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
+    "Address": "0x8E4710",
+    "Name": "slString::ToLower",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
+    "Address": "0x8E3F30",
+    "Name": "slString::IndexOf",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
+    "Address": "0x423110",
+    "Name": "slString::ctor_2",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
+    "Address": "0x423C20",
+    "Name": "slString::ctor",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
+    "Address": "0x8E42E0",
+    "Name": "slString::ctor_3",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x909F80",
+    "Name": "slSystem::SafeAssert",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x909C80",
+    "Name": "slSystem::Assert",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x909C10",
+    "Name": "slSystem::RaiseException",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x909DE4",
+    "Name": "slSystem::SignalAbortHandler_Func",
+    "Status": 0,
+    "Comment": "(int signo)"
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x909E30",
+    "Name": "slSystem::PureCallHandler_Func",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x909E50",
+    "Name": "slSystem::InvalidParamHandler_Func",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x909E90",
+    "Name": "slSystem::InstallSystemHandlers",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x8F4C90",
+    "Name": "shell_process_command_line_arguments",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x90CB50",
+    "Name": "slMalloc",
+    "Status": 0,
+    "Comment": "memory allocate"
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x90CE70",
+    "Name": "slFreea",
+    "Status": 0,
+    "Comment": "memory free"
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x405870",
+    "Name": "tfApplication::Initialize",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x407200",
+    "Name": "tfApplication::Start",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x440650",
+    "Name": "tfApplication::EnsureDebuggerOrDumptruckWrapper",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x405190",
+    "Name": "tfApplication::LoadConfigs",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x404110",
+    "Name": "tfApplication::ShowErrorMessageBox",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x403EE0",
+    "Name": "tfApplication::NotifyShutdownEvent",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tsEngine",
+    "Address": "0x806750",
+    "Name": "tsEngine::Initialize",
+    "Status": 0,
+    "Comment": ""
+  }
+]
