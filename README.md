@@ -4,7 +4,7 @@ Database files for use with [Firefall DISASM Name Manager](https://github.com/th
 ## How to Contribute
 When working on reverse engineering the client, you can store subroutine names within the database files used by [Firefall DISASM Name Manager](https://github.com/themeldingwars/Firefall-DISASM-Name-Manager). These can then be committed back into this repository for users to add to their own local databases.
 
-### Allowed Charcters In Names
+### Allowed Characters In Names
 The following is a list of characters approved for names that have been confirmed to be handled gracefully in all supported applications.
 
 `.:_0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz`
