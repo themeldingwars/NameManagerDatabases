@@ -17,6 +17,20 @@
     "Comment": ""
   },
   {
+    "Category": "animSystem",
+    "Address": "0xF95F50",
+    "Name": "animSystem::requestAnim",
+    "Status": 0,
+    "Comment": "MR::AnimSourceBase* AnimLoader::requestAnim(const MR::RuntimeAnimAssetID animAssetID, void* userdata_)"
+  },
+  {
+    "Category": "animSystem",
+    "Address": "0xF95FC0",
+    "Name": "animSystem::releaseAnim",
+    "Status": 0,
+    "Comment": "void AnimLoader::releaseAnim(const MR::RuntimeAnimAssetID animAssetID, MR::AnimSourceBase* loadedAnimation, void* userdata)"
+  },
+  {
     "Category": "apt",
     "Address": "0xBB4BC0",
     "Name": "apt_Unk_CallAbility",
@@ -1198,6 +1212,223 @@
     "Name": "Init_WorkbenchUpdateData_Struct",
     "Status": 2,
     "Comment": "Before Read_WorkbenchUpdateData"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x197E180",
+    "Name": "NMPlatformOutput::NMThrowError",
+    "Status": 0,
+    "Comment": "NMP_VERIFY_MSG / NMP_ASSERT_MSG; void NMThrowError(const char* file, int line, const char* fmt, ...)"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x197E270",
+    "Name": "NMPlatformOutput::NMMessagef",
+    "Status": 0,
+    "Comment": "NMP_MSG"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x1E46128",
+    "Name": "NMThrowError_lvar_printBuf",
+    "Status": 0,
+    "Comment": "static char printBuf[1024]"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x1E46124",
+    "Name": "NMP::Exception::alreadyDealingWithAnException",
+    "Status": 0,
+    "Comment": "bool"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x197DAC0",
+    "Name": "MR::Network::getRequestNameFromRequestID",
+    "Status": 0,
+    "Comment": "Small chance this could be the newer function MR::Network::getMessageNameFromMessageID()"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x19282C0",
+    "Name": "MR::nodeRetargetUpdateOffsetsAndScaleMessageHandler",
+    "Status": 0,
+    "Comment": "Returns bool"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x18CF840",
+    "Name": "MR::registerCoreQueuingFnsAndOutputCPTasks",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x1E451A0",
+    "Name": "mr_Manager_instance",
+    "Status": 0,
+    "Comment": "NaturalMotion Morpheme Manager instance; Manager\u0026 manager = Manager::getInstance();"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x18D1700",
+    "Name": "MR:Manager::registerTaskQueuingFn",
+    "Status": 0,
+    "Comment": "Register a queuing function against its ID; uint32_t registerTaskQueuingFn(QueueAttrTaskFn queuingFn, const char* fnName)"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x1901A60",
+    "Name": "MR::REG_FUNC_ARGS_1901A60",
+    "Status": 0,
+    "Comment": "Function arg followed by the same arg as a string literal. Commonly used in param lists of registration functions"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x19019C0",
+    "Name": "MR::REG_FUNC_ARGS_19019C0",
+    "Status": 0,
+    "Comment": "Function arg followed by the same arg as a string literal. Commonly used in param lists of registration functions"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x18D1650",
+    "Name": "MR::Manager::registerOutputCPTask",
+    "Status": 0,
+    "Comment": "Register an output control param task against its ID; uint32_t registerOutputCPTask(OutputCPTask outputCPTask, const char* fnName)"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x18D1270",
+    "Name": "MR::Manager::registerDeleteNodeInstanceFn",
+    "Status": 0,
+    "Comment": "Register delete function against ID; uint32_t registerDeleteNodeInstanceFn(DeleteNodeInstance deleteFn, const char* fnName)"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x18D1860",
+    "Name": "MR::Manager::registerUpdateNodeConnectionsFn",
+    "Status": 0,
+    "Comment": "Register update node connectivity function against ID; uint32_t registerUpdateNodeConnectionsFn(UpdateNodeConnections updateNodeConnectionsFn, const char* fnName)"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x18D1320",
+    "Name": "MR::Manager::registerFindGeneratingNodeForSemanticFn",
+    "Status": 0,
+    "Comment": "Register node generates attrib semantic type function against ID; uint32_t registerFindGeneratingNodeForSemanticFn(FindGeneratingNodeForSemanticFn findGeneratingNodeForSemanticFn, const char* fnName)"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x18D13D0",
+    "Name": "MR::Manager::registerInitNodeInstanceFn",
+    "Status": 0,
+    "Comment": "Register a node instance initialisation function against its ID; uint32_t registerInitNodeInstanceFn(InitNodeInstance initNodeFn, const char* fnName)"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x18D14D0",
+    "Name": "MR::Manager::registerMessageHandlerFn",
+    "Status": 0,
+    "Comment": "Register message handler function against ID; uint32_t registerMessageHandlerFn(MessageHandlerFn messageHandlerFn, const char* fnName)"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x18CD470",
+    "Name": "MR::Manager::initMorphemeLib",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x18CEA70",
+    "Name": "MR::registerCoreAttribSemantics",
+    "Status": 0,
+    "Comment": "Register the morpheme core attribute semantics; void registerCoreAttribSemantics(bool computeRegistryRequirements); true = Determines required array sizes for storage of registered functions, data types etc; false = Registers functions, data types etc."
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x18D1980",
+    "Name": "MR::Manager::setAnimFileHandlingFunctions",
+    "Status": 0,
+    "Comment": "void setAnimFileHandlingFunctions(RequestAnimFn* requestAnimFn, ReleaseAnimFn* releaseAnimFn)"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x18D1DF0",
+    "Name": "MR::DispatcherBasic::createAndInit",
+    "Status": 0,
+    "Comment": "initDispatcher"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x18CC260",
+    "Name": "MR::Manager::finaliseInitMorphemeLib",
+    "Status": 0,
+    "Comment": "Registration of semantics etc with the manager, post Manager::allocateRegistry(); void finaliseInitMorphemeLib()"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x18D2430",
+    "Name": "MR::CoreTaskIDs::registerNMCoreTasks",
+    "Status": 0,
+    "Comment": "bool CoreTaskIDs::registerNMCoreTasks(Dispatcher* dispatcher)"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x18CCD30",
+    "Name": "MR::Manager::getNumRegisteredAttribSemantics",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x18D19A0",
+    "Name": "MR::Manager::setCreateReferenceToInputTaskID",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x18CC130",
+    "Name": "MR::Manager::allocateRegistry",
+    "Status": 0,
+    "Comment": "Allocates Manager registry arrays, after computeRegistryRequirements has been used to determine the required array sizes; void allocateRegistry()"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x197CB30",
+    "Name": "NMP::NM_LOG_MESSAGE",
+    "Status": 0,
+    "Comment": "NM_LOG_MESSAGE(logger, priority, format, ...)"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x1E45B90",
+    "Name": "g_SBLogger",
+    "Status": 0,
+    "Comment": "NaturalMotion Morpheme SimpleBundle logger instance (NMP::PrioritiesLogger)"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x197CC00",
+    "Name": "NMP::PrioritiesLogger::prioritiesSatisfied",
+    "Status": 0,
+    "Comment": "logger.prioritiesSatisfied(priority)"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x197B810",
+    "Name": "MR::UTILS::SimpleBundleReader::ctor",
+    "Status": 0,
+    "Comment": "MR::UTILS::SimpleBundleReader bundleReader(bundle, bundleSize)"
+  },
+  {
+    "Category": "NaturalMotion Morpheme",
+    "Address": "0x197C0D0",
+    "Name": "MR::UTILS::SimpleBundleReader::readNextAsset",
+    "Status": 0,
+    "Comment": "bool readNextAsset(MR::Manager::AssetType\u0026 assetType, RuntimeAssetID\u0026         assetID, uint8_t*\u0026 guid, void*\u0026 asset, NMP::Memory::Format\u0026 assetMemReqs)"
   },
   {
     "Category": "Networking",
@@ -2866,10 +3097,24 @@
     "Comment": ""
   },
   {
+    "Category": "slAny",
+    "Address": "0x1DFF824",
+    "Name": "slAny::GetEmptyTable",
+    "Status": 0,
+    "Comment": "GetEmptyTable()"
+  },
+  {
     "Category": "slBase64",
     "Address": "0x16CF2F0",
     "Name": "slBase64::sub_16CF2F0",
     "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slBuffer",
+    "Address": "0x16CC8B0",
+    "Name": "slBuffer::sub_16CC8B0",
+    "Status": 3,
     "Comment": ""
   },
   {

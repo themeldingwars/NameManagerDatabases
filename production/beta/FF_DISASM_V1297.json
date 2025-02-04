@@ -4,9 +4,9 @@
 [
   {
     "Category": "fsDataPaths",
-    "Address": "0x8F7600",
-    "Name": "fsDataPaths::GetWorkingDirectory",
-    "Status": 1,
+    "Address": "0x8F1350",
+    "Name": "fsDataPaths::OpenFile",
+    "Status": 0,
     "Comment": ""
   },
   {
@@ -18,16 +18,9 @@
   },
   {
     "Category": "fsDataPaths",
-    "Address": "0x8F1350",
-    "Name": "fsDataPaths::OpenFile",
-    "Status": 0,
-    "Comment": ""
-  },
-  {
-    "Category": "GlobalVariables",
-    "Address": "0x15F6BA0",
-    "Name": "g_oConsoleSystem",
-    "Status": 0,
+    "Address": "0x8F7600",
+    "Name": "fsDataPaths::GetWorkingDirectory",
+    "Status": 1,
     "Comment": ""
   },
   {
@@ -39,10 +32,17 @@
   },
   {
     "Category": "GlobalVariables",
-    "Address": "0x19DFC10",
-    "Name": "g_sl_console_log_instance_loglevel",
+    "Address": "0x1510A70",
+    "Name": "g_oConsole_LastExecutedConsoleCommand",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x15B9520",
+    "Name": "g_sl_consoleEnabled",
     "Status": 0,
-    "Comment": "int"
+    "Comment": ""
   },
   {
     "Category": "GlobalVariables",
@@ -60,17 +60,17 @@
   },
   {
     "Category": "GlobalVariables",
-    "Address": "0x15B9520",
-    "Name": "g_sl_consoleEnabled",
+    "Address": "0x15F6BA0",
+    "Name": "g_oConsoleSystem",
     "Status": 0,
     "Comment": ""
   },
   {
     "Category": "GlobalVariables",
-    "Address": "0x1510A70",
-    "Name": "g_oConsole_LastExecutedConsoleCommand",
-    "Status": 2,
-    "Comment": ""
+    "Address": "0x19DFC10",
+    "Name": "g_sl_console_log_instance_loglevel",
+    "Status": 0,
+    "Comment": "int"
   },
   {
     "Category": "oConsoleSystem",
@@ -108,10 +108,17 @@
     "Comment": ""
   },
   {
+    "Category": "sl::Math::MathHelpers",
+    "Address": "0x628AF0",
+    "Name": "sl::Math::MathHelpers::SetFloatFromString",
+    "Status": 0,
+    "Comment": "(float, string, size)"
+  },
+  {
     "Category": "sl::oBuffer",
-    "Address": "0xAF5270",
-    "Name": "sl::oBuffer::Write",
-    "Status": 1,
+    "Address": "0xAF5130",
+    "Name": "sl::oBuffer::sub_AF5130",
+    "Status": 3,
     "Comment": ""
   },
   {
@@ -123,9 +130,9 @@
   },
   {
     "Category": "sl::oBuffer",
-    "Address": "0xAF5130",
-    "Name": "sl::oBuffer::sub_AF5130",
-    "Status": 3,
+    "Address": "0xAF5270",
+    "Name": "sl::oBuffer::Write",
+    "Status": 1,
     "Comment": ""
   },
   {
@@ -134,6 +141,13 @@
     "Name": "slConsole::Alloc",
     "Status": 0,
     "Comment": ""
+  },
+  {
+    "Category": "slConsole",
+    "Address": "0xA9E200",
+    "Name": "slConsole::AddConsoleVariable",
+    "Status": 0,
+    "Comment": "Returns reference to added cvar"
   },
   {
     "Category": "slConsole",
@@ -165,23 +179,16 @@
   },
   {
     "Category": "slini",
-    "Address": "0x8EC910",
-    "Name": "slini::ConvertToBool",
-    "Status": 0,
-    "Comment": ""
-  },
-  {
-    "Category": "slini",
     "Address": "0x8EC410",
     "Name": "slini::GetString",
     "Status": 0,
     "Comment": ""
   },
   {
-    "Category": "slLog",
-    "Address": "0x8D6D30",
-    "Name": "slLog::GetLogLevelFromString",
-    "Status": 1,
+    "Category": "slini",
+    "Address": "0x8EC910",
+    "Name": "slini::ConvertToBool",
+    "Status": 0,
     "Comment": ""
   },
   {
@@ -193,36 +200,8 @@
   },
   {
     "Category": "slLog",
-    "Address": "0x8D7270",
-    "Name": "slLog::GetInstance",
-    "Status": 0,
-    "Comment": ""
-  },
-  {
-    "Category": "slLog",
-    "Address": "0x8DFD90",
-    "Name": "slLog::GetInstance_ConsoleLog",
-    "Status": 1,
-    "Comment": ""
-  },
-  {
-    "Category": "slLog",
-    "Address": "0x8D7400",
-    "Name": "slLog::Log",
-    "Status": 2,
-    "Comment": ""
-  },
-  {
-    "Category": "slLog",
-    "Address": "0x8D6F90",
-    "Name": "slLog::LogEarly",
-    "Status": 2,
-    "Comment": ""
-  },
-  {
-    "Category": "slLog",
-    "Address": "0x421D90",
-    "Name": "slLog::Info2",
+    "Address": "0x404AB0",
+    "Name": "slLog::ApplyLogLevel",
     "Status": 0,
     "Comment": ""
   },
@@ -235,9 +214,44 @@
   },
   {
     "Category": "slLog",
-    "Address": "0x404AB0",
-    "Name": "slLog::ApplyLogLevel",
+    "Address": "0x421D90",
+    "Name": "slLog::Info2",
     "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x8D6D30",
+    "Name": "slLog::GetLogLevelFromString",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x8D6F90",
+    "Name": "slLog::LogEarly",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x8D7270",
+    "Name": "slLog::GetInstance",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x8D7400",
+    "Name": "slLog::Log",
+    "Status": 2,
+    "Comment": ""
+  },
+  {
+    "Category": "slLog",
+    "Address": "0x8DFD90",
+    "Name": "slLog::GetInstance_ConsoleLog",
+    "Status": 1,
     "Comment": ""
   },
   {
@@ -248,31 +262,17 @@
     "Comment": ""
   },
   {
+    "Category": "slLog",
+    "Address": "0x421160",
+    "Name": "slLog::RenderLog_Info",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
     "Category": "slParser",
     "Address": "0x8F5050",
     "Name": "slParser::HasLaunchArg",
     "Status": 1,
-    "Comment": ""
-  },
-  {
-    "Category": "slString",
-    "Address": "0x8E41A0",
-    "Name": "slString::Format",
-    "Status": 1,
-    "Comment": ""
-  },
-  {
-    "Category": "slString",
-    "Address": "0x8E4710",
-    "Name": "slString::ToLower",
-    "Status": 0,
-    "Comment": ""
-  },
-  {
-    "Category": "slString",
-    "Address": "0x8E3F30",
-    "Name": "slString::IndexOf",
-    "Status": 0,
     "Comment": ""
   },
   {
@@ -291,22 +291,36 @@
   },
   {
     "Category": "slString",
+    "Address": "0x8E3F30",
+    "Name": "slString::IndexOf",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
+    "Address": "0x8E41A0",
+    "Name": "slString::Format",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slString",
     "Address": "0x8E42E0",
     "Name": "slString::ctor_3",
     "Status": 2,
     "Comment": ""
   },
   {
-    "Category": "slSystem",
-    "Address": "0x909F80",
-    "Name": "slSystem::SafeAssert",
+    "Category": "slString",
+    "Address": "0x8E4710",
+    "Name": "slString::ToLower",
     "Status": 0,
     "Comment": ""
   },
   {
     "Category": "slSystem",
-    "Address": "0x909C80",
-    "Name": "slSystem::Assert",
+    "Address": "0x8F4C90",
+    "Name": "shell_process_command_line_arguments",
     "Status": 0,
     "Comment": ""
   },
@@ -315,6 +329,13 @@
     "Address": "0x909C10",
     "Name": "slSystem::RaiseException",
     "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSystem",
+    "Address": "0x909C80",
+    "Name": "slSystem::Assert",
+    "Status": 0,
     "Comment": ""
   },
   {
@@ -347,8 +368,8 @@
   },
   {
     "Category": "slSystem",
-    "Address": "0x8F4C90",
-    "Name": "shell_process_command_line_arguments",
+    "Address": "0x909F80",
+    "Name": "slSystem::SafeAssert",
     "Status": 0,
     "Comment": ""
   },
@@ -365,6 +386,27 @@
     "Name": "slFreea",
     "Status": 0,
     "Comment": "memory free"
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x403EE0",
+    "Name": "tfApplication::NotifyShutdownEvent",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x404110",
+    "Name": "tfApplication::ShowErrorMessageBox",
+    "Status": 0,
+    "Comment": ""
+  },
+  {
+    "Category": "tfApplication",
+    "Address": "0x405190",
+    "Name": "tfApplication::LoadConfigs",
+    "Status": 0,
+    "Comment": ""
   },
   {
     "Category": "tfApplication",
@@ -385,27 +427,6 @@
     "Address": "0x440650",
     "Name": "tfApplication::EnsureDebuggerOrDumptruckWrapper",
     "Status": 1,
-    "Comment": ""
-  },
-  {
-    "Category": "tfApplication",
-    "Address": "0x405190",
-    "Name": "tfApplication::LoadConfigs",
-    "Status": 0,
-    "Comment": ""
-  },
-  {
-    "Category": "tfApplication",
-    "Address": "0x404110",
-    "Name": "tfApplication::ShowErrorMessageBox",
-    "Status": 0,
-    "Comment": ""
-  },
-  {
-    "Category": "tfApplication",
-    "Address": "0x403EE0",
-    "Name": "tfApplication::NotifyShutdownEvent",
-    "Status": 0,
     "Comment": ""
   },
   {
