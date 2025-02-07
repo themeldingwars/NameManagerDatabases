@@ -11919,7 +11919,7 @@
   {
     "Category": "slBuffer",
     "Address": "0x16CC8B0",
-    "Name": "slBuffer_alloc",
+    "Name": "slBuffer::alloc",
     "Status": 3,
     "Comment": ""
   },
