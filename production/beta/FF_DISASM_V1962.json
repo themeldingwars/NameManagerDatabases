@@ -311,6 +311,13 @@
     "Comment": ""
   },
   {
+    "Category": "apt",
+    "Address": "0x13F1FB0",
+    "Name": "CooldownSet_Unpack",
+    "Status": 1,
+    "Comment": "Reads AbilityCooldownsData: two uint counted lists of (u32 id, u32, u32, u8, u32), then u32, u32, u8"
+  },
+  {
     "Category": "asyncIO",
     "Address": "0x171BBC0",
     "Name": "asyncIO::Initialize",
@@ -2411,6 +2418,27 @@
     "Comment": ""
   },
   {
+    "Category": "Networking",
+    "Address": "0x70FA20",
+    "Name": "AppendSigscanReplyChunk",
+    "Status": 1,
+    "Comment": "Appends a SigscanData chunk to the reply buffer, on IsLastChunk copies it into the reply cache and signals the waiting RH_Send_Matrix_RequestSigscan"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x885000",
+    "Name": "Send_Matrix_SuperPing",
+    "Status": 1,
+    "Comment": "Sends Matrix SuperPing with Mode 1 and the local character as Requester"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x891140",
+    "Name": "Matrix_OnConnectionShutdown",
+    "Status": 1,
+    "Comment": "Remote close: ShutdownCode 0 reconnects/transfers the Matrix, any other code ends the session (Matrix connection shut down. code=%u). Also handles connect failures, user logout and other socket errors"
+  },
+  {
     "Category": "Networking Character Handlers",
     "Address": "0x008d9050",
     "Name": "GSS_Handle_Fabrication_Start_Response",
@@ -2493,6 +2521,20 @@
     "Name": "GSS_Handle_LevelUpEvent",
     "Status": 1,
     "Comment": ""
+  },
+  {
+    "Category": "Networking Character Handlers",
+    "Address": "0x8CC900",
+    "Name": "GSS_Handle_ProgressionXpRefresh",
+    "Status": 1,
+    "Comment": "Calls ProgressionXpRefresh_Apply"
+  },
+  {
+    "Category": "Networking Character Handlers",
+    "Address": "0x8CA540",
+    "Name": "GSS_Handle_TrackerPulse",
+    "Status": 1,
+    "Comment": "Drops the tracker when ScopeLayer differs from the local ScopeBubbleInfo layer (char\u002B0x15d4), requests RequestTrackerUpdate for untracked entities, fires ON_SQUAD_VITALS_UPDATE for tracked squad members"
   },
   {
     "Category": "Networking GameObjects",
@@ -2768,6 +2810,55 @@
     "Comment": ""
   },
   {
+    "Category": "Networking GameObjects",
+    "Address": "0x840A90",
+    "Name": "tfGenericCharacter::DynamicProjectileView::OnPositionChanged",
+    "Status": 1,
+    "Comment": "Pushes (Time, xyz) of DynamicProjectilePosition into the 1200 ms / 50 ms position history, a new projectile id starts a new history"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x8A71D0",
+    "Name": "ProgressionXpRefresh_Apply",
+    "Status": 1,
+    "Comment": "Diffs the refresh entries against the stored list, per changed entry pushes sdb_id, current_xp, lifetime_xp and delta plus the gained/lost/net totals"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0x8B9E80",
+    "Name": "QuickChat_Perform",
+    "Status": 2,
+    "Comment": "Passes the quick chat record value at \u002B0x24 to Do_SendCommand_Character_PerformQuickChatCommand"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xAA07E0",
+    "Name": "TrackedEntity::ApplyPulse",
+    "Status": 1,
+    "Comment": "Applies TrackerPulse values by TrackerEvent.PulseFlags: 0x01 Unk8, 0x02 Health/MaxHealth, 0x10 Position, 0x20 Heading"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xAA0D60",
+    "Name": "TrackedEntityMgr_ApplyTrackerEvent",
+    "Status": 1,
+    "Comment": "Starts, updates or stops (TrackingType 0) tracking an entity, fires ON_DEPLOYABLE_ROSTER_UPDATE when a deployable starts being tracked"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xD0A1B0",
+    "Name": "ShoppingList_SendUpdateShoppingList",
+    "Status": 1,
+    "Comment": "Sends UpdateShoppingList to the MissionAndMarkerController"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xD641E0",
+    "Name": "GSS_Handle_ParticleEffectSpawned",
+    "Status": 1,
+    "Comment": "Applies the ScopeBubbleInfo layer and mask test against the local character before spawning"
+  },
+  {
     "Category": "Networking Generic Handlers",
     "Address": "0x00ec9540",
     "Name": "GSS_Handle_MatchEndAck",
@@ -2800,7 +2891,7 @@
     "Address": "0x00eca550",
     "Name": "GSS_Handle_DevRequestObjectPositions",
     "Status": 3,
-    "Comment": ""
+    "Comment": "Collects Positions until IsFinal, then fires ON_HEATMAP_UPDATED {type=debug}"
   },
   {
     "Category": "Networking Generic Handlers",
@@ -3017,7 +3108,7 @@
     "Address": "0x00ecc3a0",
     "Name": "GSS_Handle_NpcDevCmdResponse",
     "Status": 3,
-    "Comment": ""
+    "Comment": "[COMMAND] %s / [RESPONSE] %s to the AI log"
   },
   {
     "Category": "Networking Generic Handlers",
@@ -3108,7 +3199,7 @@
     "Address": "0x00eccb40",
     "Name": "GSS_Handle_DebugEventSample",
     "Status": 2,
-    "Comment": ""
+    "Comment": "Feeds the debug event profiler with the event type, category 2 or 3 and two 16 bit timestamps"
   },
   {
     "Category": "Networking Generic Handlers",
@@ -3412,6 +3503,13 @@
     "Comment": ""
   },
   {
+    "Category": "Networking Generic Handlers",
+    "Address": "0xEC98A0",
+    "Name": "tfGameProtocolHandler::ctor",
+    "Status": 1,
+    "Comment": "vtable 0x01c71ec0 holds the Generic message handlers, slot = message id - 31"
+  },
+  {
     "Category": "Networking Matrix Handlers_Comment",
     "Address": "",
     "Name": "",
@@ -3662,6 +3760,48 @@
     "Name": "Handle_GamePaused",
     "Status": 0,
     "Comment": ""
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0xAF5650",
+    "Name": "LFG_OnMatchFound",
+    "Status": 1,
+    "Comment": "Called by Handle_LFGMatchFound, the leader invites MemberNames by name, members call Squad_ApplyToGroup(LeaderName)"
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0xCFB710",
+    "Name": "Challenge_SetAvailableMaps",
+    "Status": 1,
+    "Comment": "Stores the ChallengeJoinResponse AvailableMaps at chal\u002B0x18 and reselects the map for the current zone"
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0xCFB7A0",
+    "Name": "Challenge_OnKicked",
+    "Status": 1,
+    "Comment": "Called by Handle_ChallengeKicked, fires ON_LOBBY_KICKED and leaves the challenge when the kickee is the local character"
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0xCFB990",
+    "Name": "Challenge_SetZoneId",
+    "Status": 1,
+    "Comment": "(zoneId, fire) selects the lobby map, fires ON_LOBBY_MATCH_PARAMETERS_UPDATE when fire is set"
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0xCFE560",
+    "Name": "Challenge_OnInvitation",
+    "Status": 1,
+    "Comment": "Declines when already in a challenge. In a squad it auto accepts from the leader, a non-leader rejects, a leader of a bigger squad forwards the invite. Otherwise stores it and fires the lobby invite event"
+  },
+  {
+    "Category": "Networking Matrix Handlers",
+    "Address": "0xCFEFE0",
+    "Name": "Challenge_OnInvitationResponse",
+    "Status": 1,
+    "Comment": "Result names from the table at 0x01c6fcc0, fires ON_LOBBY_INVITE_RESPONSE"
   },
   {
     "Category": "Networking SendCommand",
@@ -11781,7 +11921,7 @@
     "Address": "0x0070fad0",
     "Name": "RH_Send_Matrix_RequestSigscan",
     "Status": 0,
-    "Comment": ""
+    "Comment": "RedHanded sigscan callback, registered in tfApplication::Initialize. Returns the cached reply when Unk1 matches the last request, otherwise sends Matrix RequestSigscan and polls every 100 ms until AppendSigscanReplyChunk got the last chunk"
   },
   {
     "Category": "sdb",
@@ -11887,6 +12027,13 @@
     "Name": "ServerProfiler_OnSendFrame",
     "Status": 2,
     "Comment": ""
+  },
+  {
+    "Category": "ServerProfiler",
+    "Address": "0x1703C20",
+    "Name": "ServerProfilerNode_ToSample",
+    "Status": 1,
+    "Comment": "Server profiler node to history sample: u16 call count, half floats (* 65536) for total/min/max call time and two more values"
   },
   {
     "Category": "sl::Math::MathHelpers",
@@ -14185,6 +14332,34 @@
     "Comment": ""
   },
   {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0x9F9950",
+    "Name": "Read_StatusEffectMoreData",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xB0A160",
+    "Name": "Read_ChatAltData_GroupPreferences",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xB0A350",
+    "Name": "Read_ChatAltData_PlayerStateDetails",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "slSerialize_unpacker_data",
+    "Address": "0xC47080",
+    "Name": "Read_DebugEncounterVolumes",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
     "Category": "slSerialize_unpacker_file",
     "Address": "0x00cf4090",
     "Name": "LoadReadFile_debugweapon",
@@ -15204,7 +15379,21 @@
     "Address": "0x00ae4270",
     "Name": "Chat_Parse_ChatAlternateType",
     "Status": 1,
-    "Comment": ""
+    "Comment": "Switch on the chat alternate data type, one parser per ChatAltData block (duel result, item link, squad data, friend status, ...)"
+  },
+  {
+    "Category": "tfChat",
+    "Address": "0xAEF2A0",
+    "Name": "Squad_InviteByName",
+    "Status": 1,
+    "Comment": "Implementation of Squad.Invite, sends the invite when solo or leader, otherwise forwards it to the squad leader"
+  },
+  {
+    "Category": "tfChat",
+    "Address": "0xAE97B0",
+    "Name": "Squad_ApplyToGroup",
+    "Status": 1,
+    "Comment": "Implementation of Squad.ApplyToGroup(leader_name), accepts a pending invite from that leader or asks the leader to join"
   },
   {
     "Category": "tfChunk",
@@ -15247,6 +15436,13 @@
     "Name": "tfGenericCharacter::ViewTypeToString",
     "Status": 0,
     "Comment": "Most likely is not actually inside of tfGenericCharacter"
+  },
+  {
+    "Category": "tfGenericCharacter",
+    "Address": "0x839910",
+    "Name": "Character_SetWeaponIndex",
+    "Status": 1,
+    "Comment": "(index, time, playSwapAnimation) stores the PlaySwapAnimation flag at char\u002B0x4708"
   },
   {
     "Category": "tfHotfix",
@@ -15445,6 +15641,34 @@
     "Comment": ""
   },
   {
+    "Category": "UI API / Game",
+    "Address": "0xE2E590",
+    "Name": "UI_API_Game_RequestTransfer",
+    "Status": 1,
+    "Comment": "Game.RequestTransfer(to_zoneId [, includeSquad]), includeSquad only when char\u002B0x5650 == 2, only zone types 1/4 with overlapping flags, sends Character RequestTransfer"
+  },
+  {
+    "Category": "UI API / Lobby",
+    "Address": "0xD01590",
+    "Name": "UI_API_Lobby_GetMatchParameters",
+    "Status": 1,
+    "Comment": "Lobby.GetMatchParameters"
+  },
+  {
+    "Category": "UI API / Lobby",
+    "Address": "0xD016A0",
+    "Name": "UI_API_Lobby_GetRoster",
+    "Status": 1,
+    "Comment": "Lobby.GetRoster"
+  },
+  {
+    "Category": "UI API / Lobby",
+    "Address": "0xD02220",
+    "Name": "UI_API_Lobby_GetAvailableMaps",
+    "Status": 1,
+    "Comment": "Lobby.GetAvailableMaps"
+  },
+  {
     "Category": "UI API / Lua Generics",
     "Address": "0x01029120",
     "Name": "Prepare_LUA_Table_Key",
@@ -15471,6 +15695,13 @@
     "Name": "Prepare_LUA_Table",
     "Status": 2,
     "Comment": ""
+  },
+  {
+    "Category": "UI API / Squad",
+    "Address": "0xAF0D80",
+    "Name": "UI_API_Squad_GetRoster",
+    "Status": 1,
+    "Comment": "Squad.GetRoster, reads the ChatAltData PlayerStateDetails and GroupPreferences stored per squad member"
   },
   {
     "Category": "UI API Init",
