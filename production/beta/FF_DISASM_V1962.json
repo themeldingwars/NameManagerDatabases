@@ -318,6 +318,41 @@
     "Comment": "Reads AbilityCooldownsData: two uint counted lists of (u32 id, u32, u32, u8, u32), then u32, u32, u8"
   },
   {
+    "Category": "apt",
+    "Address": "0x13EA590",
+    "Name": "apt_StatusEffect_Remove",
+    "Status": 1,
+    "Comment": "Removes the instance matching effect id, stack index and InitTime, does nothing when no instance matches"
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13E9820",
+    "Name": "apt_StatusEffect_ApplyPredicted",
+    "Status": 1,
+    "Comment": "Local apply of a status effect for commands with allow_prediction, deduplicated against server slots by id, stack, initiator and Time"
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13E9F60",
+    "Name": "apt_StatusEffect_RunDurationChain",
+    "Status": 1,
+    "Comment": "Runs the duration chain on the client and removes the effect locally when it fails"
+  },
+  {
+    "Category": "apt",
+    "Address": "0xEB5FD0",
+    "Name": "apttf::tfCustomPlayerCameraCommand::Execute",
+    "Status": 1,
+    "Comment": "Calls CustomPlayerCamera_Enter for the local player only, keyed by effect id"
+  },
+  {
+    "Category": "apt",
+    "Address": "0xEB6090",
+    "Name": "apttf::tfCustomPlayerCameraCommand::Rollback",
+    "Status": 1,
+    "Comment": "Calls CustomPlayerCamera_Exit"
+  },
+  {
     "Category": "asyncIO",
     "Address": "0x171BBC0",
     "Name": "asyncIO::Initialize",
@@ -2857,6 +2892,34 @@
     "Name": "GSS_Handle_ParticleEffectSpawned",
     "Status": 1,
     "Comment": "Applies the ScopeBubbleInfo layer and mask test against the local character before spawning"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xBA7DA0",
+    "Name": "StatusEffectArray_EnqueueEvent",
+    "Status": 1,
+    "Comment": "Inserts (time, slot, data) into the time sorted status effect event queue"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xBA7FA0",
+    "Name": "StatusEffectArray_DequeueEvents",
+    "Status": 1,
+    "Comment": "Holds queued events until client time \u003E= event time (cvar statuseffects.enableQueue)"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xBA8340",
+    "Name": "StatusEffectArray_SetSlot",
+    "Status": 1,
+    "Comment": "Calls apt_StatusEffect_Apply with InitTime = StatusEffectData.Time"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xBA86B0",
+    "Name": "StatusEffectArray_ClearSlot",
+    "Status": 1,
+    "Comment": "Calls apt_StatusEffect_Remove with the slot Time"
   },
   {
     "Category": "Networking Generic Handlers",
@@ -15483,6 +15546,20 @@
     "Category": "tfLocalCharacter",
     "Address": "0x8c9400",
     "Name": "tfLocalCharacter::BaseNetController::Handle_InventoryUpdate",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "tfLocalCharacter",
+    "Address": "0x8A7980",
+    "Name": "CustomPlayerCamera_Enter",
+    "Status": 1,
+    "Comment": "Pushes a custom camera, a second enter without an exit leaves the first one on the stack"
+  },
+  {
+    "Category": "tfLocalCharacter",
+    "Address": "0x8A7C10",
+    "Name": "CustomPlayerCamera_Exit",
     "Status": 1,
     "Comment": ""
   },
