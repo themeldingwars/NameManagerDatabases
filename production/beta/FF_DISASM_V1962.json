@@ -110,14 +110,14 @@
   {
     "Category": "apt",
     "Address": "0x00b951b0",
-    "Name": "tfRequireInVehicleCommand__func2",
+    "Name": "tfRequireInVehicleCommand::func2",
     "Status": 2,
     "Comment": ""
   },
   {
     "Category": "apt",
     "Address": "0x00b951c0",
-    "Name": "tfRequireInVehicleCommand__func5",
+    "Name": "tfRequireInVehicleCommand::func5",
     "Status": 2,
     "Comment": ""
   },
@@ -243,7 +243,7 @@
   {
     "Category": "apt",
     "Address": "0x00eac850",
-    "Name": "tfRequireInVehicleCommand__func1",
+    "Name": "tfRequireInVehicleCommand::func1",
     "Status": 2,
     "Comment": ""
   },
@@ -1503,14 +1503,14 @@
   {
     "Category": "Misc",
     "Address": "0x016bf340",
-    "Name": "slParser__HasLaunchArgWithDefault",
+    "Name": "slParser::HasLaunchArgWithDefault",
     "Status": 2,
     "Comment": ""
   },
   {
     "Category": "Misc",
     "Address": "0x016ce740",
-    "Name": "slLockFree_init",
+    "Name": "slLockFree::init",
     "Status": 2,
     "Comment": ""
   },
@@ -1706,7 +1706,7 @@
   {
     "Category": "NaturalMotion Morpheme",
     "Address": "0x1E451A0",
-    "Name": "mr_Manager_instance",
+    "Name": "MR::Manager::instance",
     "Status": 0,
     "Comment": "NaturalMotion Morpheme Manager instance; Manager\u0026 manager = Manager::getInstance();"
   },
@@ -11765,77 +11765,77 @@
   {
     "Category": "sdb",
     "Address": "0x00709d90",
-    "Name": "sdb_init",
+    "Name": "sdb::init",
     "Status": 2,
     "Comment": ""
   },
   {
     "Category": "sdb",
     "Address": "0x0072cc70",
-    "Name": "sdb_BuildIndices",
+    "Name": "sdb::BuildIndices",
     "Status": 2,
     "Comment": ""
   },
   {
     "Category": "sdb",
     "Address": "0x00730f00",
-    "Name": "sdb__SdbRoot__UnloadSchema",
+    "Name": "sdb::SdbRoot::UnloadSchema",
     "Status": 2,
     "Comment": ""
   },
   {
     "Category": "sdb",
     "Address": "0x016bbea0",
-    "Name": "sdb_load_sdbfile",
+    "Name": "sdb::load_sdbfile",
     "Status": 2,
     "Comment": ""
   },
   {
     "Category": "sdb",
     "Address": "0x016bd980",
-    "Name": "sdb_load_command",
+    "Name": "sdb::load_command",
     "Status": 2,
     "Comment": ""
   },
   {
     "Category": "sdb",
     "Address": "0x016f22d0",
-    "Name": "sdb_hash_str_to_FFnv32",
+    "Name": "sdb::hash_str_to_FFnv32",
     "Status": 2,
     "Comment": ""
   },
   {
     "Category": "sdb",
     "Address": "0x01710ab0",
-    "Name": "sdb_Root_LoadAndShare",
+    "Name": "sdb::Root::LoadAndShare",
     "Status": 2,
     "Comment": ""
   },
   {
     "Category": "sdb",
     "Address": "0x01710ae0",
-    "Name": "sdb_Root_LoadFromFile",
+    "Name": "sdb::Root::LoadFromFile",
     "Status": 2,
     "Comment": ""
   },
   {
     "Category": "sdb",
     "Address": "0x01710c60",
-    "Name": "sdb_Root_ActuallyLoad",
+    "Name": "sdb::Root::ActuallyLoad",
     "Status": 2,
     "Comment": ""
   },
   {
     "Category": "sdb",
     "Address": "0x01717ec0",
-    "Name": "sdb_Decompress",
+    "Name": "sdb::Decompress",
     "Status": 2,
     "Comment": ""
   },
   {
     "Category": "sdb",
     "Address": "0x01718010",
-    "Name": "sdb_MersenneTwister_doXOR",
+    "Name": "sdb::MersenneTwister_doXOR",
     "Status": 2,
     "Comment": ""
   },
@@ -15153,7 +15153,7 @@
   {
     "Category": "tfApplication",
     "Address": "0x0070e450",
-    "Name": "tfApplication_AppModeChanger",
+    "Name": "tfApplication::AppModeChanger",
     "Status": 0,
     "Comment": ""
   },
@@ -15272,49 +15272,49 @@
   {
     "Category": "tfLogin",
     "Address": "0x00a3c3c0",
-    "Name": "tfLogin_OnLoginResponse",
+    "Name": "tfLogin::OnLoginResponse",
     "Status": 1,
     "Comment": ""
   },
   {
     "Category": "tfLogin",
     "Address": "0x00a3de70",
-    "Name": "tfLogin_OnZoneListResponse",
+    "Name": "tfLogin::OnZoneListResponse",
     "Status": 1,
     "Comment": ""
   },
   {
     "Category": "tfLogin",
     "Address": "0x00a3d1f0",
-    "Name": "tfLogin_OnRefreshCharactersResponse",
+    "Name": "tfLogin::OnRefreshCharactersResponse",
     "Status": 1,
     "Comment": ""
   },
   {
     "Category": "tfLogin",
     "Address": "0x00a371b0",
-    "Name": "tfLogin_Init",
+    "Name": "tfLogin::Init",
     "Status": 1,
     "Comment": ""
   },
   {
     "Category": "tfLogin",
     "Address": "0x0088f950",
-    "Name": "tfLogin_Setup_mConnection",
+    "Name": "tfLogin::Setup_mConnection",
     "Status": 2,
     "Comment": ""
   },
   {
     "Category": "tfLogin",
     "Address": "0x00a3fe30",
-    "Name": "tfLogin_StartInstanceConnection",
+    "Name": "tfLogin::StartInstanceConnection",
     "Status": 1,
     "Comment": ""
   },
   {
     "Category": "tfLookingGlass",
     "Address": "0x00a5ad90",
-    "Name": "tfLookingGlass_Init",
+    "Name": "tfLookingGlass::Init",
     "Status": 0,
     "Comment": ""
   },
@@ -15384,7 +15384,7 @@
   {
     "Category": "tfWorld",
     "Address": "0x00a4ba40",
-    "Name": "tfWorld_Init",
+    "Name": "tfWorld::Init",
     "Status": 0,
     "Comment": ""
   },
@@ -15454,23 +15454,23 @@
   {
     "Category": "UI API Init",
     "Address": "0x00a51660",
-    "Name": "tfWorld_Init_UI_API",
+    "Name": "tfWorld::Init_UI_API",
     "Status": 1,
     "Comment": "tfWorld::Init_UI_API"
   },
   {
     "Category": "UI API Init",
     "Address": "0x00a5de40",
-    "Name": "tfLookingGlass_Init_UI_API",
+    "Name": "tfLookingGlass::Init_UI_API",
     "Status": 1,
     "Comment": "tfLookingGlass::Init_UI_API"
   },
   {
     "Category": "UI API Init",
     "Address": "0x00a435e0",
-    "Name": "tfLogin_Init_UI_API",
+    "Name": "tfLogin::Init_UI_API",
     "Status": 1,
-    "Comment": "tfLogin::Init_UI_API. This one inlined a bunch of it."
+    "Comment": "This one inlined a bunch of it."
   },
   {
     "Category": "UI API Init",
@@ -15622,7 +15622,7 @@
   {
     "Category": "Weapon",
     "Address": "0x00c864e0",
-    "Name": "tfWeaponSim_00c864e0",
+    "Name": "tfWeaponSim::sub_C864E0",
     "Status": 3,
     "Comment": "Second arg is burstrecord?"
   },
