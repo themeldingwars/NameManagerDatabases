@@ -2413,7 +2413,7 @@
   {
     "Category": "Networking Character Handlers",
     "Address": "0x008d9050",
-    "Name": "Handle_Fabrication_Start_Response",
+    "Name": "GSS_Handle_Fabrication_Start_Response",
     "Status": 1,
     "Comment": "Logs \u0022Failed to start specified recipe\u0022, sets success and recipe_state"
   },
@@ -2427,70 +2427,70 @@
   {
     "Category": "Networking Character Handlers",
     "Address": "0x008ca040",
-    "Name": "Handle_UnlocksUpdate",
+    "Name": "GSS_Handle_UnlocksUpdate",
     "Status": 0,
     "Comment": ""
   },
   {
     "Category": "Networking Character Handlers",
     "Address": "0x008cb290",
-    "Name": "Handle_ResourceNodeCompletedEvent",
+    "Name": "GSS_Handle_ResourceNodeCompletedEvent",
     "Status": 0,
     "Comment": ""
   },
   {
     "Category": "Networking Character Handlers",
     "Address": "0x008cb450",
-    "Name": "Handle_GeographicalReportResponse",
+    "Name": "GSS_Handle_GeographicalReportResponse",
     "Status": 0,
     "Comment": ""
   },
   {
     "Category": "Networking Character Handlers",
     "Address": "0x008caf40",
-    "Name": "Handle_SimulateLootPickup",
+    "Name": "GSS_Handle_SimulateLootPickup",
     "Status": 1,
     "Comment": ""
   },
   {
     "Category": "Networking Character Handlers",
     "Address": "0x008d3890",
-    "Name": "Handle_DebugWeaponStats",
+    "Name": "GSS_Handle_DebugWeaponStats",
     "Status": 2,
     "Comment": "Dispatched through tfLocalCharacter::CombatController, copies the 8 ushort stats into globals"
   },
   {
     "Category": "Networking Character Handlers",
     "Address": "0x8CA080",
-    "Name": "Handle_WorkbenchUpdate",
+    "Name": "GSS_Handle_WorkbenchUpdate",
     "Status": 1,
     "Comment": ""
   },
   {
     "Category": "Networking Character Handlers",
     "Address": "0x8CA530",
-    "Name": "Handle_TrackerEvent",
+    "Name": "GSS_Handle_TrackerEvent",
     "Status": 1,
     "Comment": "Passes the event to TrackedEntityMgr_ApplyTrackerEvent"
   },
   {
     "Category": "Networking Character Handlers",
     "Address": "0x8CA810",
-    "Name": "Handle_DisplayRewards",
+    "Name": "GSS_Handle_DisplayRewards",
     "Status": 1,
     "Comment": ""
   },
   {
     "Category": "Networking Character Handlers",
     "Address": "0x8CB3C0",
-    "Name": "Handle_FoundResourceAreas",
+    "Name": "GSS_Handle_FoundResourceAreas",
     "Status": 1,
     "Comment": ""
   },
   {
     "Category": "Networking Character Handlers",
     "Address": "0x8D0570",
-    "Name": "Handle_LevelUpEvent",
+    "Name": "GSS_Handle_LevelUpEvent",
     "Status": 1,
     "Comment": ""
   },
