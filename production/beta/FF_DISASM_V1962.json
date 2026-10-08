@@ -2413,29 +2413,22 @@
   {
     "Category": "Networking Character Handlers",
     "Address": "0x008d9050",
-    "Name": "Handle_WorkbenchUpdate",
-    "Status": 2,
-    "Comment": ""
+    "Name": "Handle_Fabrication_Start_Response",
+    "Status": 1,
+    "Comment": "Logs \u0022Failed to start specified recipe\u0022, sets success and recipe_state"
   },
   {
     "Category": "Networking Character Handlers",
     "Address": "0x008d95b0",
-    "Name": "Handle_TrackerEvent",
+    "Name": "LevelUpEvent_UpdateFrameTable",
     "Status": 2,
-    "Comment": ""
+    "Comment": "Not a handler, only called by Handle_LevelUpEvent with msg\u002B0x28 and msg\u002B0x30"
   },
   {
     "Category": "Networking Character Handlers",
     "Address": "0x008ca040",
     "Name": "Handle_UnlocksUpdate",
     "Status": 0,
-    "Comment": ""
-  },
-  {
-    "Category": "Networking Character Handlers",
-    "Address": "0x008d9150",
-    "Name": "Handle_WorkbenchUpdate",
-    "Status": 1,
     "Comment": ""
   },
   {
@@ -2455,8 +2448,8 @@
   {
     "Category": "Networking Character Handlers",
     "Address": "0x008caf40",
-    "Name": "Handle_SimulateLootPickup_or_DisplayRewards",
-    "Status": 2,
+    "Name": "Handle_SimulateLootPickup",
+    "Status": 1,
     "Comment": ""
   },
   {
@@ -2464,13 +2457,41 @@
     "Address": "0x008d3890",
     "Name": "Handle_DebugWeaponStats",
     "Status": 2,
+    "Comment": "Dispatched through tfLocalCharacter::CombatController, copies the 8 ushort stats into globals"
+  },
+  {
+    "Category": "Networking Character Handlers",
+    "Address": "0x8CA080",
+    "Name": "Handle_WorkbenchUpdate",
+    "Status": 1,
     "Comment": ""
   },
   {
     "Category": "Networking Character Handlers",
-    "Address": "0x008d9610",
+    "Address": "0x8CA530",
     "Name": "Handle_TrackerEvent",
-    "Status": 0,
+    "Status": 1,
+    "Comment": "Passes the event to TrackedEntityMgr_ApplyTrackerEvent"
+  },
+  {
+    "Category": "Networking Character Handlers",
+    "Address": "0x8CA810",
+    "Name": "Handle_DisplayRewards",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Character Handlers",
+    "Address": "0x8CB3C0",
+    "Name": "Handle_FoundResourceAreas",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking Character Handlers",
+    "Address": "0x8D0570",
+    "Name": "Handle_LevelUpEvent",
+    "Status": 1,
     "Comment": ""
   },
   {
@@ -2756,7 +2777,7 @@
   {
     "Category": "Networking Generic Handlers",
     "Address": "0x00ec9b30",
-    "Name": "tfGameProtocolHandler_Init",
+    "Name": "tfGameProtocolHandler::scalar_deleting_dtor",
     "Status": 3,
     "Comment": ""
   },
@@ -3043,7 +3064,7 @@
   {
     "Category": "Networking Generic Handlers",
     "Address": "0x00ecc880",
-    "Name": "GSS_Handle_ScoreBoardUpdatePlayerStatsFromStat",
+    "Name": "GSS_Handle_ScoreBoardUpdatePlayerStatsFromStats",
     "Status": 3,
     "Comment": ""
   },
@@ -3176,14 +3197,14 @@
   {
     "Category": "Networking Generic Handlers",
     "Address": "0x00ece2a0",
-    "Name": "GSS_Handle_PingMap_79",
+    "Name": "GSS_Handle_PingMap",
     "Status": 2,
     "Comment": ""
   },
   {
     "Category": "Networking Generic Handlers",
     "Address": "0x00ece400",
-    "Name": "GSS_Handle_PingMapMarker_80",
+    "Name": "GSS_Handle_PingMapMarker",
     "Status": 2,
     "Comment": ""
   },
@@ -3645,14 +3666,14 @@
   {
     "Category": "Networking SendCommand",
     "Address": "0x008f9800",
-    "Name": "Do_SendCommand_Character_FireCancel",
+    "Name": "Do_SendCommand_Character_SelectWeapon",
     "Status": 0,
     "Comment": ""
   },
   {
     "Category": "Networking SendCommand",
     "Address": "0x00905c70",
-    "Name": "SendCommand_Character_FireCancel",
+    "Name": "SendCommand_Character_SelectWeapon",
     "Status": 0,
     "Comment": ""
   },
@@ -4198,9 +4219,9 @@
   {
     "Category": "Networking SendCommand",
     "Address": "0x00ae8de0",
-    "Name": "Do_SendCommand_Character_UpdateChatPartyMembers_2",
-    "Status": 0,
-    "Comment": "Different, rebuilding squad? Guess it got inlined"
+    "Name": "Squad_RebuildAsLeader",
+    "Status": 2,
+    "Comment": "Logs \u0022Rebuilding squad as leader\u0022, inlines the Do_SendCommand_Character_UpdateChatPartyMembers check"
   },
   {
     "Category": "Networking SendCommand",
