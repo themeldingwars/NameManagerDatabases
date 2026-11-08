@@ -2572,6 +2572,13 @@
     "Comment": "Drops the tracker when ScopeLayer differs from the local ScopeBubbleInfo layer (char\u002B0x15d4), requests RequestTrackerUpdate for untracked entities, fires ON_SQUAD_VITALS_UPDATE for tracked squad members"
   },
   {
+    "Category": "Networking Character Handlers",
+    "Address": "0xC94080",
+    "Name": "GSS_Handle_ReceiveWeaponTweaks",
+    "Status": 1,
+    "Comment": "In the tfRemoteCharacter::CombatView vtable. Copies the sent 0x19c byte weapon template into the weapon mode (WeaponMode_SetTemplate) and logs \u0027%s (%s) has tweaked their %s.\u0027"
+  },
+  {
     "Category": "Networking GameObjects",
     "Address": "0x00989690",
     "Name": "Character_EquipmentView_Unpack_Update",
@@ -15508,6 +15515,13 @@
     "Comment": "(index, time, playSwapAnimation) stores the PlaySwapAnimation flag at char\u002B0x4708"
   },
   {
+    "Category": "tfGenericCharacter",
+    "Address": "0x828780",
+    "Name": "Character_ApplyLoadoutWeapons",
+    "Status": 1,
+    "Comment": "Sets the template of both weapon slots from the loadout data (WeaponMode_SetTemplate per slot)"
+  },
+  {
     "Category": "tfHotfix",
     "Address": "0x786710",
     "Name": "tfHotfix::HotfixManagerLoadingThread::ctor",
@@ -15774,6 +15788,13 @@
     "Comment": ""
   },
   {
+    "Category": "UI API / Player",
+    "Address": "0xDFA220",
+    "Name": "UI_API_Player_GetWeaponCharge",
+    "Status": 1,
+    "Comment": "Player.GetWeaponCharge([main]) returns ChargeType, ChargeTime, ChargeAmt, ChargeRate, OverChargeTime, OverChargeAmt"
+  },
+  {
     "Category": "UI API / Squad",
     "Address": "0xAF0D80",
     "Name": "UI_API_Squad_GetRoster",
@@ -15989,5 +16010,187 @@
     "Name": "CreateWeaponTraceData",
     "Status": 3,
     "Comment": ""
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0xC87EC0",
+    "Name": "tfWeaponSim::CorrectClipPrediction",
+    "Status": 1,
+    "Comment": "Reconciles the predicted clip with the server\u0027s Clip_ field. Within 650 ms of the last fire it keeps the prediction while prediction \u003C= server, otherwise it takes the server\u0027s value and logs \u0027Prediction corrected: predicted -\u003E server\u0027 (debug flag only)"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0xC885A0",
+    "Name": "tfWeaponSim::CorrectAmmoPrediction",
+    "Status": 1,
+    "Comment": "Same as tfWeaponSim::CorrectClipPrediction for the reserve (Ammo_ field)"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7AE940",
+    "Name": "Weapon_Construct",
+    "Status": 1,
+    "Comment": "Constructs a weapon with its main (\u002B0x14) and alt (\u002B0x4bc) fire mode, each a WeaponMode linked to the other"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7AEB90",
+    "Name": "Weapon_SetTemplate",
+    "Status": 1,
+    "Comment": "Sets the template of a weapon\u0027s fire mode from the loadout data (WeaponMode_SetTemplate)"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7AF560",
+    "Name": "Weapon_UpdateClipRegen",
+    "Status": 1,
+    "Comment": "Runs WeaponMode_UpdateClipRegen for the main and the alt fire mode every tick"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7A80B0",
+    "Name": "WeaponMode_Construct",
+    "Status": 1,
+    "Comment": "Constructs one fire mode, \u002B0x8/\u002B0xc point to the other mode of the weapon, the speed factor \u002B0x318 starts at 1.0"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7A8BE0",
+    "Name": "WeaponMode_SetTemplate",
+    "Status": 1,
+    "Comment": "Copies the 0x19c byte template to \u002B0x188 (WeaponTemplate_Copy) and resets the press, reload and spread state. The template comes with item attributes and character stats applied, e.g. rate of fire from attribute 17 and the reload time scaled by Reload Time Bonus (1370)"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7A8F90",
+    "Name": "WeaponTemplate_Copy",
+    "Status": 1,
+    "Comment": "Copies the 0x19c byte weapon template struct"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7A86C0",
+    "Name": "WeaponMode_GetReserveCap",
+    "Status": 1,
+    "Comment": "Reserve the client shows at most: MaxAmmo - min(MaxAmmo, clip max) \u002B the room left in the clip"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7A9C10",
+    "Name": "WeaponMode_GetChargeAt",
+    "Status": 1,
+    "Comment": "Charge or heat at a time, per burst mode. Mode 5: heat \u002B0x6c from the last burst \u002B0x70, no cooling for ms_per_burst \u002B ms_spread_return_delay, then it drops by ms_chargeup_max per ms_spread_return"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7AA190",
+    "Name": "WeaponMode_EndPress",
+    "Status": 1,
+    "Comment": "Ends the press at a time (\u002B0x1c), burst modes 1 and 7 also settle their spin-up"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7AA3D0",
+    "Name": "WeaponMode_StartReload",
+    "Status": 1,
+    "Comment": "Reload time = template reload_time (\u002B0x224), already scaled by Reload Time Bonus (1370). After a shot the start is max(request, last burst \u002B reload_penalty \u002B ms_burst_duration). The next burst comes no earlier than the end \u002B 50 ms"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7AA5C0",
+    "Name": "WeaponMode_UpdateReload",
+    "Status": 1,
+    "Comment": "Adds the reloaded rounds once the reload end is reached, per round with round_reload, and moves the next burst to the end \u002B 50 ms"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7AA960",
+    "Name": "WeaponMode_IsBurstDue",
+    "Status": 1,
+    "Comment": "True while the press is active and the next burst (\u002B0x54) is due inside the press window"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7AACB0",
+    "Name": "WeaponMode_FireBurst",
+    "Status": 1,
+    "Comment": "Fires the due burst and advances the next burst by ms_per_burst. Burst mode 5 adds ms_per_burst to the heat afterwards"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7AB600",
+    "Name": "WeaponMode_ProcessShotQueue",
+    "Status": 1,
+    "Comment": "Processes the queued shot events of the fire mode"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7AB920",
+    "Name": "WeaponMode_ProcessShotEvent",
+    "Status": 1,
+    "Comment": "Handles one shot event and takes its rounds from the predicted clip"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7AC0D0",
+    "Name": "WeaponMode_UpdateSpreadRecoil",
+    "Status": 1,
+    "Comment": "Rise returns over ms_return (\u002B0x18c) after ms_rise_return_delay (\u002B0x190), spread over ms_spread_return (\u002B0x194) after ms_spread_return_delay (\u002B0x198)"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7AC700",
+    "Name": "WeaponMode_Tick",
+    "Status": 1,
+    "Comment": "Per fire mode tick: press state, then the burst loop by burst mode (mode 5 checks the overheat before every burst), then the shot queue"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7ACE70",
+    "Name": "WeaponMode_UpdateClipRegen",
+    "Status": 1,
+    "Comment": "Runs every tick, also while firing. Starts 500 ms after the last burst and after the reload end, then adds every round due per clip_regen_ms at once. Weapons with MaxAmmo \u003E 0 take the rounds from the reserve"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7ADB30",
+    "Name": "WeaponMode_CheckOverheat",
+    "Status": 1,
+    "Comment": "Mode 5, when a burst is due: overheats when the heat reaches the threshold, runs the overcharge ability (\u002B0x27c), ends the press and locks until the last burst \u002B ms_overcharge_delay. Heat exactly at the max has cooled by the next frame, so in practice the lock follows the shot that takes the heat above it"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7ADBF0",
+    "Name": "WeaponMode_GetOverheatThreshold",
+    "Status": 1,
+    "Comment": "ms_chargeup_max (\u002B0x20c) of the main linked mode, scaled by the clip fill when weapon flag 0x2000 is set"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7ADFD0",
+    "Name": "WeaponMode_GetChargeRate",
+    "Status": 1,
+    "Comment": "Charge or heat rate by burst mode, used by UI_API_Player_GetWeaponCharge"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7AE710",
+    "Name": "WeaponMode_IsLinkedSameMode",
+    "Status": 1,
+    "Comment": "True when the mode is linked (weapon flag 8) to its other mode with the same burst mode, both then share the charge state"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7B0E00",
+    "Name": "AmmoPool_TakeRounds",
+    "Status": 1,
+    "Comment": "Takes up to the requested rounds from the ammo slot\u0027s reserve pool, limited by the reserve cap, returns how many it got"
+  },
+  {
+    "Category": "Weapon",
+    "Address": "0x7B9CF0",
+    "Name": "WeaponMode_ScaleTimeMs",
+    "Status": 1,
+    "Comment": "Scales a time in ms by a float factor rounded to 1/1000, used with the mode\u0027s speed factor at \u002B0x318"
   }
 ]
