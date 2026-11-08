@@ -173,9 +173,9 @@
   {
     "Category": "apt",
     "Address": "0x00bc0a00",
-    "Name": "apt_InflictCooldownCommand_func0",
+    "Name": "apt::InflictCooldownCommand::Execute",
     "Status": 2,
-    "Comment": ""
+    "Comment": "Slot 0 of the apt::InflictCooldownCommand vtable, run during local chain prediction. Sets the global cooldown and puts the ability and its category on cooldown in the local CooldownSet (ctx\u002B0x7c)"
   },
   {
     "Category": "apt",
@@ -1755,7 +1755,7 @@
   {
     "Category": "NaturalMotion Morpheme",
     "Address": "0x18D1700",
-    "Name": "MR:Manager::registerTaskQueuingFn",
+    "Name": "MR::Manager::registerTaskQueuingFn",
     "Status": 0,
     "Comment": "Register a queuing function against its ID; uint32_t registerTaskQueuingFn(QueueAttrTaskFn queuingFn, const char* fnName)"
   },
@@ -4772,9 +4772,9 @@
   {
     "Category": "nl::GameSocket",
     "Address": "0xFD0A30",
-    "Name": "nl::GameSocket::sub_FD0A30",
+    "Name": "nl::GameSocket::WritePacketHeader",
     "Status": 0,
-    "Comment": ""
+    "Comment": "Writes the 16-bit packet header: channel in the top 2 bits, resend count (0-3) in the next 2, flag 0x800, length in the low 11 bits (asserts length \u003C= 0x7FF)"
   },
   {
     "Category": "nl::GameSocket",
