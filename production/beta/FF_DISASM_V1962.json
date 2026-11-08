@@ -353,6 +353,104 @@
     "Comment": "Calls CustomPlayerCamera_Exit"
   },
   {
+    "Category": "apt",
+    "Address": "0x13F0C30",
+    "Name": "apt::CooldownSet::InflictAbility",
+    "Status": 1,
+    "Comment": "Puts an ability on cooldown in the local CooldownSet, called by apt::InflictCooldownCommand::Execute"
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13F10A0",
+    "Name": "apt::CooldownSet::IsAbilityReady",
+    "Status": 1,
+    "Comment": "Checks the ability cooldown in the local CooldownSet, used by apt::TimeCooldownCommand::Execute"
+  },
+  {
+    "Category": "apt",
+    "Address": "0x13F1270",
+    "Name": "apt::CooldownSet::IsCategoryReady",
+    "Status": 1,
+    "Comment": "Checks the category cooldown in the local CooldownSet, used by apt::TimeCooldownCommand::Execute"
+  },
+  {
+    "Category": "apt",
+    "Address": "0xBB9B30",
+    "Name": "apt::TimeCooldownCommand::Execute",
+    "Status": 1,
+    "Comment": "Run during local chain prediction, fails while the ability (def\u002B0x18), the global cooldown (def\u002B0x19) or the category (def\u002B0x1a/0x1c) is on cooldown in the local CooldownSet (ctx\u002B0x7c). The server\u0027s AbilityActivated/AbilityCooldowns replace that set"
+  },
+  {
+    "Category": "apt",
+    "Address": "0xEBACE0",
+    "Name": "tfApplyImpulseCommand::Execute",
+    "Status": 1,
+    "Comment": "Client-side prediction: for the local player it queues a type 5 ForcedMovement over [ctxTime, ctxTime \u002B def\u002B0x30] (ForcedMovement_SetImpulseRange), for the local vehicle it applies the impulse directly"
+  },
+  {
+    "Category": "apt",
+    "Address": "0xEBB280",
+    "Name": "tfForcePushCommand::Execute",
+    "Status": 1,
+    "Comment": "Moves nothing, only pushes animation/state 0xC onto each target when DoAnimation (def\u002B0x11) is set. The aptfs::ForcePushCommand base Execute is _purecall, the push itself comes from the server as ForcedMovement type 5"
+  },
+  {
+    "Category": "apt",
+    "Address": "0xB99FB0",
+    "Name": "tfForcePushCommand::ctor",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0xEC0F00",
+    "Name": "tfRegisterClientProximityCommand::Execute",
+    "Status": 1,
+    "Comment": "Registers a client proximity record (ClientProximity_Register)"
+  },
+  {
+    "Category": "apt",
+    "Address": "0xEBC750",
+    "Name": "tfResourceAreaCreateNodeCommand::Execute",
+    "Status": 1,
+    "Comment": "Calls ResourceScan_CheckSpotAndSendGeoReportRequest"
+  },
+  {
+    "Category": "apt",
+    "Address": "0xBA8CF0",
+    "Name": "ClientProximity_Register",
+    "Status": 1,
+    "Comment": "Adds a record from RegisterClientProximity, called by tfRegisterClientProximityCommand::Execute"
+  },
+  {
+    "Category": "apt",
+    "Address": "0xBA8E50",
+    "Name": "ClientProximity_Unregister",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "apt",
+    "Address": "0xBA8EB0",
+    "Name": "ClientProximity_Update",
+    "Status": 1,
+    "Comment": "Client proximity tick over the 0x30 byte records at \u002B0x10. Each record is tested at most every 50 ms against a round-robin batch of objects (cvar default 512) within Radius (rec\u002B0x18)"
+  },
+  {
+    "Category": "apt",
+    "Address": "0xBA90F0",
+    "Name": "ClientProximity_TestCandidates",
+    "Status": 1,
+    "Comment": "Called by ClientProximity_Update for the batch of objects to test"
+  },
+  {
+    "Category": "apt",
+    "Address": "0xBA92E0",
+    "Name": "ClientProximity_TryTrigger",
+    "Status": 1,
+    "Comment": "Collects up to MaxTargets inside Radius and runs the proximity ability chain locally. On success it sends LocalProximityAbilitySuccess and waits RetryInterval (rec\u002B0x1c) before the next try"
+  },
+  {
     "Category": "asyncIO",
     "Address": "0x171BBC0",
     "Name": "asyncIO::Initialize",
@@ -1303,6 +1401,13 @@
     "Name": "g_uiManager_instance",
     "Status": 1,
     "Comment": "Singleton? function at \u002Bac (42 or 43 on vftable) fires UI events."
+  },
+  {
+    "Category": "GlobalVariables",
+    "Address": "0x1BB8E1C",
+    "Name": "g_apszResendReasonNames",
+    "Status": 1,
+    "Comment": "Send reason names of a reliable frame by state: 0 WAIT_NO_RESEND, 1 INITIAL_SEND, 2 ACK_TIMEOUT, 3 FAST_RETRANSMIT. Logged by ReliableChannel_OnPacketSent"
   },
   {
     "Category": "ioFileSearch",
@@ -2474,6 +2579,132 @@
     "Comment": "Remote close: ShutdownCode 0 reconnects/transfers the Matrix, any other code ends the session (Matrix connection shut down. code=%u). Also handles connect failures, user logout and other socket errors"
   },
   {
+    "Category": "Networking",
+    "Address": "0xFCD450",
+    "Name": "NetAddress_Fold32",
+    "Status": 1,
+    "Comment": "Folds a network address into 32 bits: an IPv4 address as is, the four words of an IPv6 address XORed"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xFE4B60",
+    "Name": "ReliableChannel_Init",
+    "Status": 1,
+    "Comment": "Reliable channel (Matrix, ReliableGss) start, netlib\\nlchannels.cpp. Send and receive sequence numbers start at the HUGG\u0027s sequence start, the resend timeout at 1000 ms"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xFE4C20",
+    "Name": "ReliableChannel_Finish",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xFE4FB0",
+    "Name": "ReliableChannel_HandleAck",
+    "Status": 1,
+    "Comment": "Handles a MatrixAck/GSSAck ([next expected][cumulative ack][selective acks...], big-endian uint16) and removes the acked frames. Per acked frame the resend timeout becomes clamp((rtt/2 \u002B 2*rtt \u002B timeout) / 2, 250, 2500 ms), older frames below a selective ack get a FAST_RETRANSMIT"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xFE54B0",
+    "Name": "ReliableChannel_OnPacketSent",
+    "Status": 1,
+    "Comment": "Called when a reliable frame goes out: sets its send time to now and its state back to WAIT_NO_RESEND, the resend timeout counts from here"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xFE55E0",
+    "Name": "ReliableChannel_CheckResends",
+    "Status": 1,
+    "Comment": "Per tick: fills the send window (256 in flight) and queues every unacked frame older than the resend timeout for resend (ACK_TIMEOUT). Closes the socket after 15 resends of a frame (excess packet loss) or a full window for 15 s (fill timeout)"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xFE5800",
+    "Name": "ReliableChannel_LogUnacked",
+    "Status": 1,
+    "Comment": "Called by ReliableChannel_CheckResends"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xFE59E0",
+    "Name": "ReliableChannel_QueueResend",
+    "Status": 1,
+    "Comment": "Marks a frame for resend (2 ACK_TIMEOUT, 3 FAST_RETRANSMIT) unless one is pending. Resend timeout = clamp(timeout * 1.5, 250, 2500 ms), the header resend count is sendcount % 3 \u002B 1"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xFE5B20",
+    "Name": "ReliableChannel_WriteAck",
+    "Status": 1,
+    "Comment": "Writes the client\u0027s ack into an outgoing datagram when something new arrived: [next expected][last in order] and the sequence numbers past a gap, one ack per channel and datagram"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xFE5DF0",
+    "Name": "ReliableChannel_ReceivePacket",
+    "Status": 1,
+    "Comment": "Receives a Matrix or ReliableGss packet, called by nl::GameSocket::ProcessIncoming"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xFE6040",
+    "Name": "ReliableChannel_DeliverNext",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xFE6640",
+    "Name": "UnreliableChannel_ReceivePacket",
+    "Status": 1,
+    "Comment": "Receives an UnreliableGss packet, called by nl::GameSocket::ProcessIncoming"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xFE9170",
+    "Name": "MatrixListener_WriteHehe",
+    "Status": 1,
+    "Comment": "Server side of the Matrix handshake like MatrixListener_HandlePoke, no callers in the client"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xFEA3C0",
+    "Name": "MatrixListener_HandleHandshake",
+    "Status": 1,
+    "Comment": "Server side of the Matrix handshake, see MatrixListener_HandlePoke and MatrixListener_HandleKiss"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xFEA4A0",
+    "Name": "MatrixListener_HandlePoke",
+    "Status": 1,
+    "Comment": "Red 5\u0027s server side of the Matrix handshake, compiled into the client. POKE needs handshake version 4 (else ABRT 1) and a matching protocol (else ABRT 2), the HEHE socket id is a stateless cookie from NetAddress_Fold32(ip), port, a server secret and timeGetTime()"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xFEA5E0",
+    "Name": "MatrixListener_HandleKiss",
+    "Status": 1,
+    "Comment": "KISS: recovers the time from the socket id cookie of MatrixListener_HandlePoke and only accepts it within 4 s. A different GSS protocol gets ABRT 2"
+  },
+  {
+    "Category": "Networking",
+    "Address": "0x73EEE0",
+    "Name": "MatrixProtocol_ReceivePacket",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "Networking",
+    "Address": "0xC227A0",
+    "Name": "GssProtocol_ReceivePacket",
+    "Status": 1,
+    "Comment": "Passes GSS packets on to nl::GameSocket::HandlePacketReceivedMessage"
+  },
+  {
     "Category": "Networking Character Handlers",
     "Address": "0x008d9050",
     "Name": "GSS_Handle_Fabrication_Start_Response",
@@ -2577,6 +2808,27 @@
     "Name": "GSS_Handle_ReceiveWeaponTweaks",
     "Status": 1,
     "Comment": "In the tfRemoteCharacter::CombatView vtable. Copies the sent 0x19c byte weapon template into the weapon mode (WeaponMode_SetTemplate) and logs \u0027%s (%s) has tweaked their %s.\u0027"
+  },
+  {
+    "Category": "Networking Character Handlers",
+    "Address": "0x8D3B10",
+    "Name": "GSS_Handle_AbilityActivated",
+    "Status": 1,
+    "Comment": "In the tfLocalCharacter::CombatController vtable. apt::CooldownSet::Unpack replaces the whole local CooldownSet with the message\u0027s AbilityCooldownsData and the remaining cooldown goes to the UI (event 0x2c)"
+  },
+  {
+    "Category": "Networking Character Handlers",
+    "Address": "0x8D3E80",
+    "Name": "GSS_Handle_AbilityFailed",
+    "Status": 1,
+    "Comment": "In the tfLocalCharacter::CombatController vtable. apt::CooldownSet::Unpack replaces the local CooldownSet, then UI event 0x2f gets the ability index and errorCode"
+  },
+  {
+    "Category": "Networking Character Handlers",
+    "Address": "0x8D4120",
+    "Name": "GSS_Handle_AbilityCooldowns",
+    "Status": 1,
+    "Comment": "In the tfLocalCharacter::CombatController vtable, replaces the local CooldownSet through apt::CooldownSet::Unpack"
   },
   {
     "Category": "Networking GameObjects",
@@ -2927,6 +3179,48 @@
     "Name": "StatusEffectArray_ClearSlot",
     "Status": 1,
     "Comment": "Calls apt_StatusEffect_Remove with the slot Time"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xBFFCB0",
+    "Name": "GssObjects_RequestKeyframe",
+    "Status": 1,
+    "Comment": "Queues a KeyframeRequest for an object. Reason: 0 UnknownObject, 1 ChecksumMismatch, 2 TimedOut"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xBFFFC0",
+    "Name": "GssObjects_Tick",
+    "Status": 1,
+    "Comment": "Per frame: live objects without packets for some keyframe intervals request a keyframe (TimedOut), scoped-out objects are deleted after 4x that time. Pending requests are resent every 5000 ms, requests go out as matrix KeyframeRequest at most every 200 ms"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xC00C70",
+    "Name": "GssObjects_FindOrCreate",
+    "Status": 1,
+    "Comment": "Looks the object up in the live map. If missing, keyframes create it, remove/scope out are ignored, anything else resurrects it from the scoped-out map or requests a keyframe (UnknownObject)"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xC00F00",
+    "Name": "GssObjects_Remove",
+    "Status": 1,
+    "Comment": "Removes or scopes out an object, called by GssObjects_HandleMessage for controller remove / scope out"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xC01020",
+    "Name": "GssObjects_HandleMessage",
+    "Status": 1,
+    "Comment": "Client side GSS object store, dispatches one GSS message by system id: 9 ref id assign, 1 update, 2 checksum, 3 view keyframe, 4 controller keyframe, 5/6 remove / scope out, other ids go to the object handler"
+  },
+  {
+    "Category": "Networking GameObjects",
+    "Address": "0xC017F0",
+    "Name": "GssObjects_MessageMayCreate",
+    "Status": 1,
+    "Comment": "Called by GssObjects_FindOrCreate"
   },
   {
     "Category": "Networking Generic Handlers",
@@ -4756,6 +5050,13 @@
     "Comment": ""
   },
   {
+    "Category": "Networking SendCommand",
+    "Address": "0xA51820",
+    "Name": "SendLocalProximityAbilitySuccess",
+    "Status": 1,
+    "Comment": "Sends LocalProximityAbilitySuccess, called by ClientProximity_TryTrigger"
+  },
+  {
     "Category": "nl::GameSocket_Comment",
     "Address": "",
     "Name": "",
@@ -4782,6 +5083,55 @@
     "Name": "nl::GameSocket::sub_FD4720",
     "Status": 0,
     "Comment": ""
+  },
+  {
+    "Category": "nl::GameSocket",
+    "Address": "0xFD3030",
+    "Name": "nl::GameSocket::SendClose",
+    "Status": 1,
+    "Comment": "Sends CloseConnection (control type 0) once with the code at \u002B0x12C and the text at \u002B0x130 and sets the closed flag. When the server closed first, this echoes its code and text back, PIN relies on that to take the character out of the world"
+  },
+  {
+    "Category": "nl::GameSocket",
+    "Address": "0xFD4110",
+    "Name": "nl::GameSocket::HandleControlMessage",
+    "Status": 1,
+    "Comment": "Control channel messages while connected (nlgamesocket.cpp). Type 0 CloseConnection keeps the shutdown code and reason text and queues a close (nl::GameSocket::SendClose), type 4 time sync request is answered with type 5, type 5 is the time sync response, types 1 and 6 are ignored"
+  },
+  {
+    "Category": "nl::GameSocket",
+    "Address": "0xFD4A50",
+    "Name": "nl::GameSocket::ProcessIncoming",
+    "Status": 1,
+    "Comment": "Drains the incoming queue. Values below 16 are events (1 closed, 2 send close, 3 connected), packets dispatch on the top 2 header bits: 0 control, 1 Matrix and 2 ReliableGss (ReliableChannel_ReceivePacket), 3 UnreliableGss"
+  },
+  {
+    "Category": "nl::GameSocket",
+    "Address": "0xFD55F0",
+    "Name": "nl::GameSocket::SetCloseReason",
+    "Status": 1,
+    "Comment": "Records the first close reason at \u002B0x124 (later ones are ignored) and the state at that time at \u002B0x128. Reasons seen: 4 unreliable unpack error, 7 server CloseConnection, 8 handshake retries used up, handshake abort codes"
+  },
+  {
+    "Category": "nl::GameSocket",
+    "Address": "0xFD57C0",
+    "Name": "nl::GameSocket::Tick",
+    "Status": 1,
+    "Comment": "Socket state machine per tick, states at \u002B0x108: 1 Initializing, 2 Transferring, 3 Connecting, 4/5 connected, 6 DisconnectedNotify, 9 Closed. Calls nl::GameSocket::ProcessIncoming first"
+  },
+  {
+    "Category": "nl::GameSocket",
+    "Address": "0xFE8E00",
+    "Name": "GameSocket_WriteTimeSyncRequest",
+    "Status": 1,
+    "Comment": "Adds a TimeSyncRequest (control 04, timeGetTime() * 1000) to an outgoing datagram once 2000 ms have passed since the last request and response, warns after 8 s without a time sync"
+  },
+  {
+    "Category": "nl::GameSocket",
+    "Address": "0xFE9370",
+    "Name": "GameSocket_AbortCodeName",
+    "Status": 1,
+    "Comment": "Names of the ABRT codes of the Matrix handshake: 0 No Error, 1 Protocol Error, 2 Protocol Version Mismatch, 3 Remote Create Socket Failed, 4 Host Shutdown, 5 Connection Refused Host Is Full"
   },
   {
     "Category": "nl::HTTP",
@@ -15522,6 +15872,69 @@
     "Comment": "Sets the template of both weapon slots from the loadout data (WeaponMode_SetTemplate per slot)"
   },
   {
+    "Category": "tfGenericCharacter",
+    "Address": "0xD404D0",
+    "Name": "Character_OnForcedMovement",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "tfGenericCharacter",
+    "Address": "0xD2DFB0",
+    "Name": "ForcedMovement_Type5_Impulse",
+    "Status": 1,
+    "Comment": "ForcedMovement type 5 (impulse): writes Velocity (\u002B0x178) as the new character velocity for a single tick and returns flag 2 (velocity override). Without bit 0 of the flag byte (\u002B0xc) the velocity is scaled by 100/x, retail servers always sent Unk2=0"
+  },
+  {
+    "Category": "tfGenericCharacter",
+    "Address": "0xD30E10",
+    "Name": "ForcedMovement_SetImpulse",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "tfGenericCharacter",
+    "Address": "0xD30ED0",
+    "Name": "ForcedMovement_SetImpulseRange",
+    "Status": 1,
+    "Comment": "Builds a type 5 ForcedMovement over a time range, called by tfApplyImpulseCommand::Execute"
+  },
+  {
+    "Category": "tfGenericCharacter",
+    "Address": "0xD315C0",
+    "Name": "ForcedMovement_SimulateSlice",
+    "Status": 1,
+    "Comment": "Simulates one forced movement over a time slice, called by ForcedMovementSource_Update"
+  },
+  {
+    "Category": "tfGenericCharacter",
+    "Address": "0xD31850",
+    "Name": "ForcedMovement_ClampStartToNow",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "tfGenericCharacter",
+    "Address": "0xD31940",
+    "Name": "ForcedMovementSource_Add",
+    "Status": 1,
+    "Comment": "Appends a received ForcedMovement with the local window start = max(Time1, now), end = start \u002B (Time2 - Time1). A Time1 in the past applies at once, one in the future waits for the client clock"
+  },
+  {
+    "Category": "tfGenericCharacter",
+    "Address": "0xD31A50",
+    "Name": "ForcedMovementSource_TruncateAll",
+    "Status": 1,
+    "Comment": "Called before ForcedMovementSource_Add for every new ForcedMovement, truncates the end of every existing entry to max(start\u002B1, now), so a new forced movement overrides a running one"
+  },
+  {
+    "Category": "tfGenericCharacter",
+    "Address": "0xD31B50",
+    "Name": "ForcedMovementSource_Update",
+    "Status": 1,
+    "Comment": "Per movement step: intersects the step with each entry\u0027s window and calls ForcedMovement_SimulateSlice for the overlap. Entries are erased 650 ms after their end, a skipped teleport (type 1) is applied late"
+  },
+  {
     "Category": "tfHotfix",
     "Address": "0x786710",
     "Name": "tfHotfix::HotfixManagerLoadingThread::ctor",
@@ -15576,6 +15989,34 @@
     "Name": "CustomPlayerCamera_Exit",
     "Status": 1,
     "Comment": ""
+  },
+  {
+    "Category": "tfLocalCharacter",
+    "Address": "0x8BE420",
+    "Name": "ResourceScan_CheckSpotAndSendGeoReportRequest",
+    "Status": 1,
+    "Comment": "Called by tfResourceAreaCreateNodeCommand::Execute"
+  },
+  {
+    "Category": "tfLocalCharacter",
+    "Address": "0xD54B50",
+    "Name": "ResourceScan_FindNearbyThumper",
+    "Status": 1,
+    "Comment": ""
+  },
+  {
+    "Category": "tfLocalCharacter",
+    "Address": "0xD5C8D0",
+    "Name": "ResourceScans_AddReport",
+    "Status": 1,
+    "Comment": "Called by GSS_Handle_GeographicalReportResponse and Squad_HandleChatAlternateData"
+  },
+  {
+    "Category": "tfLocalCharacter",
+    "Address": "0xD72F60",
+    "Name": "ScanPlot_Begin_SendFindNearbyResourceAreas",
+    "Status": 1,
+    "Comment": "Starts a scan plot and sends FindNearbyResourceAreas"
   },
   {
     "Category": "tfLogin",
